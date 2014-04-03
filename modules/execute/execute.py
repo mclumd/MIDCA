@@ -56,6 +56,21 @@ class Exec:
 			action, plan = res
 			self.mem.add(self.memKeys.MEM_ACTIONS, action)
 			self.mem.set(self.memKeys.MEM_CURRENT_PLAN, plan)
+			
+			#remember number of fires put out, arsonists caught
+			if action.op == "putoutfire":
+				oldNumFires = self.mem.get(MEM_FIRES_OUT)
+				if oldNumFires:
+					self.mem.set(self.memKeys.MEM_FIRES_OUT, oldNumFires + 1)
+				else:
+					self.mem.set(self.memKeys.MEM_FIRES_OUT, 1)
+			elif action.op == "apprehend":
+				oldNumCaught = self.mem.get(MEM_ARSONISTS_CAUGHT)
+				if oldNumCaught:
+					self.mem.set(self.memKeys.MEM_ARSONISTS_CAUGHT, oldNumCaught + 1)
+				else:
+					self.mem.set(self.memKeys.MEM_ARSONISTS_CAUGHT, 1)
+					
 			if verbose == 1:
 				print "Executing action " + str(action)
 			elif verbose >= 2:

@@ -94,6 +94,13 @@ class Evaluator:
 			self.mem.set(self.memKeys.MEM_CURRENT_PLAN, None)
 			self.mem.get(self.memKeys.MEM_PLANS).remove_goals(currentgoals)
 			self.mem.get(self.memKeys.MEM_GOALS).remove_goal_set(currentgoals)
-			
+		
+		#Michael's value function:
+		towers = self.towersFinished
+		firesStopped = self.mem.get(self.memKeys.MEM_FIRES_OUT)
+		arsonistsCaught = self.mem.get(self.memKeys.MEM_ARSONISTS_CAUGHT)
+		currentFires = self.num_fires(world)
+		value = towers + firesStopped + 3 * arsonistsCaught - currentFires
+		self.mem.set(self.memKeys.MEM_MICHAEL_VALUE, value)
 			
 			
