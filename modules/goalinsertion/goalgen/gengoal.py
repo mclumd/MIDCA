@@ -164,6 +164,7 @@ class XPGoalGen:
 		world = self.mem.get(self.memKeys.MEM_STATES)[-1]
 		blockset = blockstate.get_block_list(world)
 		s = self.mem.get(self.memKeys.SOCKET_R)
+		score = self.mem.get(self.memKeys.MEM_MICHAEL_VALUE)
 		
 		if verbose >= 2:
 			print "In gengoal_fire.py"
