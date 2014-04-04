@@ -103,8 +103,8 @@ class Evaluator:
 		value = towers
 		if firesStopped:
 			value += firesStopped
-		if arsonstsCaughts:
-			value += 3 * arsonistsCaughts
+		if arsonistsCaught:
+			value += 3 * arsonistsCaught
 		if currentFires:
 			value -= currentFires
 		self.mem.set(self.memKeys.MEM_MICHAEL_VALUE, value)
