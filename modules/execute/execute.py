@@ -59,13 +59,13 @@ class Exec:
 			
 			#remember number of fires put out, arsonists caught
 			if action.op == "putoutfire":
-				oldNumFires = self.mem.get(MEM_FIRES_OUT)
+				oldNumFires = self.mem.get(self.memKeys.MEM_FIRES_OUT)
 				if oldNumFires:
 					self.mem.set(self.memKeys.MEM_FIRES_OUT, oldNumFires + 1)
 				else:
 					self.mem.set(self.memKeys.MEM_FIRES_OUT, 1)
 			elif action.op == "apprehend":
-				oldNumCaught = self.mem.get(MEM_ARSONISTS_CAUGHT)
+				oldNumCaught = self.mem.get(self.memKeys.MEM_ARSONISTS_CAUGHT)
 				if oldNumCaught:
 					self.mem.set(self.memKeys.MEM_ARSONISTS_CAUGHT, oldNumCaught + 1)
 				else:
