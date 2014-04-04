@@ -100,10 +100,13 @@ class Evaluator:
 		firesStopped = self.mem.get(self.memKeys.MEM_FIRES_OUT)
 		arsonistsCaught = self.mem.get(self.memKeys.MEM_ARSONISTS_CAUGHT)
 		currentFires = self.num_fires(world)
-		try:
-			value = towers + firesStopped + 3 * arsonistsCaught - currentFires
-			self.mem.set(self.memKeys.MEM_MICHAEL_VALUE, value)
-		except:
-			pass
+		value = towers
+		if firesStopped:
+			value += firesStopped
+		if arsonstsCaughts:
+			value += 3 * arsonistsCaughts
+		if currentFires:
+			value -= currentFires
+		self.mem.set(self.memKeys.MEM_MICHAEL_VALUE, value)
 			
 			
