@@ -1,5 +1,6 @@
 import copy, time, datetime
 from mem import Memory
+from utils.trace import trace
 
 class Module:
 	
@@ -23,6 +24,7 @@ class MIDCA:
 		self.twoSevenWarning = False
 		self.verbose = verbose
 		self.options = options
+		self.trace = trace.Trace()
 	
 	def phase_by_name(self, name):
 		for phase in self.phases:
@@ -71,6 +73,8 @@ class MIDCA:
 	
 	def init(self, verbose = 2):
 		self.mem = Memory()
+		self.mem.set("trace", self.trace) #event trace
+		self.mem.set("pNum", 1) #next process num
 		for phase, module in self.modules.items():
 			#try:
 			if verbose >= 2:
@@ -99,7 +103,19 @@ class MIDCA:
 			self.phasei = self.phasei % len(self.phases)
 			if verbose >= 2:
 				print "\n****** Starting", self.phases[self.phasei].name, "Phase ******\n"
+			
+			#add start event to trace
+			pNum = self.mem.get("pNum")
+			pName = "p" + str(pNum)
+			self.trace.startProcess(pName, processType = self.phases[self.phasei].name, algorithm = str(self.modules[self.phases[self.phasei]].__class__.__name__) + ".run()")
+			self.mem.set("pNum", pNum + 1)
+			
+			#run process
 			self.modules[self.phases[self.phasei]].run(verbose)
+			
+			#add end event to trace
+			self.trace.endProcess(pName)
+			
 			self.phasei += 1
 		
 	

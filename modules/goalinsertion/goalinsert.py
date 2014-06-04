@@ -1,7 +1,8 @@
 
 from goalgen import *
+from modules import module
 
-class NewGuide:
+class NewGuide(module.Module):
 	
 	def __init__(self, useTFBase, useTFFire, catchArsonist, useMA, prioritizeNew):
 		self.tfBase = useTFBase
@@ -40,8 +41,11 @@ class NewGuide:
 		return goals
 	
 	def get_new_goals(self, world, verbose = 2):
+		super = "p" + str(self.mem.get("pNum") - 1)
 		if self.tfBase:
+			pName, trace = self.processStart(super, processType = "goal gen", algorithm = str(self.tfGen.__class__.__name__))
 			newgoals = self.get_goals(world, verbose, self.tfGen)
+			trace.endProcess(pName)
 			if verbose >= 2:
 				print "TF tree stacking goal generator activated. Goals:"
 				for goal in newgoals:
@@ -50,7 +54,9 @@ class NewGuide:
 			if newgoals:
 				self.mem._update(self.memKeys.MEM_GOALS, newgoals)
 		else:
+			pName, trace = self.processStart(super, processType = "goal gen", algorithm = str(self.predefGen.__class__.__name__))
 			newgoals = self.get_goals(world, verbose, self.predefGen)
+			trace.endProcess(pName)
 			if verbose >= 2:
 				print "Loading from predefined goals. Goals:"
 				for goal in newgoals:
@@ -59,7 +65,9 @@ class NewGuide:
 			if newgoals:
 				self.mem._update(self.memKeys.MEM_GOALS, newgoals)
 		if self.tfFire:
+			pName, trace = self.processStart(super, processType = "goal gen", algorithm = str(self.fireGen.__class__.__name__))
 			newgoals = self.get_goals(world, verbose, self.fireGen)
+			trace.endProcess(pName)
 			if verbose >= 2:
 				print "TF tree fire goal generator activated. Goals:"
 				for goal in newgoals:
@@ -68,7 +76,9 @@ class NewGuide:
 			if newgoals:
 				self.mem._update(self.memKeys.MEM_GOALS, newgoals)
 		if self.catchArsonist:
+			pName, trace = self.processStart(super, processType = "goal gen", algorithm = str(self.arsonGen.__class__.__name__))
 			newgoals = self.get_goals(world, verbose, self.arsonGen)
+			trace.endProcess(pName)
 			if self.prioritizeNew:
 				self.prioritize(newgoals)
 			if verbose >= 2:

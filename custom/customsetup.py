@@ -107,4 +107,6 @@ def custom_init(midca):
 def custom_cleanup(midca):
 	if midca.options.get("MA-arson"):
 		close_sockets(midca)
+	if raw_input("print trace? (y/n)").startswith("y"):
+		print str(midca.trace)
 

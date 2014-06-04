@@ -1,6 +1,7 @@
 import sys
 sys.path.append("../../")
 from utils import adistadapt
+from modules import module
 
 class AnomalyDetector:
 	
@@ -61,7 +62,7 @@ class AnomalyDetector:
 			n += 1
 		return s[:-1]
 
-class ADNoter:
+class ADNoter(module.Module):
 	
 	def __init__(self, windowsize = None, threshold = 0.5):
 		self.size = windowsize
@@ -80,8 +81,15 @@ class ADNoter:
 	
 	def run(self, verbose = 2):
 		world = self.mem.get(self.memKeys.MEM_STATES)[-1]
+		super = "p" + str(self.mem.get("pNum") - 1)
+		pName, trace = self.processStart(super, processType = "anomaly detection", algorithm = "a-distance")
 		self.update(world)
 		self.mem.add(self.memKeys.MEM_ANOM, self.anomalous())
+		if self.anomalous():
+			trace.observe("anomaly detected", pName)
+		else:
+			trace.observe("no anomaly detected", pName)
+		trace.endProcess(pName)
 		if verbose >= 1 and self.anomalous():
 			print "Anomaly detected."
 		elif verbose >= 2 and not self.anomalous():

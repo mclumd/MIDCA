@@ -1,6 +1,6 @@
+from modules import module
 
-
-class Exec:
+class Exec(module.Module):
 	
 	def init(self, world, mem, memKeys):
 		self.mem = mem

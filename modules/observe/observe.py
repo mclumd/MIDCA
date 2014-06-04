@@ -1,8 +1,9 @@
 import sys
 sys.path.append("../../")
 from utils import blockstate, scene
+from modules import module
 
-class SimpleObserver:
+class SimpleObserver(module.Module):
 
 	def init(self, world, mem, memKeys):
 		self.world = world
@@ -21,6 +22,8 @@ class SimpleObserver:
 		world = self.observe()
 		if not world:
 			raise Exception("World obervation failed.")
+		trace = self.mem.get("trace")
+		trace.observe(str(world), "p" + str(self.mem.get("pNum") - 1))
 		self.mem.add(self.memKeys.MEM_STATES, world)
 		repr = str(self.world_repr(world))
 		if verbose == 2:

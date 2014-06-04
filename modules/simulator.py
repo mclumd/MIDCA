@@ -109,7 +109,9 @@ ma.actions.append(["catchfire", "block1"])
 print ma
 '''
 
-class Simulator:
+from modules import module
+
+class Simulator(module.Module):
 	
 	def __init__(self, isArsonist = False, arsonChance = 0.5, arsonStart = 10, firechance = 0, firestart = 10, maxRandomFires = 1000000):
 		self.fireScheme = FireScheme(0, [0, maxRandomFires], [[firestart, firechance]])
@@ -145,6 +147,17 @@ class Simulator:
 			if verbose >= 1:
 				print "No action specified. Nothing happens in world sim."
 		else:
+			super = "p" + str(self.mem.get("pNum") - 1)
+			if action.op in ["pickup", "unstack"]:
+				pName, trace = self.processStart(super, processType = "lift", algorithm = str(action.op), inputs = action.args, desiredEffects = ["holding(" + str(action.args[0]) + ")"])
+			elif action.op in ["putdown, stack"]:
+				pName, trace = self.processStart(super, processType = "drop", algorithm = str(action.op), inputs = action.args, desiredEffects = ["on-table(" + str(action.args[0]) + ")" if action.op == "putdown" else "on(" + str(action.args[0]) + "," + str(action.args[1]) + ")"])
+			elif action.op == "putoutfire":
+				pName, trace = self.processStart(super, processType = "extinguish", algorithm = str(action.op), inputs = action.args, desiredEffects = ["not onfire(" + str(action.args[0]) + ")"])
+			elif action.op == "apprehend":
+				pName, trace = self.processStart(super, processType = "apprehend", algorithm = str(action.op), inputs = action.args, desiredEffects = ["not free(" + str(action.args[0]) + ")"])
+			else:
+				pName = None
 			#report arson as blocks catching on fire; report all other actions normally
 			if action[0] == "lightonfire":
 				assert False #this should not happen.
@@ -159,6 +172,8 @@ class Simulator:
 					print "World updating."
 			except Exception:
 				print "Action", str(action), "invalid."
+			if pName:
+				trace.endProcess(pName)
 		if self.fireScheme.fire():
 			try:
 				block = random.choice(self.get_unlit_blocks())

@@ -1,8 +1,9 @@
 import sys
 sys.path.append("../")
 import gngassess, valence
+from modules import module
 
-class Assessor:
+class Assessor(module.Module):
 	
 	def __init__(self, windowsize, threshold, valenceAssess):
 		self.size = windowsize
@@ -40,12 +41,23 @@ class Assessor:
 		return s
 	
 	def run(self, verbose = 2):
+		super = "p" + str(self.mem.get("pNum") - 1)
 		if self.valenceAssess:
+			pName, trace = self.processStart(super, processType = "assess", algorithm = str(self.valenceAssess.__class__.__name__) + ".run()")
+			
 			self.valenceAssess.run(verbose)
 			if self.mem.get(self.memKeys.MEM_ANOM) and self.mem.get(self.memKeys.MEM_ANOM)[-1]:
-				print "M-A frame:"
-				print self.lisp_anom_str()
+				#print "M-A frame:"
+				#print self.lisp_anom_str()
 				self.MAAnomCount += 1
+			
+			#add end event to trace
+			trace.endProcess(pName)
+			
+		pName, trace = self.processStart(super, processType = "assessment", algorithm = str(self.gngAssess.__class__.__name__) + ".run()")
+		
 		self.gngAssess.run(verbose)
+		
+		trace.endProcess(pName)
 		
 			

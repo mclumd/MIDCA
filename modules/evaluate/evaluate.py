@@ -1,8 +1,9 @@
 
 NORMAL_BLOCK_VAL = 1.0
 ON_FIRE_BLOCK_VAL = 0.0
+from modules import module
 
-class Evaluator:
+class Evaluator(module.Module):
 	
 	def __init__(self, restartFires = True):
 		self.restartFires = restartFires
@@ -71,6 +72,8 @@ class Evaluator:
 		if world.is_true("on", ["D_", "C_"]):
 			if verbose >= 2:
 				print "Tall Tower completed"
+			trace = self.mem.get("trace")
+			trace.observe("Tower completed", "p" + str(self.mem.get("pNum") - 1))
 			self.towersFinished += 1
 			self.score += (4 - self.num_fires(world)) * NORMAL_BLOCK_VAL + self.num_fires(world) * ON_FIRE_BLOCK_VAL
 			if self.restartFires:
@@ -78,6 +81,8 @@ class Evaluator:
 		elif world.is_true("on", ["D_", "B_"]):
 			if verbose >= 2:
 				print "Short Tower completed"
+			trace = self.mem.get("trace")
+			trace.observe("Tower completed", "p" + str(self.mem.get("pNum") - 1))
 			self.towersFinished += 1
 			self.score += (3 - self.num_fires_small(world)) * NORMAL_BLOCK_VAL + self.num_fires_small(world) * ON_FIRE_BLOCK_VAL
 			if self.restartFires:
