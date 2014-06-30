@@ -280,7 +280,7 @@ class World:
 		try:
 			args = [self.objects[name] for name in argnames]
 			return self.atom_true(Atom(self.predicates[predname], args))
-		except Exception:
+		except Exception as e:
 			return False
 	
 	def atom_true(self, atom):

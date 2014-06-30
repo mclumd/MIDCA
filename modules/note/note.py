@@ -1,6 +1,6 @@
-import sys
+import sys, cPickle
 sys.path.append("../../")
-from utils import adistadapt
+from utils import adistadapt, pyNet
 from modules import module
 
 class AnomalyDetector:
@@ -72,6 +72,8 @@ class ADNoter(module.Module):
 		self.detector = AnomalyDetector(world, mem, memKeys, self.threshold, self.size)
 		self.mem = mem
 		self.memKeys = memKeys
+		#net stuff:
+		self.mem.set("net mem", pyNet.midcastate.StateMem())
 	
 	def update(self, world):
 		self.detector.update(world)
@@ -94,6 +96,13 @@ class ADNoter(module.Module):
 			print "Anomaly detected."
 		elif verbose >= 2 and not self.anomalous():
 			print "No anomaly detected."
+		#net stuff:
+		netMem = self.mem.get("net mem")
+		netMem.add(pyNet.midcastate.MIDCANetState(world))
+		f = open("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/data", 'w')
+		cPickle.dump([state.locDicts() for state in netMem.states], f)
+		f.close()
+		
 	
 	#simple implementaton; will not work with multiple windows
 	def __str__(self):

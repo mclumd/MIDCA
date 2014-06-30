@@ -100,7 +100,7 @@ class RandomNet(Net):
 		current = 0.0
 		for choice, probability in choices.items():
 			if current + probability > probIndex:
-				print probability, probability / totalProb
+				#print probability, probability / totalProb
 				return choice
 			current += probability
 		assert False #should never reach here without choosing a neuron.
@@ -174,6 +174,9 @@ class RandomNet(Net):
 		for neuron in self.reservoir:
 			numConnections = int(round(random.gauss(connectivity, variance)))
 			self.addRandomConnections(neuron, numConnections, self.getConnectionProbabilities(neuron))
+	
+	def addOutput(self):
+		self.outputs.add(OutputNeuron(Identity()))
 
 def distance(loc1, loc2):
 	total = 0
@@ -212,10 +215,10 @@ class LocalizedNet(RandomNet):
 	def inputConnectionProbabilities(self, locs):
 		choices = {}
 		for neuron in self.reservoir:
-			choices[neuron] = max([max(0.0000000001, distance(self.locations[neuron], loc) ** self.distanceImportance) for loc in locs])
+			choices[neuron] = max([1 / max(0.0000000001, distance(self.locations[neuron], loc) ** self.distanceImportance) for loc in locs])
 		return choices
 	
-	def addInput(self, locs, connectivity, variance, duration = -1, totalStrength = 1.0, strengthVariance = 0.2):
+	def addInput(self, locs, connectivity, variance, duration = 999999, totalStrength = 0.8, strengthVariance = 0.2):
 		'''
 		strengthVariance is a ratio (to mean strength). The input neuron actually always has activation 1; weights are adjusted to fit desired strength.
 		
@@ -223,7 +226,7 @@ class LocalizedNet(RandomNet):
 		'''
 		input = InputNeuron(1.0)
 		numConnections = int(round(len(locs) * random.gauss(connectivity, variance)))
-		connections = getRandomConnections(neuron, numConnections, self.inputConnectionProbabilities(locs))
+		connections = self.getRandomConnections(input, numConnections, self.inputConnectionProbabilities(locs))
 		weights = [max(0.0, random.gauss(1.0, strengthVariance)) for connection in connections]
 		total = sum(weights)
 		weights = [weight * totalStrength / total for weight in weights]
@@ -232,15 +235,21 @@ class LocalizedNet(RandomNet):
 			connection.addConnection(input, weights[i])
 			i += 1
 		self.inputs[input] = 0	
+		#note: the following line does not generalize. Fix later.
+		if locs:
+			self.locations[input] = list(locs)[0]
+		else:
+			self.locations[input] = (0.5, 0.5)
 		self.inputDurations[input] = duration
 	
-	def update(self):
-		self.activation = self.nextActivation
+	def clearInputs(self):
 		for input in self.inputs:
-			self.inputs[input] += 1
-			if self.inputDurations[input] <= self.inputs[input]:
-				del self.inputs[input]
-				del self.inputDurations[input]
+			for neuron in self.reservoir:
+				if input in neuron.incomingConnections:
+					neuron.removeConnection(input)
+			del self.locations[input]
+		self.inputs.clear()
+		self.inputDurations.clear()
 		
 
 class Logistic:
@@ -260,6 +269,14 @@ class Tanh:
 	def derivative(self, input, activation):
 		val = self.get(input, activation)
 		return 1 - val ** 2
+		
+class Identity:
+	
+	def get(self, input, activation):
+		return input
+	
+	def derivative(self, input, activation):
+		return 1
 
 if __name__ == "__main__":
 
