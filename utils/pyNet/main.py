@@ -121,6 +121,10 @@ def runTest(recordFileName, testFiles, destFolder):
 
 if __name__ == "__main__":
 	
+	
+	runRecord("/home/user1/Written/Studies/UMD/GRA_Perlis/meeting_notes/mida/MIDCA/utils/pyNet/trainedNets/net2", (400, 400))
+	sys.exit()
+	
 	runRecord("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/trainedNets/net2", (400, 400))
 	sys.exit()
 	runTest("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/trainedNets/net2", 
