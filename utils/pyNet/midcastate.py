@@ -41,6 +41,14 @@ class StateMem:
 	
 	def __init__(self):
 		self.states = []
+		self.trainValues = []
 	
-	def add(self, state):
+	def add(self, state, trainVal):
 		self.states.append(state)
+		self.trainValues.append(trainVal)
+	
+	def value(self, i):
+		return (self.states[i].locDicts(), self.trainValues[i])
+	
+	def __len__(self):
+		return len(self.states)

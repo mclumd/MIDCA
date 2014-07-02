@@ -74,6 +74,7 @@ class ADNoter(module.Module):
 		self.memKeys = memKeys
 		#net stuff:
 		self.mem.set("net mem", pyNet.midcastate.StateMem())
+		self.numFires = 0
 	
 	def update(self, world):
 		self.detector.update(world)
@@ -83,6 +84,17 @@ class ADNoter(module.Module):
 	
 	def run(self, verbose = 2):
 		world = self.mem.get(self.memKeys.MEM_STATES)[-1]
+		#net
+		freeArsonist = False
+		for atom in world.atoms:
+			if atom.predicate.name == "onfire":
+				self.numFires += 1
+				print "total fires:", self.numFires
+			elif atom.predicate.name == "free":
+				freeArsonist = True
+		if not freeArsonist:
+			self.numFires -= 3 #gradually turn off anomaly memory
+		#end net
 		super = "p" + str(self.mem.get("pNum") - 1)
 		pName, trace = self.processStart(super, processType = "anomaly detection", algorithm = "a-distance")
 		self.update(world)
@@ -97,10 +109,11 @@ class ADNoter(module.Module):
 		elif verbose >= 2 and not self.anomalous():
 			print "No anomaly detected."
 		#net stuff:
+		anomalyRating = max(0, min(1, self.numFires * 0.2))
 		netMem = self.mem.get("net mem")
-		netMem.add(pyNet.midcastate.MIDCANetState(world))
-		f = open("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/data", 'w')
-		cPickle.dump([state.locDicts() for state in netMem.states], f)
+		netMem.add(pyNet.midcastate.MIDCANetState(world), anomalyRating)
+		f = open("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/test/lateFire2", 'w')
+		cPickle.dump([netMem.value(i) for i in range(len(netMem))], f)
 		f.close()
 		
 	

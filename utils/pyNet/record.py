@@ -8,10 +8,11 @@ from Tkinter import *
 class NetFrame:
 	
 	def __init__(self, reservoir, inputs, outputs, locations, dimensions):
-		self.reservoir = set(reservoir)
-		self.inputs = set(inputs)
-		self.outputs = set(outputs)
-		self.locations = dict(locations)
+		self.reservoir = {hash(neuron) for neuron in reservoir}
+		self.inputs = {hash(neuron) for neuron in inputs}
+		self.outputs = {hash(neuron) for neuron in outputs}
+		self.activations = {hash(neuron) : neuron.activation for neuron in (reservoir | inputs | outputs)}
+		self.locations = {hash(neuron) : locations[neuron] for neuron in (reservoir | inputs | outputs) if neuron in locations}
 		self.dimensions = dimensions
 	
 class Memory:
@@ -35,7 +36,7 @@ class Drawer:
 		self.i = 0
 	
 	def hasNext(self):
-		return len(memory.mem) > self.i
+		return len(self.memory.mem) > self.i
 	
 	def getColor(self, intensity):
 		r = int(round(min(255, (intensity ** .5) * 300)))
@@ -60,12 +61,12 @@ class Drawer:
 				intensity = max(0, activation * (1 - distance / self.neuronRadius))
 				intensities[loc[0] + x][loc[1] + y] += intensity
 	
-	def drawNeurons(self, neurons, locations, scale, surface):
+	def drawNeurons(self, neurons, activations, locations, scale, surface):
 		intensities = [[0 for y in range(surface.get_height())] for x in range(surface.get_width())]
 		for neuron in neurons:
 			x = int(round(locations[neuron][0] / scale[0] * surface.get_width()))
 			y = int(round(locations[neuron][1] / scale[1] * surface.get_height()))
-			self.addNeuronIntensities(neuron.activation, (x, y), intensities)	
+			self.addNeuronIntensities(activations[neuron], (x, y), intensities)	
 		pixArray = pygame.PixelArray(surface)
 		for x in range(surface.get_width()):
 			for y in range(surface.get_height()):
@@ -79,6 +80,7 @@ class Drawer:
 			y = int(round(locations[inputs][1] / scale[1] * surface.get_height()))
 			pygame.draw.circle(surface, (150, 0, 0), (x, y), 10, 1)
 	
+	#this is broken due to changes elsewhere.
 	def drawConnections(self, neurons, locations, scale, surface):
 		for neuron in neurons:
 			startX = int(round(locations[neuron][0] / scale[0] * surface.get_width()))
@@ -93,11 +95,12 @@ class Drawer:
 	def drawNext(self, surface):
 		frame = self.memory[self.i]
 		#self.drawConnections(frame.reservoir, frame.locations, frame.dimensions, surface)
-		self.drawNeurons(frame.reservoir, frame.locations, frame.dimensions, surface)
+		self.drawNeurons(frame.reservoir, frame.activations, frame.locations, frame.dimensions, surface)
 		self.drawInputs(frame.inputs, frame.locations, frame.dimensions, surface)
 	
 	def next(self):
 		self.i += 1
+		print self.i
 
 def setInputs(state, network):
 	network.clearInputs()
@@ -107,6 +110,7 @@ def setInputs(state, network):
 def runOnMidcaData(filename, screenSize):
 	states = cPickle.load(open(filename))
 	network = net.LocalizedNet(200, net.Tanh(), None, 3, 1.0, 0.98, 5)
+	output = network.addOutput()
 	mem = Memory()
 	mem.store(network)
 	drawer = Drawer(screenSize, mem)
@@ -150,10 +154,38 @@ def runOnMidcaData(filename, screenSize):
 			elapsed = 0
 			stateIterations += 1
 
+def runRecord(fName, screenSize):
+	network, mem = net.loadNetMem(fName)
+	drawer = Drawer(screenSize, mem)
+	
+	pygame.init()
+	screen = pygame.display.set_mode(screenSize, DOUBLEBUF | RESIZABLE)
+	screen.fill((0, 0, 0))
+	drawer.drawNext(screen)
+	pygame.display.flip()
+	
+	clock = pygame.time.Clock()
+	while drawer.hasNext():
+		msElapsed = clock.tick(40)
+		#print msElapsed
+		elapsed += msElapsed
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				pygame.quit()
+				sys.exit()
+		if elapsed >= 500:
+			drawer.next()
+			screen.fill((0, 0, 0))
+			drawer.drawNext(screen)
+			pygame.display.flip()
+			elapsed = 0
+
 if __name__ == "__main__":
 
 	DEFAULT_SIZE = (400, 400)
 	
+	runRecord("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/trainedNets/net", DEFAULT_SIZE)
+	sys.exit()
 	runOnMidcaData("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/data", DEFAULT_SIZE)
 	sys.exit()
 	

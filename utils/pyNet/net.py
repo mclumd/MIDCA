@@ -80,6 +80,10 @@ class Net:
 		for neuron in self.outputs:
 			neuron.update()
 	
+	def zeroActivations(self):
+		for neuron in self.reservoir:
+			neuron.activation = 0
+	
 class RandomNet(Net):
 	
 	def __init__(self, reservoirSize, reservoirActivationFunc, outputActivationFunc, connectivity, connectivityVariance, spectralRadius):
@@ -176,7 +180,11 @@ class RandomNet(Net):
 			self.addRandomConnections(neuron, numConnections, self.getConnectionProbabilities(neuron))
 	
 	def addOutput(self):
-		self.outputs.add(OutputNeuron(Identity()))
+		output = OutputNeuron(Identity())
+		for neuron in self.reservoir:
+			output.addConnection(neuron, 0.0)
+		self.outputs.add(output)
+		return output
 
 def distance(loc1, loc2):
 	total = 0
@@ -191,7 +199,7 @@ class LocalizedNet(RandomNet):
 		self.locations = {neuron: (random.random(), random.random()) for neuron in self.reservoir}
 		self.distanceImportance = distanceImportance
 		self.outputs = set()
-		self.inputs = {} #map {input: num steps active}
+		self.inputs = set()
 		self.inputDurations = {}
 		self.createRandomConnections(connectivity, connectivityVariance)
 		self.scaleWeights(spectralRadius)
@@ -234,7 +242,7 @@ class LocalizedNet(RandomNet):
 		for connection in connections:
 			connection.addConnection(input, weights[i])
 			i += 1
-		self.inputs[input] = 0	
+		self.inputs.add(input)
 		#note: the following line does not generalize. Fix later.
 		if locs:
 			self.locations[input] = list(locs)[0]
@@ -278,10 +286,32 @@ class Identity:
 	def derivative(self, input, activation):
 		return 1
 
+def setInputs(state, network):
+	network.clearInputs()
+	for locDict in state:
+		#print "adding input", locDict
+		network.addInput(locDict, 3.0, 0.5)
+
+def createNetFromMidcaData(dataFileNames, destFileName):
+	import cPickle, record
+	network = LocalizedNet(200, Tanh(), Identity(), 3, 1.0, 0.98, 5)
+	mem = record.Memory()
+	mem.store(network)
+	output = network.addOutput()
+	random.shuffle(dataFileNames)
+	for fileName in dataFileNames:
+		states = cPickle.load(open(fileName))
+		for locDict, trainVal in states:
+			for i in range(5):
+				setInputs(locDict, network)
+				network.calculateActivations()
+				network.learn({output: trainVal}, 0.1)
+				network.update
+				mem.store(network)
+	cPickle.dump((network, mem), open(destFileName, 'w'))
+
 if __name__ == "__main__":
 
-	net = LocalizedNet(200, Logistic(), None, 50, 0.5, 0.9, 5)
-	for neuron in net.reservoir:
-		for connection, weight in neuron.incomingConnections.items():
-			print weight,
-		print
+	dataFileNames = ["/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/train/data" + str(i) for i in range(1, 11)]
+	destFileName = "/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/trainedNets/net"
+	createNetFromMidcaData(dataFileNames, destFileName)

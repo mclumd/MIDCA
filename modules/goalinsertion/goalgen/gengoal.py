@@ -131,6 +131,7 @@ class ArsonistCatcher:
 	def __init__(self, mem, memKeys):
 		self.mem = mem
 		self.memKeys = memKeys
+		self.steps = 0
 
 	def free_arsonist(self):
 		world = self.mem.get(self.memKeys.MEM_STATES)[-1]
@@ -139,7 +140,20 @@ class ArsonistCatcher:
 				return atom.args[0].name
 		return False
 
+	#delay arsonist catching for neural net
 	def gen_goals(self, verbose):
+		arsonist = self.free_arsonist()
+		anomalous = self.mem.get(self.memKeys.MEM_ANOM)
+		if arsonist:
+			self.steps += 1
+		anomalous = anomalous and anomalous[-1]
+		if arsonist and self.steps > 15:
+			goal = Goal(Goal.GOAL_APPREHEND, [arsonist])
+			goal.priority = 2 #highest used
+			return [goal]
+		return []
+	
+	def gen_goals_normal(self, verbose):
 		arsonist = self.free_arsonist()
 		anomalous = self.mem.get(self.memKeys.MEM_ANOM)
 		anomalous = anomalous and anomalous[-1]
