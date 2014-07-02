@@ -184,6 +184,8 @@ if __name__ == "__main__":
 
 	DEFAULT_SIZE = (400, 400)
 	
+	runRecord("/home/user1/Written/Studies/UMD/GRA_Perlis/meeting_notes/mida/MIDCA/utils/pyNet/trainedNets/net", DEFAULT_SIZE)
+	sys.exit()
 	runRecord("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/trainedNets/net", DEFAULT_SIZE)
 	sys.exit()
 	runOnMidcaData("/Users/swordofmorning/Documents/_programming/repos/MIDCA/utils/pyNet/data", DEFAULT_SIZE)
