@@ -1,5 +1,4 @@
-from _plan import pyhop
-from MIDCA.domains.blocksworld.plan import methods_broken, operators, operators_extinguish, methods_midca, operators_midca
+from _plan import pyhop, methods_broken, operators, methods_extinguish_broken, operators_extinguish, methods_midca, operators_midca
 from MIDCA import plans, base
 import collections
 import copy
@@ -13,9 +12,7 @@ class PyHopPlannerBroken(base.BaseModule):
     def __init__(self, extinguishers = False):
         #declares pyhop methods. This is where the planner should be given the domain information it needs.
         if extinguishers:
-            # TODO: need to check this is still working because methods_broken might need to be changed
-            # to methods_extinguisher_broken
-            methods_broken.declare_methods()
+            methods_extinguish_broken.declare_methods()
             operators_extinguish.declare_ops()
         else:
             methods_broken.declare_methods()

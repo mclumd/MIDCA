@@ -17,7 +17,6 @@ class Logger:
         self.keys = keys
         self.filesStayOpen = filesStayOpen
         self.verbose = verbose
-        self.files = None
 
     def start(self):
         '''
@@ -36,7 +35,7 @@ class Logger:
             self.timeStr = self.timeStr[:-7].replace(":", "_")
 
         if "window" in this_os.lower():
-            self.timeStr = string.replace(self.timeStr, ':', '_').replace("-", "_")
+             self.timeStr = string.replace(self.timeStr, ':', '_').replace("-", "_")
 
         #create log dir if it does not exist. If there is a file at ./log, try ./_log. If neither works, fail and print an error message.
         folderFound = False
@@ -94,6 +93,8 @@ class Logger:
         self.logEvent(event)
 
     def logEvent(self, event):
+	if not self.working:
+		return
         event.time = datetime.now()
         if event.loggable:
             if not hasattr(event, 'keys') or not event.keys:

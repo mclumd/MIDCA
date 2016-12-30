@@ -66,11 +66,11 @@ class MIDCA:
         self.metaPhaseNum = 1
         self.logger = logging.Logger(verbose=verbose)
         self.metaEnabled = metaEnabled
+        self.mem.enableTrace()
         if metaEnabled:
-            self.mem.enableTrace()
             if not phaseManager:
                 raise Exception("MetaEnabled but phaseManager pointer not given")
-            self.mem.enableMeta(phaseManager)
+            self.mem.enableMeta(trace.CogTrace(), phaseManager)
         if not logenabled:
             self.logger.working = False
         else:
@@ -267,17 +267,17 @@ class MIDCA:
         retVal = ""
         self.phasei = (phaseNum - 1) % len(phases)
         if self.phasei == 0:
-            if self.logger.working: self.logger.logEvent(logging.CycleStartEvent((phaseNum - 1) / len(phases)))
+            self.logger.logEvent(logging.CycleStartEvent((phaseNum - 1) / len(phases)))
         if verbose >= 2:
             if meta:
                 print("    ***[meta] Starting ", phases[self.phasei].name, "Phase ***\n", file = sys.stderr)
             else:
                 print("****** Starting", phases[self.phasei].name, "Phase ******\n", file = sys.stderr)
-            if self.logger.working: self.logger.logEvent(logging.PhaseStartEvent(phases[self.phasei].name))
+            self.logger.logEvent(logging.PhaseStartEvent(phases[self.phasei].name))
         i = 0
         while i < len(modules[phases[self.phasei]]):
             module = modules[phases[self.phasei]][i]
-            if self.logger.working: self.logger.logEvent(logging.ModuleStartEvent(module))
+            self.logger.logEvent(logging.ModuleStartEvent(module))
             try:
                 retVal = module.run((phaseNum - 1) / len(phases), verbose)
                 i += 1
@@ -288,9 +288,9 @@ class MIDCA:
                           "is therefore invalid. It will be",
                           "removed from MIDCA.")
                 self.removeModule(phases[self.phasei], i)
-            if self.logger.working: self.logger.logEvent(logging.ModuleEndEvent(module))
+            self.logger.logEvent(logging.ModuleEndEvent(module))
 
-        if self.logger.working: self.logger.logEvent(logging.PhaseEndEvent(phases[self.phasei].name))
+        self.logger.logEvent(logging.PhaseEndEvent(phases[self.phasei].name))
 
         if not meta:
             self.phaseNum += 1
@@ -298,7 +298,7 @@ class MIDCA:
             self.metaPhaseNum += 1
 
         if (phaseNum - 1) % len(phases) == 0:
-            if self.logger.working: self.logger.logEvent(logging.CycleEndEvent((phaseNum - 1) / len(phases)))
+            self.logger.logEvent(logging.CycleEndEvent((phaseNum - 1) / len(phases)))
 
         # record phase and run metareasoner
         #self.mem.set("phase", self.phases[self.phasei].name)
@@ -328,13 +328,13 @@ class PhaseManager:
     def __init__(self, world = None, verbose = 2, display = None, storeHistory = False, metaEnabled = False):
         # phasemanager is passed in as a self pointer for metacognitive modification
         self.midca = MIDCA(world = world, verbose = verbose, metaEnabled = metaEnabled, phaseManager=self,logenabled=False)
-        self.metaEnabled = metaEnabled
         self.mem = self.midca.mem
         self.storeHistory = storeHistory
         self.history = []
         self.display = display
         self.twoSevenWarning = False
         self.logger = self.midca.logger
+        self.meta_verbose = verbose
 
     '''
     convenience functions which wrap MIDCA functions
@@ -398,42 +398,11 @@ class PhaseManager:
         #if self.storeHistory:
         #    self.history.append(self.midca.copy())
         if self.storeHistory and verbose >= 3: print("Warning: History not being stored during meta phase") #TODO
-        val = self.midca.next_phase(verbose, meta=True)
+        val = self.midca.next_phase(self.meta_verbose, meta=True)
         return val
 
 
-    def one_cycle_with_meta_intrlvd(self, verbose = 1, pause = 0.5, noInterface=True):
-        '''
-        Runs one cycle of cognition with one cycle of metacognition being run after each
-        module of each phase.
-        '''
-        phases = self.midca.phases
-        metaPhases = self.midca.metaPhases
-        for i in range(len(phases)):
-            t1 = datetime.datetime.today()
-            # run a single next phase
-            self.next_phase(verbose)
-            # now run a full cycle of meta
-            for i in range(len(metaPhases)):
-                self.next_meta_phase(verbose)
-            t2 = datetime.datetime.today()
-            # make sure we pause correctly
-            try:
-                if (t2 - t1).total_seconds() < pause:
-                    time.sleep(pause - (t2 - t1).total_seconds())
-            except AttributeError:
-                if not self.twoSevenWarning:
-                    print('\033[93m' + "Use python 2.7 or higher to get accurate pauses between steps. Continuing with approximate pauses." + '\033[0m')
-                    self.twoSevenWarning = True
-                time.sleep(pause)
-
-    
     def one_cycle(self, verbose = 1, pause = 0.5, meta=False, noInterface=True):
-        '''
-        Runs one cycle of midca. If meta == True, it will run one cycle of metacognition, otherwise
-        it will run one cycle of cognition. If you want to run one cycle of cognition, with metacognition 
-        interleaved, use one_cycle_with_meta_intrlvd().
-        '''
         phases = self.midca.phases
         if meta:
             phases = self.midca.metaPhases
@@ -485,21 +454,14 @@ class PhaseManager:
                 if val == "q":
                     break
                 elif val == "skip":
-                    if self.metaEnabled:
-                        self.one_cycle_with_meta_intrlvd(verbose=0,pause=0)
-                    else:
-                        self.one_cycle(verbose = 0, pause = 0)
+                    self.one_cycle(verbose = 0, pause = 0)
                     print("cycle finished")
                 elif val.startswith("skip"):
                                     #disable output and run multiple cycles
                     try:
                         num = int(val[4:].strip())
                         for i in range(num):
-                            if self.metaEnabled:
-                                self.one_cycle_with_meta_intrlvd(verbose=0,pause=0)
-                            else:
-                                self.one_cycle(verbose = 0, pause = 0)
-                            # TODO - use several_cycles() instead?
+                            self.one_cycle(verbose = 0, pause = 0) # TODO - use several_cycles() instead?
                             #print("  Score is "+str(self.mem.get("Score")))
                             #print("  cycle "+str(i))
                             #self.display(self.midca.world)
@@ -511,7 +473,6 @@ class PhaseManager:
                         try:
                             self.display(self.midca.world)
                         except Exception as e:
-                            print(e)
                             print("Error displaying world")
                     else:
                         print("No display function set. See PhaseManager.set_display_function()"    )
@@ -551,7 +512,7 @@ class PhaseManager:
                         for key in self.mem.knowledge.keys():
                             if str(key) == txt:
                                 keyfound = True
-                                print("    ["+str(key)+"] = "+str(self.mem.get(key))+"\n")
+                                print("    ["+key+"] = "+str(self.mem.get(key))+"\n")
                         if not keyfound:
                             print("  Error: Key "+txt+" not found in MIDCA's memory")
                             print("  [Available Keys] "+str(self.mem.knowledge.keys()))
@@ -562,6 +523,15 @@ class PhaseManager:
                         print("")
                 elif val == "worldstate":
                     print(str(self.mem.get("__world states")[-1]))
+                    print("----- now printing self.midca.world -----")
+                    print(str(self.midca.world))
+                    print('----- and now: self.midca.world.atoms ----')
+                    for atom in self.midca.world.atoms:
+                        print("  "+str(atom))
+                    print('----- and now: self.mem.get("__world states")[-1].atoms ----')
+                    for atom in self.mem.get("__world states")[-1].atoms:
+                        print("  "+str(atom))
+                        
                 elif val == "change":
                     print("Enter 'clear' to clear the world state, 'file' to input a state file name, or nothing to finish. Otherwise, enter changes to the world state. Use ! to negate atoms or remove objects, e.g. !on(A,B). Note that syntax is shared with state files in midca/worldsim/states, and each command must be on it's own line.")
                     while True:

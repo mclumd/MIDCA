@@ -1,12 +1,22 @@
 import worldsim
 
+
 types = {"obj": worldsim.Type("obj", [])}
 objects = {}
 predicates = {}
 atoms = []
 operators = {}
+cltree = {"rootnode": "" , "allnodes" : [] , "checked" : [] } 
+obtree = {"rootnode": "" , "allnodes" : [] , "checked" : [] }
 
-def type(name, parentnames = ["obj"]):
+def type(name, *arg):
+	'''
+	Create an object hierarchy tree and get the result into obtree which is a global variable inorder to store previous nodes of tree
+	'''
+	parentnames = ["obj"]	
+	temp = list(arg)
+	temp.append(name)
+	temp.reverse()
 	if isinstance(parentnames, basestring):
 		parentnames = [parentnames]
 	parents = []
@@ -15,6 +25,24 @@ def type(name, parentnames = ["obj"]):
 			raise Exception("parent type DNE.")
 		parents.append(types[parent])
 	types[name] = worldsim.Type(name, parents)
+
+	otree = worldsim.ObjectTree(obtree['rootnode'] , obtree['allnodes'], obtree['checked'] , temp)
+	obtree['rootnode'] = otree.rootnode
+	obtree['allnodes'] = otree.allnodes
+	obtree['checked'] = otree.checked
+
+
+def ptype(*args):
+	'''
+	Create a class hierarchy tree and get the result into cltree which is a global variable inorder to store previous nodes of tree.
+	'''
+	temp = list(args)
+	tree = worldsim.Tree(cltree['rootnode'] , cltree['allnodes'], cltree['checked'] , temp)
+	cltree['rootnode'] = tree.rootnode
+	cltree['allnodes'] = tree.allnodes
+	cltree['checked'] = tree.checked
+
+	
 
 def instance(name, typename):
 	if typename not in types:
@@ -48,7 +76,7 @@ class Cond:
 
 def condition(predicatename, args = [], negate = False):
 	if predicatename not in predicates:
-		raise Exception("predicate "+str(predicatename)+" DNE.")
+		raise Exception("predicate DNE.")
 	return Cond(predicates[predicatename], args, not negate)
 	
 #args is a dict: {argname: argtypename}
@@ -92,6 +120,10 @@ def operator(name, args = [], preconditions = [], results = []):
 		postPositive.append(condition.positive)
 	operators[name] = worldsim.Operator(name, objnames, prepredicates, preobjnames, preobjtypes, prePositive, postpredicates, postobjnames, postobjtypes, postPositive)
 
+
+
+
+
 def preprocess(text):
 	i = 0
 	corrected = ""
@@ -120,63 +152,19 @@ def preprocess(text):
 	return corrected.replace("\"False\"", "False").replace("\"True\"", "True") 
 
 def load_domain(filename):
+	'''
+	read the domain file and execute each line of the file as a function and finally create a world with domain and return it.
+	'''
 	f = open(filename)
 	exec preprocess(f.read())
 	f.close()
-	world = worldsim.World(operators.values(), predicates.values(), atoms, types, objects.values())
+	world = worldsim.World(cltree ,obtree, operators.values(), predicates.values(), atoms, types, objects.values() )
 	return world
 
 def load_domain_str(str):
 	exec preprocess(str)
 	world = worldsim.World(operators.values(), predicates.values(), atoms, types, objects.values())
 	return world
-
-def operator_no_side_effect(name, args = [], preconditions = [], results = []):
-	'''
-	Just like operator function above, except doesn't save the operator into the global operators, instead
-	returns the operator
-	'''
-	objnames = []
-	argtypes = {}
-	for argname, argtype in args:
-		objnames.append(argname)	
-		if argtype not in types:
-			raise Exception("object type DNE.")
-		argtypes[argname] = types[argtype]
-	prepredicates = []
-	preobjnames = []
-	preobjtypes = []
-	prePositive = []
-	for condition in preconditions:
-		for argname in condition.argnames:
-			if argname not in objnames:
-				raise Exception("condition argument not listed as an object for this operator")
-		prepredicates.append(condition.predicate)
-		preobjnames.append(condition.argnames)
-		objtypes = []
-		for objname in preobjnames[-1]:
-			objtypes.append(argtypes[objname])
-		preobjtypes.append(objtypes)
-		prePositive.append(condition.positive)
-	postpredicates = []
-	postobjnames = []
-	postobjtypes = []
-	postPositive = []
-	for condition in results:
-		for argname in condition.argnames:
-			if argname not in objnames:
-				raise Exception("condition argument not listed as an object for this operator")
-		postpredicates.append(condition.predicate)
-		postobjnames.append(condition.argnames)
-		objtypes = []
-		for objname in postobjnames[-1]:
-			objtypes.append(argtypes[objname])
-		postobjtypes.append(objtypes)
-		postPositive.append(condition.positive)
-	return worldsim.Operator(name, objnames, prepredicates, preobjnames, preobjtypes, prePositive, postpredicates, postobjnames, postobjtypes, postPositive)
-
-def load_operator_str(op_str):
-	return eval(preprocess(op_str))
 
 def to_shop2_domain(world, name):
 	strs = ["(in-package :shop2)\n\n"]

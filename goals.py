@@ -37,6 +37,24 @@ class Goal:
         else:
             self.kwargs[key] = item
 
+    def get_args(self):
+        '''
+        Return the arguments for this goal.
+        Example:
+        Goal(A_,B_, on)
+        would return [A_,B_] as the args
+        '''
+        return self.args
+    
+    def get_pred(self):
+        '''
+        Return the predicate for this goal.
+        Example:
+        Goal(A_,B_, on)
+        would return 'on' as the args
+        '''
+        return self.kwargs['predicate']
+
     def __str__(self):
         s = "Goal(" + "".join([str(arg) + ", " for arg in self.args]) + "".join([str(key) + ": " + str(value) + ", " for key, value in self.kwargs.items()])
         if self.args or self.kwargs:
@@ -194,7 +212,6 @@ class GoalGraph:
             for goal in goals:
                 found = False
                 for planGoal in plan.goals:
-                    #print "goal is " + str([goal])
                     if self.consistentGoal(goal, planGoal):
                         found = True
                         break
@@ -302,7 +319,9 @@ class GoalGraph:
         return "Goals: " + str([str(goal) + " " for goal in self.getAllGoals()])
 
     def getUnrestrictedGoals(self):
-        return [node.goal for node in self.roots]
+        for node in self.roots:
+             return [node.goal]
+	#return [node.goal for node in self.roots]
 
     def writeToPDF(self, pdf_filename="goalgraph.pdf"):
         """ Requires the 'dot' command be installed on the current system. To
@@ -335,6 +354,7 @@ class GoalGraph:
         dotfilestr = "digraph\n{\n"
 
         for node in self._getAllNodes():
+            print("  Goal" + str(node.id) + " [label=\""+node.dotStr()+" \"]")
             dotfilestr += "  Goal" + str(node.id) + " [label=\""+node.dotStr()+" \"]\n"
 
         dotfilestr += "\n"
@@ -349,8 +369,8 @@ class GoalGraph:
         f.close()
         #print "Wrote dot file to " + dotfilename
         genPDFCommand = "dot -Tpdf "+ dotfilename + " -o " + pdf_filename
-        dot_output = subprocess.check_output(shlex.split(genPDFCommand))
+        #dot_output = subprocess.check_output(shlex.split(genPDFCommand))
         #print "dot_output = " + str(dot_output)
-        subprocess.call(shlex.split("rm "+dotfilename))
+        #subprocess.call(shlex.split("del "+dotfilename))
         print "Drawing of current goal graph written to " + pdf_filename
 

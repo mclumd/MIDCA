@@ -124,5 +124,4 @@ class Shop2Planner:
 			print
 		#save plan
 		self.mem.add(midca_inst.MEM_PLANS, plan)
-		self.mem.set(self.mem.CURR_PLAN, plan)
 		

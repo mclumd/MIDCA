@@ -4,22 +4,11 @@ from MIDCA.examples import predicateworld
 from MIDCA.modules import simulator, guide
 import inspect, os
 
-# Domain Specific Imports
-from MIDCA.domains.blocksworld import util
-from MIDCA.domains.blocksworld.plan import methods, operators
-
 thisDir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 MIDCA_ROOT = thisDir + "/../"
 
-DECLARE_METHODS_FUNC = methods.declare_methods
-DECLARE_OPERATORS_FUNC = operators.declare_ops
-argsPyHopPlanner = [util.pyhop_state_from_world,
-					util.pyhop_tasks_from_goals,
-					DECLARE_METHODS_FUNC,
-					DECLARE_OPERATORS_FUNC]
-
-myMidca = predicateworld.UserGoalsMidca(domainFile = MIDCA_ROOT + "domains/blocksworld/domains/arsonist.sim", stateFile = MIDCA_ROOT + "domains/blocksworld/states/defstate_fire.sim", argsPyHopPlanner=argsPyHopPlanner)
+myMidca = predicateworld.UserGoalsMidca(domainFile = MIDCA_ROOT + "worldsim/domains/arsonist.sim", stateFile = MIDCA_ROOT + "worldsim/states/defstate_fire.sim")
 
 myMidca.insert_module('Simulate', simulator.ArsonSimulator(arsonChance = 0.3, arsonStart = 2), 1)
 myMidca.insert_module('Interpret', guide.TFStack(), 1)

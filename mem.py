@@ -27,18 +27,8 @@ class Memory:
     META_GOALS = "__meta goals"
     META_CURR_GOAL = "__meta current goal"
     META_PLAN = "__meta plan" #TODO allow more than one plan
-    # data recording
-    PLANNING_COUNT = "__PlanningCount" # number of times planning was performed (including replanning)
-    GOALS_ACTIONS_ACHIEVED = "__GoalsActionsAchieved" # number of goals achieved
-    GOALS_ACHIEVED = "__GoalsAchieved" # number of goals achieved
-    ACTIONS_EXECUTED = "__ActionsExecuted" # number of actions executed
-    MIDCA_CYCLES = "__MIDCA Cycles"
-    CURR_PLAN = "__CurrPlan"
-    # GDA
-    DISCREPANCY = "__discrepancy"
-    EXPLANATION = "__explanation"
-    EXPLANATION_VAL = "__explanation_val"
-    
+    CL_TREE = "__class heirarchy tree"
+    OB_TREE = "__object heirarchy tree"
 
 
     def __init__(self, args = {}):
@@ -176,10 +166,9 @@ class Memory:
         if self.logger and self.logEachAccess:
             self.logger.logEvent(MemAccessEvent(key))
 
-    def enableMeta(self, phaseManager):
-        if not self.trace:
-            raise Exception("Please call mem.enableTrace() before calling enableMeta()")
+    def enableMeta(self, trace, phaseManager):
         self.metaEnabled = True
+        self.trace = trace
         self.myMidca = phaseManager
 
     def enableTrace(self):
