@@ -1,0 +1,2183 @@
+1.354592 - Enter ...Initializing Perceive module 1...
+
+1.354949 - done.
+
+1.355016 - Initializing Interpret module 1...
+
+1.355081 - done.
+
+1.355146 - Initializing Eval module 1...
+
+1.355202 - done.
+
+1.355253 - Initializing Intend module 1...
+
+1.355298 - done.
+
+1.355347 - Initializing Plan module 1...
+
+1.355392 - done.
+
+1.355436 - Initializing Act module 1...
+
+1.355489 - done.
+
+1.355618 - Goal Graph initialized.
+
+1.355682 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
+1.355791 - Starting cycle 0
+
+1.356690 - ****** Starting Perceive Phase ******
+
+1.357787 - I hot data here
+
+1.358100 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7f00affdbd40>
+
+1.358624 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7f00affdbe60>
+
+1.358995 - World observed: 20 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1.471650 - ****** Starting Interpret Phase ******
+
+1.582111 - ****** Starting Eval Phase ******
+
+1.582417 - No current goals. Skipping eval
+
+1.697716 - ****** Starting Intend Phase ******
+
+1.698274 - No goals selected.
+
+1.806004 - ****** Starting Plan Phase ******
+
+1.806713 - No goals received by planner. Skipping planning.
+
+1.935693 - ****** Starting Act Phase ******
+
+1.936562 - No Active goals. Act phase will do nothing
+
+2.092601 - Starting cycle 1
+
+2.093049 - ****** Starting Perceive Phase ******
+
+2.093597 - I hot data here
+
+2.094031 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.230550 - ****** Starting Interpret Phase ******
+
+2.381720 - ****** Starting Eval Phase ******
+
+2.383030 - No current goals. Skipping eval
+
+2.515415 - ****** Starting Intend Phase ******
+
+2.516015 - No goals selected.
+
+2.650444 - ****** Starting Plan Phase ******
+
+2.651182 - No goals received by planner. Skipping planning.
+
+2.797548 - ****** Starting Act Phase ******
+
+2.798080 - No Active goals. Act phase will do nothing
+
+2.925339 - Starting cycle 2
+
+2.925668 - ****** Starting Perceive Phase ******
+
+2.926341 - I hot data here
+
+2.926922 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+3.060331 - ****** Starting Interpret Phase ******
+
+3.197515 - ****** Starting Eval Phase ******
+
+3.198108 - No current goals. Skipping eval
+
+3.361148 - ****** Starting Intend Phase ******
+
+3.361835 - No goals selected.
+
+3.499989 - ****** Starting Plan Phase ******
+
+3.501134 - No goals received by planner. Skipping planning.
+
+3.655768 - ****** Starting Act Phase ******
+
+3.656596 - No Active goals. Act phase will do nothing
+
+3.784739 - Starting cycle 3
+
+3.785023 - ****** Starting Perceive Phase ******
+
+3.785625 - I hot data here
+
+3.786146 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+3.920585 - ****** Starting Interpret Phase ******
+
+4.057004 - ****** Starting Eval Phase ******
+
+4.057509 - No current goals. Skipping eval
+
+4.232532 - ****** Starting Intend Phase ******
+
+4.233184 - No goals selected.
+
+4.397198 - ****** Starting Plan Phase ******
+
+4.397850 - No goals received by planner. Skipping planning.
+
+4.690938 - ****** Starting Act Phase ******
+
+4.692660 - No Active goals. Act phase will do nothing
+
+4.828109 - Starting cycle 4
+
+4.828535 - ****** Starting Perceive Phase ******
+
+4.829317 - I hot data here
+
+4.830238 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+4.968488 - ****** Starting Interpret Phase ******
+
+5.103842 - ****** Starting Eval Phase ******
+
+5.104371 - No current goals. Skipping eval
+
+5.247508 - ****** Starting Intend Phase ******
+
+5.248061 - No goals selected.
+
+5.380607 - ****** Starting Plan Phase ******
+
+5.381196 - No goals received by planner. Skipping planning.
+
+5.517182 - ****** Starting Act Phase ******
+
+5.517726 - No Active goals. Act phase will do nothing
+
+5.656083 - Starting cycle 5
+
+5.656507 - ****** Starting Perceive Phase ******
+
+5.657380 - I hot data here
+
+5.658160 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+5.849581 - ****** Starting Interpret Phase ******
+
+6.089384 - ****** Starting Eval Phase ******
+
+6.090174 - No current goals. Skipping eval
+
+6.324258 - ****** Starting Intend Phase ******
+
+6.325399 - No goals selected.
+
+6.505545 - ****** Starting Plan Phase ******
+
+6.506601 - No goals received by planner. Skipping planning.
+
+6.713512 - ****** Starting Act Phase ******
+
+6.714169 - No Active goals. Act phase will do nothing
+
+6.919248 - Starting cycle 6
+
+6.919841 - ****** Starting Perceive Phase ******
+
+6.920699 - I hot data here
+
+6.921329 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+7.115974 - ****** Starting Interpret Phase ******
+
+7.322787 - ****** Starting Eval Phase ******
+
+7.323577 - No current goals. Skipping eval
+
+7.510638 - ****** Starting Intend Phase ******
+
+7.511589 - No goals selected.
+
+7.676621 - ****** Starting Plan Phase ******
+
+7.677768 - No goals received by planner. Skipping planning.
+
+7.875253 - ****** Starting Act Phase ******
+
+7.875915 - No Active goals. Act phase will do nothing
+
+8.055259 - Starting cycle 7
+
+8.055670 - ****** Starting Perceive Phase ******
+
+8.056646 - I hot data here
+
+8.057555 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+8.244954 - ****** Starting Interpret Phase ******
+
+8.445427 - ****** Starting Eval Phase ******
+
+8.447114 - No current goals. Skipping eval
+
+8.597757 - ****** Starting Intend Phase ******
+
+8.598765 - No goals selected.
+
+8.780128 - ****** Starting Plan Phase ******
+
+8.781192 - No goals received by planner. Skipping planning.
+
+8.973405 - ****** Starting Act Phase ******
+
+8.974498 - No Active goals. Act phase will do nothing
+
+9.181667 - Starting cycle 8
+
+9.182184 - ****** Starting Perceive Phase ******
+
+9.182880 - I hot data here
+
+9.183407 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+9.383559 - ****** Starting Interpret Phase ******
+
+9.552944 - ****** Starting Eval Phase ******
+
+9.554802 - No current goals. Skipping eval
+
+9.714942 - ****** Starting Intend Phase ******
+
+9.716275 - No goals selected.
+
+9.877330 - ****** Starting Plan Phase ******
+
+9.878236 - No goals received by planner. Skipping planning.
+
+10.028521 - ****** Starting Act Phase ******
+
+10.029298 - No Active goals. Act phase will do nothing
+
+10.174690 - Starting cycle 9
+
+10.175071 - ****** Starting Perceive Phase ******
+
+10.175863 - I hot data here
+
+10.176703 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+10.329146 - ****** Starting Interpret Phase ******
+
+10.482450 - ****** Starting Eval Phase ******
+
+10.482959 - No current goals. Skipping eval
+
+10.636635 - ****** Starting Intend Phase ******
+
+10.637413 - No goals selected.
+
+10.790226 - ****** Starting Plan Phase ******
+
+10.791240 - No goals received by planner. Skipping planning.
+
+10.934829 - ****** Starting Act Phase ******
+
+10.935641 - No Active goals. Act phase will do nothing
+
+11.091047 - Starting cycle 10
+
+11.091554 - ****** Starting Perceive Phase ******
+
+11.092484 - I hot data here
+
+11.093104 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+11.222318 - ****** Starting Interpret Phase ******
+
+11.372505 - ****** Starting Eval Phase ******
+
+11.373032 - No current goals. Skipping eval
+
+11.528763 - ****** Starting Intend Phase ******
+
+11.529558 - No goals selected.
+
+11.676885 - ****** Starting Plan Phase ******
+
+11.677667 - No goals received by planner. Skipping planning.
+
+11.832826 - ****** Starting Act Phase ******
+
+11.833548 - No Active goals. Act phase will do nothing
+
+11.979913 - Starting cycle 11
+
+11.980303 - ****** Starting Perceive Phase ******
+
+11.981252 - I hot data here
+
+11.981912 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+12.118074 - ****** Starting Interpret Phase ******
+
+12.265724 - ****** Starting Eval Phase ******
+
+12.266245 - No current goals. Skipping eval
+
+12.396518 - ****** Starting Intend Phase ******
+
+12.397338 - No goals selected.
+
+12.546358 - ****** Starting Plan Phase ******
+
+12.547168 - No goals received by planner. Skipping planning.
+
+12.694024 - ****** Starting Act Phase ******
+
+12.694700 - No Active goals. Act phase will do nothing
+
+12.865437 - Starting cycle 12
+
+12.865735 - ****** Starting Perceive Phase ******
+
+12.867015 - I hot data here
+
+12.868109 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+13.057197 - ****** Starting Interpret Phase ******
+
+13.261235 - ****** Starting Eval Phase ******
+
+13.261889 - No current goals. Skipping eval
+
+13.453988 - ****** Starting Intend Phase ******
+
+13.454841 - No goals selected.
+
+13.601943 - ****** Starting Plan Phase ******
+
+13.602828 - No goals received by planner. Skipping planning.
+
+13.757456 - ****** Starting Act Phase ******
+
+13.758082 - No Active goals. Act phase will do nothing
+
+13.884914 - Starting cycle 13
+
+13.885502 - ****** Starting Perceive Phase ******
+
+13.886266 - I hot data here
+
+13.886859 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+14.019166 - ****** Starting Interpret Phase ******
+
+14.142255 - ****** Starting Eval Phase ******
+
+14.142787 - No current goals. Skipping eval
+
+14.279603 - ****** Starting Intend Phase ******
+
+14.280361 - No goals selected.
+
+14.409485 - ****** Starting Plan Phase ******
+
+14.410583 - No goals received by planner. Skipping planning.
+
+14.548224 - ****** Starting Act Phase ******
+
+14.548794 - No Active goals. Act phase will do nothing
+
+14.668658 - Starting cycle 14
+
+14.668919 - ****** Starting Perceive Phase ******
+
+14.669361 - I hot data here
+
+14.669885 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+14.816339 - ****** Starting Interpret Phase ******
+
+14.953241 - ****** Starting Eval Phase ******
+
+14.954505 - No current goals. Skipping eval
+
+15.086138 - ****** Starting Intend Phase ******
+
+15.087395 - No goals selected.
+
+15.213961 - ****** Starting Plan Phase ******
+
+15.214714 - No goals received by planner. Skipping planning.
+
+15.338137 - ****** Starting Act Phase ******
+
+15.338772 - No Active goals. Act phase will do nothing
+
+15.474884 - Starting cycle 15
+
+15.475156 - ****** Starting Perceive Phase ******
+
+15.475953 - I hot data here
+
+15.476401 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+15.610059 - ****** Starting Interpret Phase ******
+
+15.739658 - ****** Starting Eval Phase ******
+
+15.740124 - No current goals. Skipping eval
+
+15.878831 - ****** Starting Intend Phase ******
+
+15.879550 - No goals selected.
+
+16.009035 - ****** Starting Plan Phase ******
+
+16.009907 - No goals received by planner. Skipping planning.
+
+16.141766 - ****** Starting Act Phase ******
+
+16.142360 - No Active goals. Act phase will do nothing
+
+16.268262 - Starting cycle 16
+
+16.268502 - ****** Starting Perceive Phase ******
+
+16.269169 - I hot data here
+
+16.269558 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+16.390331 - ****** Starting Interpret Phase ******
+
+16.526764 - ****** Starting Eval Phase ******
+
+16.527312 - No current goals. Skipping eval
+
+16.675582 - ****** Starting Intend Phase ******
+
+16.676315 - No goals selected.
+
+16.799973 - ****** Starting Plan Phase ******
+
+16.800668 - No goals received by planner. Skipping planning.
+
+16.936114 - ****** Starting Act Phase ******
+
+16.937290 - No Active goals. Act phase will do nothing
+
+17.074060 - Starting cycle 17
+
+17.074394 - ****** Starting Perceive Phase ******
+
+17.075071 - I hot data here
+
+17.075582 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+17.203847 - ****** Starting Interpret Phase ******
+
+17.333071 - ****** Starting Eval Phase ******
+
+17.333602 - No current goals. Skipping eval
+
+17.461576 - ****** Starting Intend Phase ******
+
+17.462268 - No goals selected.
+
+17.591489 - ****** Starting Plan Phase ******
+
+17.592186 - No goals received by planner. Skipping planning.
+
+17.735128 - ****** Starting Act Phase ******
+
+17.736270 - No Active goals. Act phase will do nothing
+
+17.864107 - Starting cycle 18
+
+17.864368 - ****** Starting Perceive Phase ******
+
+17.864953 - I hot data here
+
+17.865461 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+17.993892 - ****** Starting Interpret Phase ******
+
+18.109158 - ****** Starting Eval Phase ******
+
+18.109686 - No current goals. Skipping eval
+
+18.221426 - ****** Starting Intend Phase ******
+
+18.222010 - No goals selected.
+
+18.349577 - ****** Starting Plan Phase ******
+
+18.350840 - No goals received by planner. Skipping planning.
+
+18.478382 - ****** Starting Act Phase ******
+
+18.478735 - No Active goals. Act phase will do nothing
+
+18.594717 - Starting cycle 19
+
+18.594993 - ****** Starting Perceive Phase ******
+
+18.595756 - I hot data here
+
+18.596410 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+18.728331 - ****** Starting Interpret Phase ******
+
+18.852733 - ****** Starting Eval Phase ******
+
+18.853264 - No current goals. Skipping eval
+
+18.975765 - ****** Starting Intend Phase ******
+
+18.976402 - No goals selected.
+
+19.097558 - ****** Starting Plan Phase ******
+
+19.098154 - No goals received by planner. Skipping planning.
+
+19.228761 - ****** Starting Act Phase ******
+
+19.229708 - No Active goals. Act phase will do nothing
+
+19.356160 - Starting cycle 20
+
+19.356775 - ****** Starting Perceive Phase ******
+
+19.357912 - I hot data here
+
+19.358283 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+19.480443 - ****** Starting Interpret Phase ******
+
+19.597084 - ****** Starting Eval Phase ******
+
+19.599244 - No current goals. Skipping eval
+
+19.722075 - ****** Starting Intend Phase ******
+
+19.722825 - No goals selected.
+
+19.851761 - ****** Starting Plan Phase ******
+
+19.852542 - No goals received by planner. Skipping planning.
+
+19.976413 - ****** Starting Act Phase ******
+
+19.976891 - No Active goals. Act phase will do nothing
+
+20.104123 - Starting cycle 21
+
+20.104374 - ****** Starting Perceive Phase ******
+
+20.104915 - I hot data here
+
+20.105242 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+20.219354 - ****** Starting Interpret Phase ******
+
+20.335680 - ****** Starting Eval Phase ******
+
+20.336334 - No current goals. Skipping eval
+
+20.463237 - ****** Starting Intend Phase ******
+
+20.463743 - No goals selected.
+
+20.577935 - ****** Starting Plan Phase ******
+
+20.578461 - No goals received by planner. Skipping planning.
+
+20.712555 - ****** Starting Act Phase ******
+
+20.713378 - No Active goals. Act phase will do nothing
+
+20.822611 - Starting cycle 22
+
+20.823051 - ****** Starting Perceive Phase ******
+
+20.823552 - I hot data here
+
+20.823908 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+20.952617 - ****** Starting Interpret Phase ******
+
+21.084600 - ****** Starting Eval Phase ******
+
+21.085179 - No current goals. Skipping eval
+
+21.207744 - ****** Starting Intend Phase ******
+
+21.208515 - No goals selected.
+
+21.329127 - ****** Starting Plan Phase ******
+
+21.329721 - No goals received by planner. Skipping planning.
+
+21.447177 - ****** Starting Act Phase ******
+
+21.447700 - No Active goals. Act phase will do nothing
+
+21.575065 - Starting cycle 23
+
+21.575521 - ****** Starting Perceive Phase ******
+
+21.576260 - I hot data here
+
+21.576836 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+21.699175 - ****** Starting Interpret Phase ******
+
+21.820894 - ****** Starting Eval Phase ******
+
+21.821207 - No current goals. Skipping eval
+
+21.936776 - ****** Starting Intend Phase ******
+
+21.937223 - No goals selected.
+
+22.043258 - ****** Starting Plan Phase ******
+
+22.043614 - No goals received by planner. Skipping planning.
+
+22.158779 - ****** Starting Act Phase ******
+
+22.159374 - No Active goals. Act phase will do nothing
+
+22.267352 - Starting cycle 24
+
+22.267520 - ****** Starting Perceive Phase ******
+
+22.267790 - I hot data here
+
+22.268178 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+22.375915 - ****** Starting Interpret Phase ******
+
+22.482973 - ****** Starting Eval Phase ******
+
+22.483295 - No current goals. Skipping eval
+
+22.595832 - ****** Starting Intend Phase ******
+
+22.596216 - No goals selected.
+
+22.705263 - ****** Starting Plan Phase ******
+
+22.705744 - No goals received by planner. Skipping planning.
+
+22.817402 - ****** Starting Act Phase ******
+
+22.817787 - No Active goals. Act phase will do nothing
+
+22.931255 - Starting cycle 25
+
+22.931438 - ****** Starting Perceive Phase ******
+
+22.931974 - I hot data here
+
+22.932429 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+23.045118 - ****** Starting Interpret Phase ******
+
+23.155818 - ****** Starting Eval Phase ******
+
+23.156168 - No current goals. Skipping eval
+
+23.278167 - ****** Starting Intend Phase ******
+
+23.278522 - No goals selected.
+
+23.388786 - ****** Starting Plan Phase ******
+
+23.390013 - No goals received by planner. Skipping planning.
+
+23.503221 - ****** Starting Act Phase ******
+
+23.503508 - No Active goals. Act phase will do nothing
+
+23.613176 - Starting cycle 26
+
+23.613531 - ****** Starting Perceive Phase ******
+
+23.614596 - I hot data here
+
+23.615062 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+23.724918 - ****** Starting Interpret Phase ******
+
+23.839634 - ****** Starting Eval Phase ******
+
+23.840821 - No current goals. Skipping eval
+
+23.952592 - ****** Starting Intend Phase ******
+
+23.953000 - No goals selected.
+
+24.066142 - ****** Starting Plan Phase ******
+
+24.066714 - No goals received by planner. Skipping planning.
+
+24.173351 - ****** Starting Act Phase ******
+
+24.173695 - No Active goals. Act phase will do nothing
+
+24.291481 - Starting cycle 27
+
+24.291679 - ****** Starting Perceive Phase ******
+
+24.292099 - I hot data here
+
+24.292334 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+24.404073 - ****** Starting Interpret Phase ******
+
+24.516690 - ****** Starting Eval Phase ******
+
+24.517105 - No current goals. Skipping eval
+
+24.630678 - ****** Starting Intend Phase ******
+
+24.633860 - No goals selected.
+
+24.738343 - ****** Starting Plan Phase ******
+
+24.738848 - No goals received by planner. Skipping planning.
+
+24.857306 - ****** Starting Act Phase ******
+
+24.858296 - No Active goals. Act phase will do nothing
+
+24.964319 - Starting cycle 28
+
+24.964493 - ****** Starting Perceive Phase ******
+
+24.964921 - I hot data here
+
+24.965323 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+25.078727 - ****** Starting Interpret Phase ******
+
+25.189599 - ****** Starting Eval Phase ******
+
+25.189877 - No current goals. Skipping eval
+
+25.306894 - ****** Starting Intend Phase ******
+
+25.307232 - No goals selected.
+
+25.420522 - ****** Starting Plan Phase ******
+
+25.421040 - No goals received by planner. Skipping planning.
+
+25.529908 - ****** Starting Act Phase ******
+
+25.530212 - No Active goals. Act phase will do nothing
+
+25.636421 - Starting cycle 29
+
+25.636643 - ****** Starting Perceive Phase ******
+
+25.637086 - I hot data here
+
+25.637388 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+25.745703 - ****** Starting Interpret Phase ******
+
+25.866658 - ****** Starting Eval Phase ******
+
+25.867234 - No current goals. Skipping eval
+
+25.986274 - ****** Starting Intend Phase ******
+
+25.988095 - No goals selected.
+
+26.109472 - ****** Starting Plan Phase ******
+
+26.109940 - No goals received by planner. Skipping planning.
+
+26.229816 - ****** Starting Act Phase ******
+
+26.230315 - No Active goals. Act phase will do nothing
+
+26.359843 - Starting cycle 30
+
+26.360152 - ****** Starting Perceive Phase ******
+
+26.360677 - I hot data here
+
+26.361318 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+26.477164 - ****** Starting Interpret Phase ******
+
+26.611948 - ****** Starting Eval Phase ******
+
+26.612342 - No current goals. Skipping eval
+
+26.743668 - ****** Starting Intend Phase ******
+
+26.745222 - No goals selected.
+
+26.853891 - ****** Starting Plan Phase ******
+
+26.854447 - No goals received by planner. Skipping planning.
+
+26.969142 - ****** Starting Act Phase ******
+
+26.969954 - No Active goals. Act phase will do nothing
+
+27.096142 - Starting cycle 31
+
+27.096502 - ****** Starting Perceive Phase ******
+
+27.097096 - I hot data here
+
+27.097542 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+27.216603 - ****** Starting Interpret Phase ******
+
+27.343305 - ****** Starting Eval Phase ******
+
+27.343676 - No current goals. Skipping eval
+
+27.475138 - ****** Starting Intend Phase ******
+
+27.475746 - No goals selected.
+
+27.589866 - ****** Starting Plan Phase ******
+
+27.590470 - No goals received by planner. Skipping planning.
+
+27.718214 - ****** Starting Act Phase ******
+
+27.718668 - No Active goals. Act phase will do nothing
+
+27.840477 - Starting cycle 32
+
+27.840765 - ****** Starting Perceive Phase ******
+
+27.841472 - I hot data here
+
+27.841925 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+27.964927 - ****** Starting Interpret Phase ******
+
+28.095537 - ****** Starting Eval Phase ******
+
+28.096010 - No current goals. Skipping eval
+
+28.214477 - ****** Starting Intend Phase ******
+
+28.214987 - No goals selected.
+
+28.343616 - ****** Starting Plan Phase ******
+
+28.344093 - No goals received by planner. Skipping planning.
+
+28.472052 - ****** Starting Act Phase ******
+
+28.472528 - No Active goals. Act phase will do nothing
+
+28.601309 - Starting cycle 33
+
+28.601549 - ****** Starting Perceive Phase ******
+
+28.602121 - I hot data here
+
+28.602511 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+28.726609 - ****** Starting Interpret Phase ******
+
+28.855176 - ****** Starting Eval Phase ******
+
+28.856990 - No current goals. Skipping eval
+
+28.984668 - ****** Starting Intend Phase ******
+
+28.985616 - No goals selected.
+
+29.110707 - ****** Starting Plan Phase ******
+
+29.111304 - No goals received by planner. Skipping planning.
+
+29.230488 - ****** Starting Act Phase ******
+
+29.230902 - No Active goals. Act phase will do nothing
+
+29.354732 - Starting cycle 34
+
+29.355065 - ****** Starting Perceive Phase ******
+
+29.355642 - I hot data here
+
+29.357161 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+29.478414 - ****** Starting Interpret Phase ******
+
+29.603985 - ****** Starting Eval Phase ******
+
+29.604461 - No current goals. Skipping eval
+
+29.722302 - ****** Starting Intend Phase ******
+
+29.723129 - No goals selected.
+
+29.847031 - ****** Starting Plan Phase ******
+
+29.847953 - No goals received by planner. Skipping planning.
+
+29.966140 - ****** Starting Act Phase ******
+
+29.966635 - No Active goals. Act phase will do nothing
+
+30.091391 - Starting cycle 35
+
+30.091643 - ****** Starting Perceive Phase ******
+
+30.092212 - I hot data here
+
+30.092718 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+30.206391 - ****** Starting Interpret Phase ******
+
+30.336188 - ****** Starting Eval Phase ******
+
+30.336815 - No current goals. Skipping eval
+
+30.458348 - ****** Starting Intend Phase ******
+
+30.458870 - No goals selected.
+
+30.573224 - ****** Starting Plan Phase ******
+
+30.573894 - No goals received by planner. Skipping planning.
+
+30.697422 - ****** Starting Act Phase ******
+
+30.698106 - No Active goals. Act phase will do nothing
+
+30.812020 - Starting cycle 36
+
+30.812228 - ****** Starting Perceive Phase ******
+
+30.812645 - I hot data here
+
+30.813312 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+30.935138 - ****** Starting Interpret Phase ******
+
+31.053866 - ****** Starting Eval Phase ******
+
+31.055156 - No current goals. Skipping eval
+
+31.176354 - ****** Starting Intend Phase ******
+
+31.177050 - No goals selected.
+
+31.296022 - ****** Starting Plan Phase ******
+
+31.296849 - No goals received by planner. Skipping planning.
+
+31.413407 - ****** Starting Act Phase ******
+
+31.413885 - No Active goals. Act phase will do nothing
+
+31.532406 - Starting cycle 37
+
+31.532670 - ****** Starting Perceive Phase ******
+
+31.533182 - I hot data here
+
+31.533709 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+31.662598 - ****** Starting Interpret Phase ******
+
+31.782207 - ****** Starting Eval Phase ******
+
+31.782713 - No current goals. Skipping eval
+
+31.918925 - ****** Starting Intend Phase ******
+
+31.919428 - No goals selected.
+
+32.081565 - ****** Starting Plan Phase ******
+
+32.082038 - No goals received by planner. Skipping planning.
+
+32.211957 - ****** Starting Act Phase ******
+
+32.212409 - No Active goals. Act phase will do nothing
+
+32.350722 - Starting cycle 38
+
+32.350976 - ****** Starting Perceive Phase ******
+
+32.351425 - I hot data here
+
+32.352091 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+32.494156 - ****** Starting Interpret Phase ******
+
+32.617700 - ****** Starting Eval Phase ******
+
+32.618187 - No current goals. Skipping eval
+
+32.749256 - ****** Starting Intend Phase ******
+
+32.749838 - No goals selected.
+
+32.867463 - ****** Starting Plan Phase ******
+
+32.868064 - No goals received by planner. Skipping planning.
+
+32.995345 - ****** Starting Act Phase ******
+
+32.995730 - No Active goals. Act phase will do nothing
+
+33.113712 - Starting cycle 39
+
+33.114089 - ****** Starting Perceive Phase ******
+
+33.114698 - I hot data here
+
+33.115109 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+33.247940 - ****** Starting Interpret Phase ******
+
+33.374499 - ****** Starting Eval Phase ******
+
+33.375273 - No current goals. Skipping eval
+
+33.497977 - ****** Starting Intend Phase ******
+
+33.498884 - No goals selected.
+
+33.620810 - ****** Starting Plan Phase ******
+
+33.621584 - No goals received by planner. Skipping planning.
+
+33.754810 - ****** Starting Act Phase ******
+
+33.755379 - No Active goals. Act phase will do nothing
+
+33.893429 - Starting cycle 40
+
+33.893783 - ****** Starting Perceive Phase ******
+
+33.894457 - I hot data here
+
+33.894843 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+34.042519 - ****** Starting Interpret Phase ******
+
+34.180460 - ****** Starting Eval Phase ******
+
+34.181089 - No current goals. Skipping eval
+
+34.263635 - storing utterance: data: get the red block
+
+34.349891 - ****** Starting Intend Phase ******
+
+34.351178 - No goals selected.
+
+34.499465 - ****** Starting Plan Phase ******
+
+34.500303 - No goals received by planner. Skipping planning.
+
+34.638678 - ****** Starting Act Phase ******
+
+34.639522 - No Active goals. Act phase will do nothing
+
+34.805176 - Starting cycle 41
+
+34.805704 - ****** Starting Perceive Phase ******
+
+34.809145 - I hot data here
+
+34.809915 - World observed: 12 new detection event(s), 1 utterance(s) and 0 feedback msg(s)
+
+34.964406 - ****** Starting Interpret Phase ******
+
+34.965053 - received utterance: get the red block
+
+34.965515 - adding goal: Goal(objective: holding, indirectObject: observer, pos: red block:table, directObject: red block, subject: self)
+
+35.132588 - ****** Starting Eval Phase ******
+
+35.133206 - No current goals. Skipping eval
+
+35.269380 - ****** Starting Intend Phase ******
+
+35.270207 - Selecting goal(s): holding the red block
+
+35.425363 - ****** Starting Plan Phase ******
+
+35.426287 - Planning...
+
+35.426465 - call seek_plan
+
+44.219434 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f009a25fab8>])]
+
+44.219636 - achieve_goals_m
+
+44.219765 - holding
+
+44.219920 - next subtask: achieve_goals
+
+45.428630 - Enter ...depth 1 tasks [('pickup_task', 'red block'), ('achieve_goals', [])]
+
+45.428920 - next subtask: pickup_task
+
+46.155106 - Enter ...depth 2 tasks [('reach_to_pickup', 'red block'), ('grab', 'red block'), ('raising', 'red block'), ('achieve_goals', [])]
+
+46.206969 - monitoring pos
+
+46.207161 - monitoring pos
+ monitoring clear...
+
+46.207308 -  start
+
+46.207809 - start
+
+46.230741 - [INFO] [WallTime: 1454949551.481668] [167.412000] Robot Enabled
+
+46.233024 - [INFO] [WallTime: 1454949551.484215] [167.414000] Robot Enabled
+
+47.171196 - depth 3 tasks [('grab', 'red block'), ('raising', 'red block'), ('achieve_goals', [])]
+
+47.802696 - Enter ...depth 4 tasks [('raising', 'red block'), ('achieve_goals', [])]
+
+48.283817 - Enter ...depth 5 tasks [('achieve_goals', [])]
+
+48.284490 - achieve_goals_m
+
+48.284608 - next subtask: achieve_goals
+
+48.844800 - Enter ...depth 6 tasks []
+
+48.845594 - Planning complete.
+
+48.846285 - Plan:  [0m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+48.846587 - ****** Starting Act Phase ******
+
+48.846942 - Action ('reach_to_pickup', 'red block') not complete.
+
+48.847046 - Beginning action execution for ('reach_to_pickup', 'red block')
+
+48.847649 - (x: 0.664675
+y: 0.148415
+z: 0.799901, 1454931540.060884)
+
+48.847762 - {'y': 0.148415, 'x': 0.664675, 'z': 0.799901, 'cmd_id': 0, 'time': 1454931554.098131}
+
+48.848073 - trying to send
+
+48.848159 - loc_cmd
+
+48.848274 - trying to send message on topic loc_cmd
+
+48.848502 - [INFO] [WallTime: 1454949554.099718] [169.742000] Midca sending msg: data: y: 0.148415 | x: 0.664675 | z: 0.799901 | cmd_id: 0 | time: 1454931554.1
+
+48.966955 - Starting cycle 42
+
+48.967127 - ****** Starting Perceive Phase ******
+
+48.967614 - I hot data here
+
+48.975472 - World observed: 224 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+49.086368 - ****** Starting Interpret Phase ******
+
+49.204169 - ****** Starting Eval Phase ******
+
+49.314192 - ****** Starting Intend Phase ******
+
+49.315094 - Selecting goal(s): holding the red block
+
+49.434170 - ****** Starting Plan Phase ******
+
+49.435081 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+49.544009 - ****** Starting Act Phase ******
+
+49.544535 - Action ('reach_to_pickup', 'red block') not complete.
+
+49.655972 - Starting cycle 43
+
+49.656266 - ****** Starting Perceive Phase ******
+
+49.656744 - I hot data here
+
+49.657127 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+49.771079 - ****** Starting Interpret Phase ******
+
+49.881339 - ****** Starting Eval Phase ******
+
+49.991020 - ****** Starting Intend Phase ******
+
+49.991540 - Selecting goal(s): holding the red block
+
+50.099694 - ****** Starting Plan Phase ******
+
+50.100225 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+50.211817 - ****** Starting Act Phase ******
+
+50.212465 - Action ('reach_to_pickup', 'red block') not complete.
+
+50.326401 - Starting cycle 44
+
+50.327337 - ****** Starting Perceive Phase ******
+
+50.327750 - I hot data here
+
+50.328183 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+50.441045 - ****** Starting Interpret Phase ******
+
+50.552494 - ****** Starting Eval Phase ******
+
+50.672640 - ****** Starting Intend Phase ******
+
+50.673195 - Selecting goal(s): holding the red block
+
+50.788891 - ****** Starting Plan Phase ******
+
+50.789322 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+50.904110 - ****** Starting Act Phase ******
+
+50.904538 - Action ('reach_to_pickup', 'red block') not complete.
+
+51.017704 - Starting cycle 45
+
+51.017880 - ****** Starting Perceive Phase ******
+
+51.018132 - I hot data here
+
+51.018361 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+51.127525 - ****** Starting Interpret Phase ******
+
+51.241408 - ****** Starting Eval Phase ******
+
+51.355908 - ****** Starting Intend Phase ******
+
+51.356343 - Selecting goal(s): holding the red block
+
+51.466445 - ****** Starting Plan Phase ******
+
+51.467041 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+51.582543 - ****** Starting Act Phase ******
+
+51.583062 - Action ('reach_to_pickup', 'red block') not complete.
+
+51.695193 - Starting cycle 46
+
+51.695374 - ****** Starting Perceive Phase ******
+
+51.695861 - I hot data here
+
+51.696511 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+51.818935 - ****** Starting Interpret Phase ******
+
+51.938292 - ****** Starting Eval Phase ******
+
+52.046097 - ****** Starting Intend Phase ******
+
+52.046467 - Selecting goal(s): holding the red block
+
+52.157983 - ****** Starting Plan Phase ******
+
+52.158538 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+52.275157 - ****** Starting Act Phase ******
+
+52.275682 - Action ('reach_to_pickup', 'red block') not complete.
+
+52.390505 - Starting cycle 47
+
+52.390873 - ****** Starting Perceive Phase ******
+
+52.391456 - I hot data here
+
+52.391933 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+52.504240 - ****** Starting Interpret Phase ******
+
+52.624704 - ****** Starting Eval Phase ******
+
+52.732285 - ****** Starting Intend Phase ******
+
+52.733271 - Selecting goal(s): holding the red block
+
+52.845445 - ****** Starting Plan Phase ******
+
+52.845886 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+52.961371 - ****** Starting Act Phase ******
+
+52.962132 - Action ('reach_to_pickup', 'red block') not complete.
+
+53.076272 - Starting cycle 48
+
+53.076433 - ****** Starting Perceive Phase ******
+
+53.077012 - I hot data here
+
+53.077562 - World observed: 12 new detection event(s), 0 utterance(s) and 1 feedback msg(s)
+
+53.191582 - ****** Starting Interpret Phase ******
+
+53.311767 - ****** Starting Eval Phase ******
+
+53.423534 - ****** Starting Intend Phase ******
+
+53.423945 - Selecting goal(s): holding the red block
+
+53.540136 - ****** Starting Plan Phase ******
+
+53.540697 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+53.657585 - ****** Starting Act Phase ******
+
+53.658178 - Action ('reach_to_pickup', 'red block') complete.
+
+53.658291 - Action ('reach_to_pickup', 'red block') completed
+
+53.658764 - Action ('grab', 'red block') not complete.
+
+53.659870 - Beginning action execution for ('grab', 'red block')
+
+53.660230 - trying to send message on topic grabbing_cmd
+
+53.660590 - [INFO] [WallTime: 1454949558.911799] [173.946000] Midca sending msg: data: cmd: Grab it | cmd_id: 1 | time: 1454931558.91
+
+53.770428 - Starting cycle 49
+
+53.770775 - ****** Starting Perceive Phase ******
+
+53.771156 - I hot data here
+
+53.771441 - World observed: 12 new detection event(s), 0 utterance(s) and 1 feedback msg(s)
+
+53.894129 - ****** Starting Interpret Phase ******
+
+54.018738 - ****** Starting Eval Phase ******
+
+54.146786 - ****** Starting Intend Phase ******
+
+54.147708 - Selecting goal(s): holding the red block
+
+54.284586 - ****** Starting Plan Phase ******
+
+54.285828 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') [92m('grab', 'red block') [0m('raising', 'red block')[0m
+
+54.431425 - ****** Starting Act Phase ******
+
+54.432379 - Action ('grab', 'red block') complete.
+
+54.432479 - Action ('grab', 'red block') completed
+
+54.432697 - Action ('raising', 'red block') not complete.
+
+54.432784 - Beginning action execution for ('raising', 'red block')
+
+54.432905 - trying to send message on topic raise_cmd
+
+54.433411 - [INFO] [WallTime: 1454949559.684605] [174.541000] Midca sending msg: data: y: 0.478250384794 | x: 0.64801687664 | z: 0.289534050209 | cmd_id: 2 | time: 1454931559.68
+
+54.567758 - Starting cycle 50
+
+54.568064 - ****** Starting Perceive Phase ******
+
+54.571146 - I hot data here
+
+54.571764 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+54.708769 - ****** Starting Interpret Phase ******
+
+54.847993 - ****** Starting Eval Phase ******
+
+54.993424 - ****** Starting Intend Phase ******
+
+54.994303 - Selecting goal(s): holding the red block
+
+55.135931 - ****** Starting Plan Phase ******
+
+55.136790 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+55.284801 - ****** Starting Act Phase ******
+
+55.285709 - Action ('raising', 'red block') not complete.
+
+55.417497 - Starting cycle 51
+
+55.417939 - ****** Starting Perceive Phase ******
+
+55.418515 - I hot data here
+
+55.418951 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+55.553744 - ****** Starting Interpret Phase ******
+
+55.684562 - ****** Starting Eval Phase ******
+
+55.833128 - ****** Starting Intend Phase ******
+
+55.833930 - Selecting goal(s): holding the red block
+
+55.988419 - ****** Starting Plan Phase ******
+
+55.989583 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+56.124612 - ****** Starting Act Phase ******
+
+56.125439 - Action ('raising', 'red block') not complete.
+
+56.279625 - Starting cycle 52
+
+56.279964 - ****** Starting Perceive Phase ******
+
+56.280762 - I hot data here
+
+56.281401 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+56.427757 - ****** Starting Interpret Phase ******
+
+56.566205 - ****** Starting Eval Phase ******
+
+56.712942 - ****** Starting Intend Phase ******
+
+56.714332 - Selecting goal(s): holding the red block
+
+56.857051 - ****** Starting Plan Phase ******
+
+56.858165 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+56.997120 - ****** Starting Act Phase ******
+
+56.997968 - Action ('raising', 'red block') not complete.
+
+57.135266 - Starting cycle 53
+
+57.135579 - ****** Starting Perceive Phase ******
+
+57.136304 - I hot data here
+
+57.136918 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+57.272873 - ****** Starting Interpret Phase ******
+
+57.424321 - ****** Starting Eval Phase ******
+
+57.572413 - ****** Starting Intend Phase ******
+
+57.573131 - Selecting goal(s): holding the red block
+
+57.716623 - ****** Starting Plan Phase ******
+
+57.717387 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+57.863363 - ****** Starting Act Phase ******
+
+57.864323 - Action ('raising', 'red block') not complete.
+
+58.003945 - Starting cycle 54
+
+58.004234 - ****** Starting Perceive Phase ******
+
+58.004988 - I hot data here
+
+58.005339 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+58.129072 - ****** Starting Interpret Phase ******
+
+58.257132 - ****** Starting Eval Phase ******
+
+58.387007 - ****** Starting Intend Phase ******
+
+58.387653 - Selecting goal(s): holding the red block
+
+58.529815 - ****** Starting Plan Phase ******
+
+58.530703 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+58.652567 - ****** Starting Act Phase ******
+
+58.653558 - Action ('raising', 'red block') not complete.
+
+58.780198 - Starting cycle 55
+
+58.780531 - ****** Starting Perceive Phase ******
+
+58.781233 - I hot data here
+
+58.781684 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+58.911315 - ****** Starting Interpret Phase ******
+
+59.048513 - ****** Starting Eval Phase ******
+
+59.186690 - ****** Starting Intend Phase ******
+
+59.187242 - Selecting goal(s): holding the red block
+
+59.325710 - ****** Starting Plan Phase ******
+
+59.326416 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+59.461618 - ****** Starting Act Phase ******
+
+59.462341 - Action ('raising', 'red block') not complete.
+
+59.589728 - Starting cycle 56
+
+59.589960 - ****** Starting Perceive Phase ******
+
+59.590482 - I hot data here
+
+59.590942 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+59.714589 - ****** Starting Interpret Phase ******
+
+59.847950 - ****** Starting Eval Phase ******
+
+59.972717 - ****** Starting Intend Phase ******
+
+59.973225 - Selecting goal(s): holding the red block
+
+1:00.091297 - ****** Starting Plan Phase ******
+
+1:00.094113 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+1:00.217175 - ****** Starting Act Phase ******
+
+1:00.217904 - Action ('raising', 'red block') not complete.
+
+1:00.338091 - Starting cycle 57
+
+1:00.338376 - ****** Starting Perceive Phase ******
+
+1:00.339051 - I hot data here
+
+1:00.339688 - World observed: 12 new detection event(s), 0 utterance(s) and 1 feedback msg(s)
+
+1:00.461117 - ****** Starting Interpret Phase ******
+
+1:00.590462 - ****** Starting Eval Phase ******
+
+1:00.726348 - ****** Starting Intend Phase ******
+
+1:00.726885 - Selecting goal(s): holding the red block
+
+1:00.851052 - ****** Starting Plan Phase ******
+
+1:00.851921 - Old plan found that tests as valid: ('reach_to_pickup', 'red block') ('grab', 'red block') [92m('raising', 'red block')[0m
+
+1:01.007940 - ****** Starting Act Phase ******
+
+1:01.009514 - Action ('raising', 'red block') complete.
+
+1:01.009615 - Action ('raising', 'red block') completed
+
+1:01.118502 - Starting cycle 58
+
+1:01.118953 - ****** Starting Perceive Phase ******
+
+1:01.119521 - I hot data here
+
+1:01.120220 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:01.255965 - ****** Starting Interpret Phase ******
+
+1:01.374840 - ****** Starting Eval Phase ******
+
+1:01.375658 - Plan ('reach_to_pickup', 'red block') ('grab', 'red block') ('raising', 'red block')[0m finished. Removing it and associated goals
+
+1:01.502418 - ****** Starting Intend Phase ******
+
+1:01.503455 - No goals selected.
+
+1:01.633299 - ****** Starting Plan Phase ******
+
+1:01.633846 - No goals received by planner. Skipping planning.
+
+1:01.750780 - ****** Starting Act Phase ******
+
+1:01.751293 - No Active goals. Act phase will do nothing
+
+1:01.878812 - Starting cycle 59
+
+1:01.879103 - ****** Starting Perceive Phase ******
+
+1:01.879742 - I hot data here
+
+1:01.881734 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:01.998604 - ****** Starting Interpret Phase ******
+
+1:02.127038 - ****** Starting Eval Phase ******
+
+1:02.127486 - No current goals. Skipping eval
+
+1:02.247739 - ****** Starting Intend Phase ******
+
+1:02.248346 - No goals selected.
+
+1:02.372179 - ****** Starting Plan Phase ******
+
+1:02.372919 - No goals received by planner. Skipping planning.
+
+1:02.492506 - ****** Starting Act Phase ******
+
+1:02.492974 - No Active goals. Act phase will do nothing
+
+1:02.610963 - Starting cycle 60
+
+1:02.611204 - ****** Starting Perceive Phase ******
+
+1:02.611566 - I hot data here
+
+1:02.611902 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:02.740675 - ****** Starting Interpret Phase ******
+
+1:02.869910 - ****** Starting Eval Phase ******
+
+1:02.870257 - No current goals. Skipping eval
+
+1:02.990650 - ****** Starting Intend Phase ******
+
+1:02.991453 - No goals selected.
+
+1:03.113248 - ****** Starting Plan Phase ******
+
+1:03.113902 - No goals received by planner. Skipping planning.
+
+1:03.235495 - ****** Starting Act Phase ******
+
+1:03.236096 - No Active goals. Act phase will do nothing
+
+1:03.359705 - Starting cycle 61
+
+1:03.360016 - ****** Starting Perceive Phase ******
+
+1:03.360477 - I hot data here
+
+1:03.361005 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:03.489419 - ****** Starting Interpret Phase ******
+
+1:03.623136 - ****** Starting Eval Phase ******
+
+1:03.623653 - No current goals. Skipping eval
+
+1:03.742273 - ****** Starting Intend Phase ******
+
+1:03.743134 - No goals selected.
+
+1:03.861453 - ****** Starting Plan Phase ******
+
+1:03.861994 - No goals received by planner. Skipping planning.
+
+1:03.987844 - ****** Starting Act Phase ******
+
+1:03.988418 - No Active goals. Act phase will do nothing
+
+1:04.107494 - Starting cycle 62
+
+1:04.107696 - ****** Starting Perceive Phase ******
+
+1:04.108264 - I hot data here
+
+1:04.108608 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:04.237741 - ****** Starting Interpret Phase ******
+
+1:04.357861 - ****** Starting Eval Phase ******
+
+1:04.358691 - No current goals. Skipping eval
+
+1:04.478376 - ****** Starting Intend Phase ******
+
+1:04.479004 - No goals selected.
+
+1:04.601452 - ****** Starting Plan Phase ******
+
+1:04.602150 - No goals received by planner. Skipping planning.
+
+1:04.725467 - ****** Starting Act Phase ******
+
+1:04.725923 - No Active goals. Act phase will do nothing
+
+1:04.857073 - Starting cycle 63
+
+1:04.857451 - ****** Starting Perceive Phase ******
+
+1:04.858014 - I hot data here
+
+1:04.858414 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:04.987834 - ****** Starting Interpret Phase ******
+
+1:05.107209 - ****** Starting Eval Phase ******
+
+1:05.107628 - No current goals. Skipping eval
+
+1:05.247781 - ****** Starting Intend Phase ******
+
+1:05.249828 - No goals selected.
+
+1:05.378965 - ****** Starting Plan Phase ******
+
+1:05.379446 - No goals received by planner. Skipping planning.
+
+1:05.510155 - ****** Starting Act Phase ******
+
+1:05.510761 - No Active goals. Act phase will do nothing
+
+1:05.632995 - Starting cycle 64
+
+1:05.633396 - ****** Starting Perceive Phase ******
+
+1:05.633813 - I hot data here
+
+1:05.634163 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:05.757884 - ****** Starting Interpret Phase ******
+
+1:05.882742 - ****** Starting Eval Phase ******
+
+1:05.883143 - No current goals. Skipping eval
+
+1:05.993534 - ****** Starting Intend Phase ******
+
+1:05.993990 - No goals selected.
+
+1:06.102591 - ****** Starting Plan Phase ******
+
+1:06.103041 - No goals received by planner. Skipping planning.
+
+1:06.218627 - ****** Starting Act Phase ******
+
+1:06.218900 - No Active goals. Act phase will do nothing
+
+1:06.327014 - Starting cycle 65
+
+1:06.327273 - ****** Starting Perceive Phase ******
+
+1:06.327825 - I hot data here
+
+1:06.328224 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:06.442740 - ****** Starting Interpret Phase ******
+
+1:06.557036 - ****** Starting Eval Phase ******
+
+1:06.557352 - No current goals. Skipping eval
+
+1:06.667708 - ****** Starting Intend Phase ******
+
+1:06.668162 - No goals selected.
+
+1:06.782388 - ****** Starting Plan Phase ******
+
+1:06.782761 - No goals received by planner. Skipping planning.
+
+1:06.893483 - ****** Starting Act Phase ******
+
+1:06.893849 - No Active goals. Act phase will do nothing
+
+1:07.008978 - Starting cycle 66
+
+1:07.009151 - ****** Starting Perceive Phase ******
+
+1:07.009630 - I hot data here
+
+1:07.010046 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:07.122976 - ****** Starting Interpret Phase ******
+
+1:07.238912 - ****** Starting Eval Phase ******
+
+1:07.239353 - No current goals. Skipping eval
+
+1:07.353712 - ****** Starting Intend Phase ******
+
+1:07.354300 - No goals selected.
+
+1:07.462050 - ****** Starting Plan Phase ******
+
+1:07.462498 - No goals received by planner. Skipping planning.
+
+1:07.569777 - ****** Starting Act Phase ******
+
+1:07.570140 - No Active goals. Act phase will do nothing
+
+1:07.683460 - Starting cycle 67
+
+1:07.683708 - ****** Starting Perceive Phase ******
+
+1:07.684160 - I hot data here
+
+1:07.684580 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:07.800657 - ****** Starting Interpret Phase ******
+
+1:07.912528 - ****** Starting Eval Phase ******
+
+1:07.913419 - No current goals. Skipping eval
+
+1:08.029061 - ****** Starting Intend Phase ******
+
+1:08.029414 - No goals selected.
+
+1:08.146574 - ****** Starting Plan Phase ******
+
+1:08.146966 - No goals received by planner. Skipping planning.
+
+1:08.255822 - ****** Starting Act Phase ******
+
+1:08.256222 - No Active goals. Act phase will do nothing
+
+1:08.370293 - Starting cycle 68
+
+1:08.370959 - ****** Starting Perceive Phase ******
+
+1:08.371871 - I hot data here
+
+1:08.372231 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:08.479031 - ****** Starting Interpret Phase ******
+
+1:08.594980 - ****** Starting Eval Phase ******
+
+1:08.595347 - No current goals. Skipping eval
+
+1:08.701191 - ****** Starting Intend Phase ******
+
+1:08.702212 - No goals selected.
+
+1:08.821530 - ****** Starting Plan Phase ******
+
+1:08.822130 - No goals received by planner. Skipping planning.
+
+1:08.933512 - ****** Starting Act Phase ******
+
+1:08.934143 - No Active goals. Act phase will do nothing
+
+1:09.049847 - Starting cycle 69
+
+1:09.050031 - ****** Starting Perceive Phase ******
+
+1:09.050309 - I hot data here
+
+1:09.050548 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:09.165457 - ****** Starting Interpret Phase ******
+
+1:09.279419 - ****** Starting Eval Phase ******
+
+1:09.279752 - No current goals. Skipping eval
+
+1:09.394775 - ****** Starting Intend Phase ******
+
+1:09.395111 - No goals selected.
+
+1:09.508207 - ****** Starting Plan Phase ******
+
+1:09.508544 - No goals received by planner. Skipping planning.
+
+1:09.619961 - ****** Starting Act Phase ******
+
+1:09.620262 - No Active goals. Act phase will do nothing
+
+1:09.737701 - Starting cycle 70
+
+1:09.737913 - ****** Starting Perceive Phase ******
+
+1:09.738262 - I hot data here
+
+1:09.738535 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:09.854701 - ****** Starting Interpret Phase ******
+
+1:09.964539 - ****** Starting Eval Phase ******
+
+1:09.964844 - No current goals. Skipping eval
+
+1:10.079567 - ****** Starting Intend Phase ******
+
+1:10.080231 - No goals selected.
+
+1:10.187291 - ****** Starting Plan Phase ******
+
+1:10.187773 - No goals received by planner. Skipping planning.
+
+1:10.302900 - ****** Starting Act Phase ******
+
+1:10.303403 - No Active goals. Act phase will do nothing
+
+1:10.411258 - Starting cycle 71
+
+1:10.411495 - ****** Starting Perceive Phase ******
+
+1:10.412064 - I hot data here
+
+1:10.412813 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:10.527661 - ****** Starting Interpret Phase ******
+
+1:10.637797 - ****** Starting Eval Phase ******
+
+1:10.638861 - No current goals. Skipping eval
+
+1:10.758745 - ****** Starting Intend Phase ******
+
+1:10.759339 - No goals selected.
+
+1:10.870105 - ****** Starting Plan Phase ******
+
+1:10.870717 - No goals received by planner. Skipping planning.
+
+1:10.977393 - ****** Starting Act Phase ******
+
+1:10.977708 - No Active goals. Act phase will do nothing
+
+1:11.087169 - Starting cycle 72
+
+1:11.087443 - ****** Starting Perceive Phase ******
+
+1:11.088075 - I hot data here
+
+1:11.088931 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:11.207138 - ****** Starting Interpret Phase ******
+
+1:11.327957 - ****** Starting Eval Phase ******
+
+1:11.328316 - No current goals. Skipping eval
+
+1:11.444261 - ****** Starting Intend Phase ******
+
+1:11.444891 - No goals selected.
+
+1:11.553732 - ****** Starting Plan Phase ******
+
+1:11.554316 - No goals received by planner. Skipping planning.
+
+1:11.666483 - ****** Starting Act Phase ******
+
+1:11.667726 - No Active goals. Act phase will do nothing
+
+1:11.775548 - Starting cycle 73
+
+1:11.775756 - ****** Starting Perceive Phase ******
+
+1:11.776224 - I hot data here
+
+1:11.776567 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:11.890788 - ****** Starting Interpret Phase ******
+
+1:12.008739 - ****** Starting Eval Phase ******
+
+1:12.009048 - No current goals. Skipping eval
+
+1:12.122333 - ****** Starting Intend Phase ******
+
+1:12.122964 - No goals selected.
+
+1:12.243219 - ****** Starting Plan Phase ******
+
+1:12.244076 - No goals received by planner. Skipping planning.
+
+1:12.360199 - ****** Starting Act Phase ******
+
+1:12.361316 - No Active goals. Act phase will do nothing
+
+1:12.472931 - Starting cycle 74
+
+1:12.473263 - ****** Starting Perceive Phase ******
+
+1:12.473798 - I hot data here
+
+1:12.474157 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:12.585573 - ****** Starting Interpret Phase ******
+
+1:12.698113 - ****** Starting Eval Phase ******
+
+1:12.698490 - No current goals. Skipping eval
+
+1:12.809879 - ****** Starting Intend Phase ******
+
+1:12.811777 - No goals selected.
+
+1:12.922996 - ****** Starting Plan Phase ******
+
+1:12.923637 - No goals received by planner. Skipping planning.
+
+1:13.038880 - ****** Starting Act Phase ******
+
+1:13.039267 - No Active goals. Act phase will do nothing
+
+1:13.155297 - Starting cycle 75
+
+1:13.155534 - ****** Starting Perceive Phase ******
+
+1:13.155965 - I hot data here
+
+1:13.156347 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:13.266315 - ****** Starting Interpret Phase ******
+
+1:13.376835 - ****** Starting Eval Phase ******
+
+1:13.377279 - No current goals. Skipping eval
+
+1:13.486945 - ****** Starting Intend Phase ******
+
+1:13.487547 - No goals selected.
+
+1:13.598213 - ****** Starting Plan Phase ******
+
+1:13.598911 - No goals received by planner. Skipping planning.
+
+1:13.722572 - ****** Starting Act Phase ******
+
+1:13.723046 - No Active goals. Act phase will do nothing
+
+1:13.835746 - Starting cycle 76
+
+1:13.836179 - ****** Starting Perceive Phase ******
+
+1:13.836803 - I hot data here
+
+1:13.837301 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:13.965400 - ****** Starting Interpret Phase ******
+
+1:14.099349 - ****** Starting Eval Phase ******
+
+1:14.099940 - No current goals. Skipping eval
+
+1:14.226334 - ****** Starting Intend Phase ******
+
+1:14.227218 - No goals selected.
+
+1:14.363228 - ****** Starting Plan Phase ******
+
+1:14.364009 - No goals received by planner. Skipping planning.
+
+1:14.493566 - ****** Starting Act Phase ******
+
+1:14.494255 - No Active goals. Act phase will do nothing
+
+1:14.635464 - Starting cycle 77
+
+1:14.635929 - ****** Starting Perceive Phase ******
+
+1:14.636835 - I hot data here
+
+1:14.637371 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:14.770684 - ****** Starting Interpret Phase ******
+
+1:14.912786 - ****** Starting Eval Phase ******
+
+1:14.913317 - No current goals. Skipping eval
+
+1:15.039935 - ****** Starting Intend Phase ******
+
+1:15.040795 - No goals selected.
+
+1:15.180435 - ****** Starting Plan Phase ******
+
+1:15.181647 - No goals received by planner. Skipping planning.
+
+1:15.301722 - ****** Starting Act Phase ******
+
+1:15.302490 - No Active goals. Act phase will do nothing
+
+1:15.449881 - Starting cycle 78
+
+1:15.450245 - ****** Starting Perceive Phase ******
+
+1:15.452877 - I hot data here
+
+1:15.453975 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:15.578874 - ****** Starting Interpret Phase ******
+
+1:15.710681 - ****** Starting Eval Phase ******
+
+1:15.711514 - No current goals. Skipping eval
+
+1:15.865506 - ****** Starting Intend Phase ******
+
+1:15.866640 - No goals selected.
+
+1:16.012520 - ****** Starting Plan Phase ******
+
+1:16.013328 - No goals received by planner. Skipping planning.
+
+1:16.152177 - ****** Starting Act Phase ******
+
+1:16.152868 - No Active goals. Act phase will do nothing
+
+1:16.281015 - Starting cycle 79
+
+1:16.281486 - ****** Starting Perceive Phase ******
+
+1:16.282186 - I hot data here
+
+1:16.282846 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:16.405221 - ****** Starting Interpret Phase ******
+
+1:16.539042 - ****** Starting Eval Phase ******
+
+1:16.539477 - No current goals. Skipping eval
+
+1:16.672651 - ****** Starting Intend Phase ******
+
+1:16.673400 - No goals selected.
+
+1:16.821863 - ****** Starting Plan Phase ******
+
+1:16.822612 - No goals received by planner. Skipping planning.
+
+1:16.956349 - ****** Starting Act Phase ******
+
+1:16.957013 - No Active goals. Act phase will do nothing
+
+1:17.089232 - Starting cycle 80
+
+1:17.089720 - ****** Starting Perceive Phase ******
+
+1:17.090412 - I hot data here
+
+1:17.091059 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:17.232897 - ****** Starting Interpret Phase ******
+
+1:17.380039 - ****** Starting Eval Phase ******
+
+1:17.380900 - No current goals. Skipping eval
+

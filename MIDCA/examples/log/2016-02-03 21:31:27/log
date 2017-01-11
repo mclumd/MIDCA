@@ -1,0 +1,444 @@
+1.915423 - Enter ...Initializing Perceive module 1...
+
+1.915734 - Memory access at key __current state
+1.915878 - done.
+
+1.916016 - Initializing Interpret module 1...
+
+1.916396 - done.
+
+1.916556 - Initializing Eval module 1...
+
+1.916713 - done.
+
+1.917317 - Initializing Intend module 1...
+
+1.917463 - done.
+
+1.917609 - Initializing Plan module 1...
+
+1.917759 - done.
+
+1.918195 - Initializing Act module 1...
+
+1.918350 - done.
+
+1.918504 - Memory access at key __goals
+1.918645 - Goal Graph initialized.
+
+1.918800 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
+1.918971 - Starting cycle 0
+
+1.919167 - ****** Starting Perceive Phase ******
+
+1.919338 - Running module <MIDCA.modules.perceive.ROSObserver
+1.919475 - Memory access at key __current state
+1.919851 - no blocks
+
+1.920021 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.047520 - ****** Starting Interpret Phase ******
+
+2.047814 - Running module <MIDCA.modules.guide.InstructionReceiver
+2.047919 - Memory access at key __current state
+2.176633 - ****** Starting Eval Phase ******
+
+2.176902 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+2.177015 - No current goals. Skipping eval
+
+2.301602 - ****** Starting Intend Phase ******
+
+2.301935 - Running module <MIDCA.modules.intend.SimpleIntend
+2.302064 - Memory access at key __goals
+2.302308 - Memory access at key __current goals
+2.302476 - No goals selected.
+
+2.432002 - ****** Starting Plan Phase ******
+
+2.432264 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+2.432399 - Memory access at key __current state
+2.432550 - Memory access at key __current goals
+2.432840 - No goals received by planner. Skipping planning.
+
+2.562798 - ****** Starting Act Phase ******
+
+2.563082 - Running module <MIDCA.modules.act.AsynchronousAct
+2.563208 - Memory access at key __current goals
+2.563360 - No Active goals. Act phase will do nothing
+
+2.694563 - Starting cycle 1
+
+2.694890 - ****** Starting Perceive Phase ******
+
+2.695036 - Running module <MIDCA.modules.perceive.ROSObserver
+2.695157 - Memory access at key __current state
+2.695291 - no blocks
+
+2.695597 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.827422 - ****** Starting Interpret Phase ******
+
+2.827799 - Running module <MIDCA.modules.guide.InstructionReceiver
+2.827971 - Memory access at key __current state
+2.953753 - ****** Starting Eval Phase ******
+
+2.954117 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+2.954254 - Memory access at key __current goals
+2.954405 - No current goals. Skipping eval
+
+3.084576 - ****** Starting Intend Phase ******
+
+3.084860 - Running module <MIDCA.modules.intend.SimpleIntend
+3.084970 - Memory access at key __goals
+3.085086 - Memory access at key __current goals
+3.085439 - No goals selected.
+
+3.211023 - ****** Starting Plan Phase ******
+
+3.211308 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+3.211437 - Memory access at key __current state
+3.211572 - Memory access at key __current goals
+3.211716 - No goals received by planner. Skipping planning.
+
+3.342768 - ****** Starting Act Phase ******
+
+3.343090 - Running module <MIDCA.modules.act.AsynchronousAct
+3.343179 - Memory access at key __current goals
+3.343293 - No Active goals. Act phase will do nothing
+
+3.470853 - Starting cycle 2
+
+3.471126 - ****** Starting Perceive Phase ******
+
+3.471302 - Running module <MIDCA.modules.perceive.ROSObserver
+3.471422 - Memory access at key __current state
+3.471573 - no blocks
+
+3.471788 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+3.604129 - ****** Starting Interpret Phase ******
+
+3.604356 - Running module <MIDCA.modules.guide.InstructionReceiver
+3.604471 - Memory access at key __current state
+3.743415 - ****** Starting Eval Phase ******
+
+3.743720 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+3.743804 - Memory access at key __current goals
+3.743894 - No current goals. Skipping eval
+
+3.873166 - ****** Starting Intend Phase ******
+
+3.873493 - Running module <MIDCA.modules.intend.SimpleIntend
+3.873634 - Memory access at key __goals
+3.873768 - Memory access at key __current goals
+3.873872 - No goals selected.
+
+3.997980 - ****** Starting Plan Phase ******
+
+3.998402 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+3.998537 - Memory access at key __current state
+3.998698 - Memory access at key __current goals
+3.998852 - No goals received by planner. Skipping planning.
+
+4.137156 - ****** Starting Act Phase ******
+
+4.137462 - Running module <MIDCA.modules.act.AsynchronousAct
+4.137589 - Memory access at key __current goals
+4.137753 - No Active goals. Act phase will do nothing
+
+4.268690 - Starting cycle 3
+
+4.269025 - ****** Starting Perceive Phase ******
+
+4.269231 - Running module <MIDCA.modules.perceive.ROSObserver
+4.269376 - Memory access at key __current state
+4.269530 - no blocks
+
+4.269777 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+4.397931 - ****** Starting Interpret Phase ******
+
+4.398174 - Running module <MIDCA.modules.guide.InstructionReceiver
+4.398254 - Memory access at key __current state
+4.514629 - ****** Starting Eval Phase ******
+
+4.514991 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+4.515132 - Memory access at key __current goals
+4.515312 - No current goals. Skipping eval
+
+4.638210 - ****** Starting Intend Phase ******
+
+4.638490 - Running module <MIDCA.modules.intend.SimpleIntend
+4.638580 - Memory access at key __goals
+4.638770 - Memory access at key __current goals
+4.639038 - No goals selected.
+
+4.767927 - ****** Starting Plan Phase ******
+
+4.768223 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+4.768359 - Memory access at key __current state
+4.768502 - Memory access at key __current goals
+4.768645 - No goals received by planner. Skipping planning.
+
+4.893982 - ****** Starting Act Phase ******
+
+4.894202 - Running module <MIDCA.modules.act.AsynchronousAct
+4.894280 - Memory access at key __current goals
+4.894385 - No Active goals. Act phase will do nothing
+
+5.021302 - Starting cycle 4
+
+5.021554 - ****** Starting Perceive Phase ******
+
+5.021681 - Running module <MIDCA.modules.perceive.ROSObserver
+5.021789 - Memory access at key __current state
+5.021909 - no blocks
+
+5.022026 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+5.148746 - ****** Starting Interpret Phase ******
+
+5.148976 - Running module <MIDCA.modules.guide.InstructionReceiver
+5.149068 - Memory access at key __current state
+5.270742 - ****** Starting Eval Phase ******
+
+5.271066 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+5.271197 - Memory access at key __current goals
+5.271362 - No current goals. Skipping eval
+
+5.390434 - ****** Starting Intend Phase ******
+
+5.390801 - Running module <MIDCA.modules.intend.SimpleIntend
+5.390919 - Memory access at key __goals
+5.391062 - Memory access at key __current goals
+5.391216 - No goals selected.
+
+5.509237 - ****** Starting Plan Phase ******
+
+5.509562 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+5.509714 - Memory access at key __current state
+5.509880 - Memory access at key __current goals
+5.510045 - No goals received by planner. Skipping planning.
+
+5.626213 - ****** Starting Act Phase ******
+
+5.626534 - Running module <MIDCA.modules.act.AsynchronousAct
+5.626845 - Memory access at key __current goals
+5.627022 - No Active goals. Act phase will do nothing
+
+5.753337 - Starting cycle 5
+
+5.753657 - ****** Starting Perceive Phase ******
+
+5.753844 - Running module <MIDCA.modules.perceive.ROSObserver
+5.753986 - Memory access at key __current state
+5.754146 - no blocks
+
+5.754371 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+5.874172 - ****** Starting Interpret Phase ******
+
+5.874487 - Running module <MIDCA.modules.guide.InstructionReceiver
+5.874619 - Memory access at key __current state
+5.994980 - ****** Starting Eval Phase ******
+
+5.995195 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+5.995275 - Memory access at key __current goals
+5.995372 - No current goals. Skipping eval
+
+6.157058 - ****** Starting Intend Phase ******
+
+6.157370 - Running module <MIDCA.modules.intend.SimpleIntend
+6.157494 - Memory access at key __goals
+6.157637 - Memory access at key __current goals
+6.157780 - No goals selected.
+
+6.342053 - ****** Starting Plan Phase ******
+
+6.342317 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+6.342479 - Memory access at key __current state
+6.342603 - Memory access at key __current goals
+6.342772 - No goals received by planner. Skipping planning.
+
+6.500947 - ****** Starting Act Phase ******
+
+6.501276 - Running module <MIDCA.modules.act.AsynchronousAct
+6.501396 - Memory access at key __current goals
+6.501559 - No Active goals. Act phase will do nothing
+
+6.650673 - Starting cycle 6
+
+6.650990 - ****** Starting Perceive Phase ******
+
+6.651172 - Running module <MIDCA.modules.perceive.ROSObserver
+6.651297 - Memory access at key __current state
+6.651452 - no blocks
+
+6.651702 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+6.783924 - ****** Starting Interpret Phase ******
+
+6.784175 - Running module <MIDCA.modules.guide.InstructionReceiver
+6.784291 - Memory access at key __current state
+6.911938 - ****** Starting Eval Phase ******
+
+6.912228 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+6.912357 - Memory access at key __current goals
+6.912517 - No current goals. Skipping eval
+
+7.043402 - ****** Starting Intend Phase ******
+
+7.043703 - Running module <MIDCA.modules.intend.SimpleIntend
+7.043844 - Memory access at key __goals
+7.044001 - Memory access at key __current goals
+7.044146 - No goals selected.
+
+7.176144 - ****** Starting Plan Phase ******
+
+7.176443 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+7.176586 - Memory access at key __current state
+7.176735 - Memory access at key __current goals
+7.176896 - No goals received by planner. Skipping planning.
+
+7.305541 - ****** Starting Act Phase ******
+
+7.305962 - Running module <MIDCA.modules.act.AsynchronousAct
+7.306085 - Memory access at key __current goals
+7.306193 - No Active goals. Act phase will do nothing
+
+7.427458 - Starting cycle 7
+
+7.427901 - ****** Starting Perceive Phase ******
+
+7.428087 - Running module <MIDCA.modules.perceive.ROSObserver
+7.428207 - Memory access at key __current state
+7.428353 - no blocks
+
+7.428556 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+7.559115 - ****** Starting Interpret Phase ******
+
+7.559401 - Running module <MIDCA.modules.guide.InstructionReceiver
+7.559521 - Memory access at key __current state
+7.679783 - ****** Starting Eval Phase ******
+
+7.680080 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+7.680204 - Memory access at key __current goals
+7.680350 - No current goals. Skipping eval
+
+7.802318 - ****** Starting Intend Phase ******
+
+7.802549 - Running module <MIDCA.modules.intend.SimpleIntend
+7.802634 - Memory access at key __goals
+7.802794 - Memory access at key __current goals
+7.803064 - No goals selected.
+
+7.928473 - ****** Starting Plan Phase ******
+
+7.928715 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+7.928798 - Memory access at key __current state
+7.928882 - Memory access at key __current goals
+7.928991 - No goals received by planner. Skipping planning.
+
+8.057747 - ****** Starting Act Phase ******
+
+8.058001 - Running module <MIDCA.modules.act.AsynchronousAct
+8.058079 - Memory access at key __current goals
+8.058174 - No Active goals. Act phase will do nothing
+
+8.190555 - Starting cycle 8
+
+8.190916 - ****** Starting Perceive Phase ******
+
+8.191101 - Running module <MIDCA.modules.perceive.ROSObserver
+8.191205 - Memory access at key __current state
+8.191323 - no blocks
+
+8.191485 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+8.323098 - ****** Starting Interpret Phase ******
+
+8.323912 - Running module <MIDCA.modules.guide.InstructionReceiver
+8.324006 - Memory access at key __current state
+8.455842 - ****** Starting Eval Phase ******
+
+8.456102 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+8.456221 - Memory access at key __current goals
+8.456351 - No current goals. Skipping eval
+
+8.564381 - storing utterance: data: stack green block on red block
+
+8.565332 - Memory access at key __words heard queue
+8.586723 - ****** Starting Intend Phase ******
+
+8.587012 - Running module <MIDCA.modules.intend.SimpleIntend
+8.587129 - Memory access at key __goals
+8.587284 - Memory access at key __current goals
+8.587437 - No goals selected.
+
+8.710647 - ****** Starting Plan Phase ******
+
+8.710975 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+8.711091 - Memory access at key __current state
+8.711215 - Memory access at key __current goals
+8.711348 - No goals received by planner. Skipping planning.
+
+8.840153 - ****** Starting Act Phase ******
+
+8.840436 - Running module <MIDCA.modules.act.AsynchronousAct
+8.840526 - Memory access at key __current goals
+8.840653 - No Active goals. Act phase will do nothing
+
+8.968392 - Starting cycle 9
+
+8.968803 - ****** Starting Perceive Phase ******
+
+8.968975 - Running module <MIDCA.modules.perceive.ROSObserver
+8.969078 - Memory access at key __words heard queue
+8.969192 - Memory access at key __current state
+8.969330 - no blocks
+
+8.969548 - World observed: 0 new detection event(s), 1 utterance(s) and 0 feedback msg(s)
+
+9.097748 - ****** Starting Interpret Phase ******
+
+9.098049 - Running module <MIDCA.modules.guide.InstructionReceiver
+9.098177 - Memory access at key __current state
+9.098352 - received utterance: stack green block on red block
+
+9.098666 - Memory access at key __goals
+9.098941 - adding goal: Goal(objective: holding, indirectObject: observer, pos: green block:red block, directObject: green block, subject: self)
+
+9.224373 - ****** Starting Eval Phase ******
+
+9.225076 - Running module <MIDCA.modules.evaluate.EvalPointingFromFeedback
+9.225215 - Memory access at key __current goals
+9.225363 - No current goals. Skipping eval
+
+9.358055 - ****** Starting Intend Phase ******
+
+9.359028 - Running module <MIDCA.modules.intend.SimpleIntend
+9.359327 - Memory access at key __goals
+9.359650 - Memory access at key __current goals
+9.359994 - Selecting goal(s): holding the green block
+
+9.487520 - ****** Starting Plan Phase ******
+
+9.488142 - Running module <MIDCA.modules.planning.AsynchPyhopPlanner
+9.488357 - Memory access at key __current state
+9.488507 - Memory access at key __current goals
+9.488627 - Memory access at key __goals
+9.488721 - Planning...
+
+9.488830 - call seek_plan
+
+42:33.433377 - Enter ...Error in planning: Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/planning.py", line 70, in get_new_plan
+    plan = pyhop.pyhop(state, [("achieve_goals", goals)], verbose = 0)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 235, in pyhop
+    result = seek_plan(state,tasks,[],0,verbose)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 242, in seek_plan
+    raw_input('Enter ...')
+EOFError: EOF when reading a line
+

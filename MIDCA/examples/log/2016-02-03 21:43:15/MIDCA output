@@ -1,0 +1,108 @@
+.274902 - green block
+
+.278854 - red block
+
+.422022 - Enter ...green block
+
+.422556 - red block
+
+.556492 - green block
+
+.557519 - red block
+
+.689969 - green block
+
+.690937 - red block
+
+.822560 - green block
+
+.823319 - red block
+
+.946851 - green block
+
+.947905 - red block
+
+1.074209 - green block
+
+1.075142 - red block
+
+1.203143 - green block
+
+1.204474 - red block
+
+1.341599 - green block
+
+1.342508 - red block
+
+1.474669 - green block
+
+1.475809 - red block
+
+1.601026 - green block
+
+1.602026 - red block
+
+1.727093 - green block
+
+1.727875 - red block
+
+1.865176 - green block
+
+1.866176 - red block
+
+1.991281 - green block
+
+1.992106 - red block
+
+2.131163 - green block
+
+2.132107 - red block
+
+2.275203 - green block
+
+2.276107 - red block
+
+2.408361 - green block
+
+2.409129 - red block
+
+2.545610 - green block
+
+2.547056 - red block
+
+2.673487 - green block
+
+2.675902 - red block
+
+2.815666 - green block
+
+2.818553 - red block
+
+32.272778 - Initializing Perceive module 1...
+
+32.273187 - done.
+
+32.273338 - Initializing Interpret module 1...
+
+32.273483 - done.
+
+32.273576 - Initializing Eval module 1...
+
+32.273671 - done.
+
+32.273759 - Initializing Intend module 1...
+
+32.273836 - done.
+
+32.273938 - Initializing Plan module 1...
+
+32.274018 - done.
+
+32.274097 - Initializing Act module 1...
+
+32.274183 - done.
+
+32.274351 - Goal Graph initialized.
+
+32.274429 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+

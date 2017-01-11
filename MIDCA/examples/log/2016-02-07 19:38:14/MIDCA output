@@ -1,0 +1,2040 @@
+.975560 - Enter ...Initializing Perceive module 1...
+
+.976478 - done.
+
+.976765 - Initializing Interpret module 1...
+
+.977184 - done.
+
+.977504 - Initializing Eval module 1...
+
+.977814 - done.
+
+.978215 - Initializing Intend module 1...
+
+.978545 - done.
+
+.978917 - Initializing Plan module 1...
+
+.979297 - done.
+
+.979655 - Initializing Act module 1...
+
+.979935 - done.
+
+.981391 - Goal Graph initialized.
+
+.981682 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
+.982015 - Starting cycle 0
+
+.982445 - ****** Starting Perceive Phase ******
+
+.983583 - I hot data here
+
+.983892 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7f2248ecb9e0>
+
+.984661 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7f2248ecbb00>
+
+.985196 - World observed: 4 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1.198498 - ****** Starting Interpret Phase ******
+
+1.431452 - ****** Starting Eval Phase ******
+
+1.432467 - No current goals. Skipping eval
+
+1.664880 - ****** Starting Intend Phase ******
+
+1.666123 - No goals selected.
+
+1.921320 - ****** Starting Plan Phase ******
+
+1.922631 - No goals received by planner. Skipping planning.
+
+2.165746 - ****** Starting Act Phase ******
+
+2.166991 - No Active goals. Act phase will do nothing
+
+2.418259 - Starting cycle 1
+
+2.418823 - ****** Starting Perceive Phase ******
+
+2.420431 - I hot data here
+
+2.421313 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.691788 - ****** Starting Interpret Phase ******
+
+2.993014 - ****** Starting Eval Phase ******
+
+2.994401 - No current goals. Skipping eval
+
+3.358101 - ****** Starting Intend Phase ******
+
+3.360058 - No goals selected.
+
+3.621163 - ****** Starting Plan Phase ******
+
+3.622543 - No goals received by planner. Skipping planning.
+
+3.932536 - ****** Starting Act Phase ******
+
+3.933535 - No Active goals. Act phase will do nothing
+
+4.616699 - Starting cycle 2
+
+4.617574 - ****** Starting Perceive Phase ******
+
+4.618990 - I hot data here
+
+4.622845 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+4.926096 - ****** Starting Interpret Phase ******
+
+5.186181 - ****** Starting Eval Phase ******
+
+5.187270 - No current goals. Skipping eval
+
+5.457228 - ****** Starting Intend Phase ******
+
+5.459255 - No goals selected.
+
+5.732932 - ****** Starting Plan Phase ******
+
+5.734339 - No goals received by planner. Skipping planning.
+
+5.973824 - ****** Starting Act Phase ******
+
+5.975141 - No Active goals. Act phase will do nothing
+
+6.216462 - Starting cycle 3
+
+6.217061 - ****** Starting Perceive Phase ******
+
+6.218428 - I hot data here
+
+6.219723 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+6.523265 - ****** Starting Interpret Phase ******
+
+6.793906 - ****** Starting Eval Phase ******
+
+6.794944 - No current goals. Skipping eval
+
+7.024618 - ****** Starting Intend Phase ******
+
+7.026229 - No goals selected.
+
+7.285855 - ****** Starting Plan Phase ******
+
+7.287078 - No goals received by planner. Skipping planning.
+
+7.525283 - ****** Starting Act Phase ******
+
+7.526762 - No Active goals. Act phase will do nothing
+
+7.777881 - Starting cycle 4
+
+7.778453 - ****** Starting Perceive Phase ******
+
+7.779755 - I hot data here
+
+7.781091 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+8.024495 - ****** Starting Interpret Phase ******
+
+8.273347 - ****** Starting Eval Phase ******
+
+8.274186 - No current goals. Skipping eval
+
+8.506278 - ****** Starting Intend Phase ******
+
+8.507618 - No goals selected.
+
+8.775679 - ****** Starting Plan Phase ******
+
+8.777394 - No goals received by planner. Skipping planning.
+
+9.051275 - ****** Starting Act Phase ******
+
+9.053527 - No Active goals. Act phase will do nothing
+
+9.251393 - Starting cycle 5
+
+9.251932 - ****** Starting Perceive Phase ******
+
+9.253323 - I hot data here
+
+9.254510 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+9.529244 - ****** Starting Interpret Phase ******
+
+9.795124 - ****** Starting Eval Phase ******
+
+9.796563 - No current goals. Skipping eval
+
+10.038501 - ****** Starting Intend Phase ******
+
+10.039910 - No goals selected.
+
+10.261605 - ****** Starting Plan Phase ******
+
+10.263035 - No goals received by planner. Skipping planning.
+
+10.491826 - ****** Starting Act Phase ******
+
+10.493349 - No Active goals. Act phase will do nothing
+
+10.794548 - Starting cycle 6
+
+10.795137 - ****** Starting Perceive Phase ******
+
+10.796464 - I hot data here
+
+10.797670 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+11.153791 - ****** Starting Interpret Phase ******
+
+11.552851 - ****** Starting Eval Phase ******
+
+11.553867 - No current goals. Skipping eval
+
+11.784161 - ****** Starting Intend Phase ******
+
+11.785326 - No goals selected.
+
+12.000156 - ****** Starting Plan Phase ******
+
+12.002337 - No goals received by planner. Skipping planning.
+
+12.257737 - ****** Starting Act Phase ******
+
+12.258814 - No Active goals. Act phase will do nothing
+
+12.493046 - Starting cycle 7
+
+12.493882 - ****** Starting Perceive Phase ******
+
+12.495338 - I hot data here
+
+12.496821 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+12.739289 - ****** Starting Interpret Phase ******
+
+12.991471 - ****** Starting Eval Phase ******
+
+12.993192 - No current goals. Skipping eval
+
+13.227554 - ****** Starting Intend Phase ******
+
+13.229043 - No goals selected.
+
+13.469228 - ****** Starting Plan Phase ******
+
+13.470607 - No goals received by planner. Skipping planning.
+
+13.725208 - ****** Starting Act Phase ******
+
+13.726652 - No Active goals. Act phase will do nothing
+
+13.963133 - Starting cycle 8
+
+13.963711 - ****** Starting Perceive Phase ******
+
+13.965003 - I hot data here
+
+13.966221 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+14.190736 - ****** Starting Interpret Phase ******
+
+14.442343 - ****** Starting Eval Phase ******
+
+14.443390 - No current goals. Skipping eval
+
+14.671388 - ****** Starting Intend Phase ******
+
+14.675055 - No goals selected.
+
+14.897374 - ****** Starting Plan Phase ******
+
+14.899017 - No goals received by planner. Skipping planning.
+
+15.172008 - ****** Starting Act Phase ******
+
+15.173843 - No Active goals. Act phase will do nothing
+
+15.395468 - Starting cycle 9
+
+15.396097 - ****** Starting Perceive Phase ******
+
+15.397524 - I hot data here
+
+15.398319 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+15.652484 - ****** Starting Interpret Phase ******
+
+15.884875 - ****** Starting Eval Phase ******
+
+15.886094 - No current goals. Skipping eval
+
+16.159747 - ****** Starting Intend Phase ******
+
+16.161151 - No goals selected.
+
+16.386365 - ****** Starting Plan Phase ******
+
+16.388429 - No goals received by planner. Skipping planning.
+
+16.648751 - ****** Starting Act Phase ******
+
+16.649599 - No Active goals. Act phase will do nothing
+
+16.942099 - Starting cycle 10
+
+16.942671 - ****** Starting Perceive Phase ******
+
+16.944375 - I hot data here
+
+16.945784 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+17.228359 - ****** Starting Interpret Phase ******
+
+17.491069 - ****** Starting Eval Phase ******
+
+17.492634 - No current goals. Skipping eval
+
+17.730453 - ****** Starting Intend Phase ******
+
+17.731764 - No goals selected.
+
+17.966324 - ****** Starting Plan Phase ******
+
+17.967466 - No goals received by planner. Skipping planning.
+
+18.234683 - ****** Starting Act Phase ******
+
+18.235501 - No Active goals. Act phase will do nothing
+
+18.459517 - Starting cycle 11
+
+18.460011 - ****** Starting Perceive Phase ******
+
+18.461423 - I hot data here
+
+18.462708 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+18.714105 - ****** Starting Interpret Phase ******
+
+18.940671 - ****** Starting Eval Phase ******
+
+18.941680 - No current goals. Skipping eval
+
+19.194334 - ****** Starting Intend Phase ******
+
+19.196115 - No goals selected.
+
+19.432247 - ****** Starting Plan Phase ******
+
+19.433733 - No goals received by planner. Skipping planning.
+
+19.672427 - ****** Starting Act Phase ******
+
+19.673968 - No Active goals. Act phase will do nothing
+
+19.936114 - Starting cycle 12
+
+19.936697 - ****** Starting Perceive Phase ******
+
+19.938162 - I hot data here
+
+19.940774 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+20.224995 - ****** Starting Interpret Phase ******
+
+20.482233 - ****** Starting Eval Phase ******
+
+20.483262 - No current goals. Skipping eval
+
+20.708990 - ****** Starting Intend Phase ******
+
+20.710038 - No goals selected.
+
+20.961486 - ****** Starting Plan Phase ******
+
+20.962921 - No goals received by planner. Skipping planning.
+
+21.191754 - ****** Starting Act Phase ******
+
+21.192795 - No Active goals. Act phase will do nothing
+
+21.436795 - Starting cycle 13
+
+21.437397 - ****** Starting Perceive Phase ******
+
+21.438856 - I hot data here
+
+21.439720 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+21.695728 - ****** Starting Interpret Phase ******
+
+21.960770 - ****** Starting Eval Phase ******
+
+21.961929 - No current goals. Skipping eval
+
+22.190583 - ****** Starting Intend Phase ******
+
+22.191906 - No goals selected.
+
+22.424897 - ****** Starting Plan Phase ******
+
+22.427202 - No goals received by planner. Skipping planning.
+
+22.689887 - ****** Starting Act Phase ******
+
+22.692106 - No Active goals. Act phase will do nothing
+
+22.952770 - Starting cycle 14
+
+22.953358 - ****** Starting Perceive Phase ******
+
+22.954548 - I hot data here
+
+22.955483 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+23.153686 - ****** Starting Interpret Phase ******
+
+23.405156 - ****** Starting Eval Phase ******
+
+23.407017 - No current goals. Skipping eval
+
+23.693724 - ****** Starting Intend Phase ******
+
+23.694746 - No goals selected.
+
+23.914548 - ****** Starting Plan Phase ******
+
+23.915765 - No goals received by planner. Skipping planning.
+
+24.133892 - ****** Starting Act Phase ******
+
+24.134807 - No Active goals. Act phase will do nothing
+
+24.397233 - Starting cycle 15
+
+24.397849 - ****** Starting Perceive Phase ******
+
+24.399318 - I hot data here
+
+24.400219 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+24.640263 - ****** Starting Interpret Phase ******
+
+24.887141 - ****** Starting Eval Phase ******
+
+24.888175 - No current goals. Skipping eval
+
+25.126859 - ****** Starting Intend Phase ******
+
+25.128056 - No goals selected.
+
+25.329325 - ****** Starting Plan Phase ******
+
+25.330517 - No goals received by planner. Skipping planning.
+
+25.579032 - ****** Starting Act Phase ******
+
+25.580206 - No Active goals. Act phase will do nothing
+
+25.837766 - Starting cycle 16
+
+25.838321 - ****** Starting Perceive Phase ******
+
+25.839359 - I hot data here
+
+25.841866 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+26.078768 - ****** Starting Interpret Phase ******
+
+26.340700 - ****** Starting Eval Phase ******
+
+26.341820 - No current goals. Skipping eval
+
+26.552036 - ****** Starting Intend Phase ******
+
+26.553577 - No goals selected.
+
+26.795559 - ****** Starting Plan Phase ******
+
+26.802485 - No goals received by planner. Skipping planning.
+
+27.051178 - ****** Starting Act Phase ******
+
+27.052375 - No Active goals. Act phase will do nothing
+
+27.287801 - Starting cycle 17
+
+27.288696 - ****** Starting Perceive Phase ******
+
+27.290055 - I hot data here
+
+27.294551 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+27.528310 - ****** Starting Interpret Phase ******
+
+27.766042 - ****** Starting Eval Phase ******
+
+27.766836 - No current goals. Skipping eval
+
+28.030897 - ****** Starting Intend Phase ******
+
+28.032056 - No goals selected.
+
+28.298630 - ****** Starting Plan Phase ******
+
+28.300056 - No goals received by planner. Skipping planning.
+
+28.543501 - ****** Starting Act Phase ******
+
+28.544323 - No Active goals. Act phase will do nothing
+
+28.765048 - Starting cycle 18
+
+28.766339 - ****** Starting Perceive Phase ******
+
+28.767632 - I hot data here
+
+28.771031 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+29.026509 - ****** Starting Interpret Phase ******
+
+29.274574 - ****** Starting Eval Phase ******
+
+29.275539 - No current goals. Skipping eval
+
+29.501857 - ****** Starting Intend Phase ******
+
+29.503196 - No goals selected.
+
+29.770994 - ****** Starting Plan Phase ******
+
+29.772664 - No goals received by planner. Skipping planning.
+
+29.971439 - ****** Starting Act Phase ******
+
+29.972359 - No Active goals. Act phase will do nothing
+
+30.302557 - Starting cycle 19
+
+30.303161 - ****** Starting Perceive Phase ******
+
+30.304515 - I hot data here
+
+30.305812 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+30.739805 - ****** Starting Interpret Phase ******
+
+31.052395 - ****** Starting Eval Phase ******
+
+31.053458 - No current goals. Skipping eval
+
+31.355675 - ****** Starting Intend Phase ******
+
+31.357147 - No goals selected.
+
+31.619881 - ****** Starting Plan Phase ******
+
+31.621582 - No goals received by planner. Skipping planning.
+
+31.859718 - ****** Starting Act Phase ******
+
+31.860799 - No Active goals. Act phase will do nothing
+
+32.134039 - Starting cycle 20
+
+32.134730 - ****** Starting Perceive Phase ******
+
+32.136522 - I hot data here
+
+32.137744 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+32.367343 - ****** Starting Interpret Phase ******
+
+32.604004 - ****** Starting Eval Phase ******
+
+32.605166 - No current goals. Skipping eval
+
+32.851392 - ****** Starting Intend Phase ******
+
+32.852494 - No goals selected.
+
+32.947442 - storing utterance: data: stack red block on green block
+
+33.136198 - ****** Starting Plan Phase ******
+
+33.137994 - No goals received by planner. Skipping planning.
+
+33.451620 - ****** Starting Act Phase ******
+
+33.452964 - No Active goals. Act phase will do nothing
+
+33.724029 - Starting cycle 21
+
+33.724716 - ****** Starting Perceive Phase ******
+
+33.726348 - I hot data here
+
+33.727269 - World observed: 12 new detection event(s), 1 utterance(s) and 0 feedback msg(s)
+
+33.978576 - ****** Starting Interpret Phase ******
+
+33.979509 - received utterance: stack red block on green block
+
+33.980103 - adding goal: Goal(objective: holding, indirectObject: observer, pos: red block:green block, directObject: green block, subject: self)
+
+34.301307 - ****** Starting Eval Phase ******
+
+34.302192 - No current goals. Skipping eval
+
+34.580330 - ****** Starting Intend Phase ******
+
+34.582046 - Selecting goal(s): holding the green block
+
+34.869396 - ****** Starting Plan Phase ******
+
+34.871143 - Planning...
+
+34.871440 - call seek_plan
+
+35.991608 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+35.992853 - ****** Starting Act Phase ******
+
+36.248491 - Starting cycle 22
+
+36.249447 - ****** Starting Perceive Phase ******
+
+36.251896 - I hot data here
+
+36.255200 - World observed: 18 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+36.554996 - ****** Starting Interpret Phase ******
+
+36.797318 - ****** Starting Eval Phase ******
+
+37.013529 - ****** Starting Intend Phase ******
+
+37.014909 - Selecting goal(s): holding the green block
+
+37.256467 - ****** Starting Plan Phase ******
+
+37.258281 - Planning...
+
+37.258457 - call seek_plan
+
+1:42.535512 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:42.536556 - ****** Starting Act Phase ******
+
+1:42.708724 - Starting cycle 23
+
+1:42.709278 - ****** Starting Perceive Phase ******
+
+1:42.711947 - I hot data here
+
+1:42.735953 - World observed: 494 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:42.905278 - ****** Starting Interpret Phase ******
+
+1:43.074622 - ****** Starting Eval Phase ******
+
+1:43.269701 - ****** Starting Intend Phase ******
+
+1:43.270552 - Selecting goal(s): holding the green block
+
+1:43.451600 - ****** Starting Plan Phase ******
+
+1:43.452826 - Planning...
+
+1:43.453039 - call seek_plan
+
+1:44.068142 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:44.068713 - ****** Starting Act Phase ******
+
+1:44.219714 - Starting cycle 24
+
+1:44.220162 - ****** Starting Perceive Phase ******
+
+1:44.221098 - I hot data here
+
+1:44.222133 - World observed: 16 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:44.367299 - ****** Starting Interpret Phase ******
+
+1:44.496939 - ****** Starting Eval Phase ******
+
+1:44.639545 - ****** Starting Intend Phase ******
+
+1:44.640945 - Selecting goal(s): holding the green block
+
+1:44.775370 - ****** Starting Plan Phase ******
+
+1:44.776412 - Planning...
+
+1:44.776598 - call seek_plan
+
+1:45.196262 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:45.196833 - ****** Starting Act Phase ******
+
+1:45.197636 - Starting cycle 25
+
+1:45.197840 - ****** Starting Perceive Phase ******
+
+1:45.198502 - I hot data here
+
+1:45.199274 - World observed: 14 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:45.216918 - ****** Starting Interpret Phase ******
+
+1:45.367801 - ****** Starting Eval Phase ******
+
+1:45.506075 - ****** Starting Intend Phase ******
+
+1:45.506719 - Selecting goal(s): holding the green block
+
+1:45.654958 - ****** Starting Plan Phase ******
+
+1:45.655983 - Planning...
+
+1:45.656082 - call seek_plan
+
+1:46.116890 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:46.117392 - ****** Starting Act Phase ******
+
+1:46.272299 - Starting cycle 26
+
+1:46.272654 - ****** Starting Perceive Phase ******
+
+1:46.273373 - I hot data here
+
+1:46.274061 - World observed: 16 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:46.422052 - ****** Starting Interpret Phase ******
+
+1:46.566355 - ****** Starting Eval Phase ******
+
+1:46.711156 - ****** Starting Intend Phase ******
+
+1:46.713260 - Selecting goal(s): holding the green block
+
+1:46.852195 - ****** Starting Plan Phase ******
+
+1:46.853071 - Planning...
+
+1:46.853181 - call seek_plan
+
+1:47.254495 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:47.254968 - ****** Starting Act Phase ******
+
+1:47.255730 - Starting cycle 27
+
+1:47.255962 - ****** Starting Perceive Phase ******
+
+1:47.256756 - I hot data here
+
+1:47.257417 - World observed: 14 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:47.287870 - ****** Starting Interpret Phase ******
+
+1:47.430440 - ****** Starting Eval Phase ******
+
+1:47.581702 - ****** Starting Intend Phase ******
+
+1:47.582530 - Selecting goal(s): holding the green block
+
+1:47.735272 - ****** Starting Plan Phase ******
+
+1:47.738160 - Planning...
+
+1:47.738449 - call seek_plan
+
+1:49.389303 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:49.389736 - ****** Starting Act Phase ******
+
+1:49.523175 - Starting cycle 28
+
+1:49.523780 - ****** Starting Perceive Phase ******
+
+1:49.524559 - I hot data here
+
+1:49.525912 - World observed: 32 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:49.656365 - ****** Starting Interpret Phase ******
+
+1:49.809564 - ****** Starting Eval Phase ******
+
+1:49.917033 - ****** Starting Intend Phase ******
+
+1:49.917975 - Selecting goal(s): holding the green block
+
+1:50.050768 - ****** Starting Plan Phase ******
+
+1:50.051693 - Planning...
+
+1:50.051852 - call seek_plan
+
+1:52.819722 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:52.820251 - ****** Starting Act Phase ******
+
+1:52.940763 - Starting cycle 29
+
+1:52.941007 - ****** Starting Perceive Phase ******
+
+1:52.941409 - I hot data here
+
+1:52.942287 - World observed: 48 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:53.059320 - ****** Starting Interpret Phase ******
+
+1:53.191640 - ****** Starting Eval Phase ******
+
+1:53.322834 - ****** Starting Intend Phase ******
+
+1:53.323434 - Selecting goal(s): holding the green block
+
+1:53.452475 - ****** Starting Plan Phase ******
+
+1:53.453323 - Planning...
+
+1:53.453454 - call seek_plan
+
+1:53.453607 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:53.578897 - ****** Starting Act Phase ******
+
+1:53.702520 - Starting cycle 30
+
+1:53.702785 - ****** Starting Perceive Phase ******
+
+1:53.703353 - I hot data here
+
+1:53.703842 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:53.825337 - ****** Starting Interpret Phase ******
+
+1:53.952824 - ****** Starting Eval Phase ******
+
+1:54.072835 - ****** Starting Intend Phase ******
+
+1:54.073405 - Selecting goal(s): holding the green block
+
+1:54.195483 - ****** Starting Plan Phase ******
+
+1:54.196297 - Planning...
+
+1:54.196424 - call seek_plan
+
+1:54.196548 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:54.327835 - ****** Starting Act Phase ******
+
+1:54.451724 - Starting cycle 31
+
+1:54.451951 - ****** Starting Perceive Phase ******
+
+1:54.452751 - I hot data here
+
+1:54.453202 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:54.574505 - ****** Starting Interpret Phase ******
+
+1:54.695396 - ****** Starting Eval Phase ******
+
+1:54.814679 - ****** Starting Intend Phase ******
+
+1:54.815263 - Selecting goal(s): holding the green block
+
+1:54.936307 - ****** Starting Plan Phase ******
+
+1:54.937021 - Planning...
+
+1:54.937145 - call seek_plan
+
+1:55.796514 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:55.797583 - ****** Starting Act Phase ******
+
+1:55.923996 - Starting cycle 32
+
+1:55.924300 - ****** Starting Perceive Phase ******
+
+1:55.924903 - I hot data here
+
+1:55.925732 - World observed: 24 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:56.045160 - ****** Starting Interpret Phase ******
+
+1:56.168305 - ****** Starting Eval Phase ******
+
+1:56.291162 - ****** Starting Intend Phase ******
+
+1:56.292914 - Selecting goal(s): holding the green block
+
+1:56.417636 - ****** Starting Plan Phase ******
+
+1:56.418796 - Planning...
+
+1:56.418979 - call seek_plan
+
+1:56.875336 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:56.875796 - ****** Starting Act Phase ******
+
+1:57.001921 - Starting cycle 33
+
+1:57.002119 - ****** Starting Perceive Phase ******
+
+1:57.002641 - I hot data here
+
+1:57.003313 - World observed: 18 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:57.119325 - ****** Starting Interpret Phase ******
+
+1:57.237758 - ****** Starting Eval Phase ******
+
+1:57.362274 - ****** Starting Intend Phase ******
+
+1:57.362865 - Selecting goal(s): holding the green block
+
+1:57.488154 - ****** Starting Plan Phase ******
+
+1:57.488850 - Planning...
+
+1:57.488979 - call seek_plan
+
+1:59.375257 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+1:59.375599 - ****** Starting Act Phase ******
+
+1:59.500640 - Starting cycle 34
+
+1:59.501086 - ****** Starting Perceive Phase ******
+
+1:59.502271 - I hot data here
+
+1:59.503718 - World observed: 42 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1:59.631954 - ****** Starting Interpret Phase ******
+
+1:59.776362 - ****** Starting Eval Phase ******
+
+1:59.902224 - ****** Starting Intend Phase ******
+
+1:59.903831 - Selecting goal(s): holding the green block
+
+2:00.060498 - ****** Starting Plan Phase ******
+
+2:00.061289 - Planning...
+
+2:00.061437 - call seek_plan
+
+2:01.549510 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:01.550019 - ****** Starting Act Phase ******
+
+2:01.695507 - Starting cycle 35
+
+2:01.695809 - ****** Starting Perceive Phase ******
+
+2:01.696520 - I hot data here
+
+2:01.697759 - World observed: 30 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:01.849512 - ****** Starting Interpret Phase ******
+
+2:02.003296 - ****** Starting Eval Phase ******
+
+2:02.140877 - ****** Starting Intend Phase ******
+
+2:02.141418 - Selecting goal(s): holding the green block
+
+2:02.288246 - ****** Starting Plan Phase ******
+
+2:02.289162 - Planning...
+
+2:02.289320 - call seek_plan
+
+2:02.862366 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:02.863772 - ****** Starting Act Phase ******
+
+2:03.013523 - Starting cycle 36
+
+2:03.013911 - ****** Starting Perceive Phase ******
+
+2:03.014745 - I hot data here
+
+2:03.015429 - World observed: 18 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:03.155524 - ****** Starting Interpret Phase ******
+
+2:03.296392 - ****** Starting Eval Phase ******
+
+2:03.435339 - ****** Starting Intend Phase ******
+
+2:03.436010 - Selecting goal(s): holding the green block
+
+2:03.590087 - ****** Starting Plan Phase ******
+
+2:03.591089 - Planning...
+
+2:03.591299 - call seek_plan
+
+2:03.684341 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:03.728685 - ****** Starting Act Phase ******
+
+2:03.876289 - Starting cycle 37
+
+2:03.876651 - ****** Starting Perceive Phase ******
+
+2:03.877615 - I hot data here
+
+2:03.878088 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:04.020194 - ****** Starting Interpret Phase ******
+
+2:04.155061 - ****** Starting Eval Phase ******
+
+2:04.280179 - ****** Starting Intend Phase ******
+
+2:04.280817 - Selecting goal(s): holding the green block
+
+2:04.421960 - ****** Starting Plan Phase ******
+
+2:04.422798 - Planning...
+
+2:04.422951 - call seek_plan
+
+2:04.423319 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:04.546048 - ****** Starting Act Phase ******
+
+2:04.677219 - Starting cycle 38
+
+2:04.677441 - ****** Starting Perceive Phase ******
+
+2:04.677975 - I hot data here
+
+2:04.678874 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:04.808442 - ****** Starting Interpret Phase ******
+
+2:04.941891 - ****** Starting Eval Phase ******
+
+2:05.066727 - ****** Starting Intend Phase ******
+
+2:05.067403 - Selecting goal(s): holding the green block
+
+2:05.199663 - ****** Starting Plan Phase ******
+
+2:05.200738 - Planning...
+
+2:05.200916 - call seek_plan
+
+2:05.201098 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:05.329487 - ****** Starting Act Phase ******
+
+2:05.476387 - Starting cycle 39
+
+2:05.476762 - ****** Starting Perceive Phase ******
+
+2:05.477512 - I hot data here
+
+2:05.477931 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:05.625753 - ****** Starting Interpret Phase ******
+
+2:05.760409 - ****** Starting Eval Phase ******
+
+2:05.890126 - ****** Starting Intend Phase ******
+
+2:05.891164 - Selecting goal(s): holding the green block
+
+2:06.022467 - ****** Starting Plan Phase ******
+
+2:06.023347 - Planning...
+
+2:06.023504 - call seek_plan
+
+2:06.023697 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:06.148341 - ****** Starting Act Phase ******
+
+2:06.286104 - Starting cycle 40
+
+2:06.286432 - ****** Starting Perceive Phase ******
+
+2:06.287374 - I hot data here
+
+2:06.288109 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:06.417471 - ****** Starting Interpret Phase ******
+
+2:06.565480 - ****** Starting Eval Phase ******
+
+2:06.686869 - ****** Starting Intend Phase ******
+
+2:06.687668 - Selecting goal(s): holding the green block
+
+2:06.855232 - ****** Starting Plan Phase ******
+
+2:06.855975 - Planning...
+
+2:06.856115 - call seek_plan
+
+2:06.856327 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:06.995700 - ****** Starting Act Phase ******
+
+2:07.124323 - Starting cycle 41
+
+2:07.124613 - ****** Starting Perceive Phase ******
+
+2:07.125304 - I hot data here
+
+2:07.125885 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:07.274226 - ****** Starting Interpret Phase ******
+
+2:07.405437 - ****** Starting Eval Phase ******
+
+2:07.532781 - ****** Starting Intend Phase ******
+
+2:07.533431 - Selecting goal(s): holding the green block
+
+2:07.662258 - ****** Starting Plan Phase ******
+
+2:07.662888 - Planning...
+
+2:07.662978 - call seek_plan
+
+2:07.663133 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:07.802905 - ****** Starting Act Phase ******
+
+2:07.962080 - Starting cycle 42
+
+2:07.962407 - ****** Starting Perceive Phase ******
+
+2:07.963177 - I hot data here
+
+2:07.963580 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:08.091656 - ****** Starting Interpret Phase ******
+
+2:08.230563 - ****** Starting Eval Phase ******
+
+2:08.360140 - ****** Starting Intend Phase ******
+
+2:08.361207 - Selecting goal(s): holding the green block
+
+2:08.496838 - ****** Starting Plan Phase ******
+
+2:08.497748 - Planning...
+
+2:08.498036 - call seek_plan
+
+2:08.498489 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:08.629326 - ****** Starting Act Phase ******
+
+2:08.752333 - Starting cycle 43
+
+2:08.752663 - ****** Starting Perceive Phase ******
+
+2:08.753512 - I hot data here
+
+2:08.754436 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:08.891227 - ****** Starting Interpret Phase ******
+
+2:09.017330 - ****** Starting Eval Phase ******
+
+2:09.156263 - ****** Starting Intend Phase ******
+
+2:09.157059 - Selecting goal(s): holding the green block
+
+2:09.292288 - ****** Starting Plan Phase ******
+
+2:09.293130 - Planning...
+
+2:09.293273 - call seek_plan
+
+2:09.853198 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:09.853805 - ****** Starting Act Phase ******
+
+2:09.988332 - Starting cycle 44
+
+2:09.988633 - ****** Starting Perceive Phase ******
+
+2:09.989209 - I hot data here
+
+2:09.989959 - World observed: 18 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:10.113869 - ****** Starting Interpret Phase ******
+
+2:10.253813 - ****** Starting Eval Phase ******
+
+2:10.388646 - ****** Starting Intend Phase ******
+
+2:10.389615 - Selecting goal(s): holding the green block
+
+2:10.543851 - ****** Starting Plan Phase ******
+
+2:10.544665 - Planning...
+
+2:10.544820 - call seek_plan
+
+2:10.545000 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:10.679982 - ****** Starting Act Phase ******
+
+2:10.823243 - Starting cycle 45
+
+2:10.823560 - ****** Starting Perceive Phase ******
+
+2:10.823992 - I hot data here
+
+2:10.824402 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:10.971994 - ****** Starting Interpret Phase ******
+
+2:11.125924 - ****** Starting Eval Phase ******
+
+2:11.269460 - ****** Starting Intend Phase ******
+
+2:11.270165 - Selecting goal(s): holding the green block
+
+2:11.418424 - ****** Starting Plan Phase ******
+
+2:11.419469 - Planning...
+
+2:11.419626 - call seek_plan
+
+2:11.419819 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:11.550653 - ****** Starting Act Phase ******
+
+2:11.682683 - Starting cycle 46
+
+2:11.683014 - ****** Starting Perceive Phase ******
+
+2:11.683900 - I hot data here
+
+2:11.684532 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:11.814154 - ****** Starting Interpret Phase ******
+
+2:11.943301 - ****** Starting Eval Phase ******
+
+2:12.106701 - ****** Starting Intend Phase ******
+
+2:12.107811 - Selecting goal(s): holding the green block
+
+2:12.294778 - ****** Starting Plan Phase ******
+
+2:12.295971 - Planning...
+
+2:12.296095 - call seek_plan
+
+2:12.296472 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:12.458732 - ****** Starting Act Phase ******
+
+2:12.635715 - Starting cycle 47
+
+2:12.636121 - ****** Starting Perceive Phase ******
+
+2:12.637106 - I hot data here
+
+2:12.638163 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:12.810698 - ****** Starting Interpret Phase ******
+
+2:12.997543 - ****** Starting Eval Phase ******
+
+2:13.172484 - ****** Starting Intend Phase ******
+
+2:13.173545 - Selecting goal(s): holding the green block
+
+2:13.353310 - ****** Starting Plan Phase ******
+
+2:13.354348 - Planning...
+
+2:13.354550 - call seek_plan
+
+2:13.354939 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:13.543903 - ****** Starting Act Phase ******
+
+2:13.696959 - Starting cycle 48
+
+2:13.697381 - ****** Starting Perceive Phase ******
+
+2:13.698295 - I hot data here
+
+2:13.698938 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:13.877506 - ****** Starting Interpret Phase ******
+
+2:14.058005 - ****** Starting Eval Phase ******
+
+2:14.241762 - ****** Starting Intend Phase ******
+
+2:14.243091 - Selecting goal(s): holding the green block
+
+2:14.427311 - ****** Starting Plan Phase ******
+
+2:14.428345 - Planning...
+
+2:14.428519 - call seek_plan
+
+2:14.428688 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:14.614267 - ****** Starting Act Phase ******
+
+2:14.801532 - Starting cycle 49
+
+2:14.801965 - ****** Starting Perceive Phase ******
+
+2:14.803412 - I hot data here
+
+2:14.803978 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:14.985640 - ****** Starting Interpret Phase ******
+
+2:15.149611 - ****** Starting Eval Phase ******
+
+2:15.351851 - ****** Starting Intend Phase ******
+
+2:15.352932 - Selecting goal(s): holding the green block
+
+2:15.537744 - ****** Starting Plan Phase ******
+
+2:15.936116 - Planning...
+
+2:15.936357 - call seek_plan
+
+2:15.936743 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:15.937313 - ****** Starting Act Phase ******
+
+2:15.938718 - Starting cycle 50
+
+2:15.938980 - ****** Starting Perceive Phase ******
+
+2:15.944070 - I hot data here
+
+2:15.945038 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:16.108456 - ****** Starting Interpret Phase ******
+
+2:16.244898 - ****** Starting Eval Phase ******
+
+2:16.377473 - ****** Starting Intend Phase ******
+
+2:16.378281 - Selecting goal(s): holding the green block
+
+2:16.514622 - ****** Starting Plan Phase ******
+
+2:16.515586 - Planning...
+
+2:16.515766 - call seek_plan
+
+2:16.515987 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:16.690622 - ****** Starting Act Phase ******
+
+2:16.861796 - Starting cycle 51
+
+2:16.862164 - ****** Starting Perceive Phase ******
+
+2:16.862948 - I hot data here
+
+2:16.863626 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:17.060265 - ****** Starting Interpret Phase ******
+
+2:17.214709 - ****** Starting Eval Phase ******
+
+2:17.353175 - ****** Starting Intend Phase ******
+
+2:17.354011 - Selecting goal(s): holding the green block
+
+2:17.513285 - ****** Starting Plan Phase ******
+
+2:17.514160 - Planning...
+
+2:17.514487 - call seek_plan
+
+2:17.514747 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:17.653740 - ****** Starting Act Phase ******
+
+2:17.801254 - Starting cycle 52
+
+2:17.801510 - ****** Starting Perceive Phase ******
+
+2:17.801994 - I hot data here
+
+2:17.802630 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:17.954038 - ****** Starting Interpret Phase ******
+
+2:18.103191 - ****** Starting Eval Phase ******
+
+2:18.261103 - ****** Starting Intend Phase ******
+
+2:18.261896 - Selecting goal(s): holding the green block
+
+2:18.399536 - ****** Starting Plan Phase ******
+
+2:18.400287 - Planning...
+
+2:18.400474 - call seek_plan
+
+2:18.400701 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:18.542685 - ****** Starting Act Phase ******
+
+2:18.691860 - Starting cycle 53
+
+2:18.692201 - ****** Starting Perceive Phase ******
+
+2:18.693052 - I hot data here
+
+2:18.693799 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:18.838554 - ****** Starting Interpret Phase ******
+
+2:19.006506 - ****** Starting Eval Phase ******
+
+2:19.156480 - ****** Starting Intend Phase ******
+
+2:19.157469 - Selecting goal(s): holding the green block
+
+2:19.310938 - ****** Starting Plan Phase ******
+
+2:19.311786 - Planning...
+
+2:19.312097 - call seek_plan
+
+2:19.312409 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:19.453451 - ****** Starting Act Phase ******
+
+2:19.609123 - Starting cycle 54
+
+2:19.609470 - ****** Starting Perceive Phase ******
+
+2:19.610620 - I hot data here
+
+2:19.611403 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:19.757038 - ****** Starting Interpret Phase ******
+
+2:19.893988 - ****** Starting Eval Phase ******
+
+2:20.031692 - ****** Starting Intend Phase ******
+
+2:20.032446 - Selecting goal(s): holding the green block
+
+2:20.161533 - ****** Starting Plan Phase ******
+
+2:20.162302 - Planning...
+
+2:20.162449 - call seek_plan
+
+2:20.162628 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:20.289182 - ****** Starting Act Phase ******
+
+2:20.423192 - Starting cycle 55
+
+2:20.423542 - ****** Starting Perceive Phase ******
+
+2:20.424107 - I hot data here
+
+2:20.424725 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:20.556718 - ****** Starting Interpret Phase ******
+
+2:20.694914 - ****** Starting Eval Phase ******
+
+2:20.822705 - ****** Starting Intend Phase ******
+
+2:20.826588 - Selecting goal(s): holding the green block
+
+2:20.958325 - ****** Starting Plan Phase ******
+
+2:20.959354 - Planning...
+
+2:20.959479 - call seek_plan
+
+2:20.959655 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:21.100016 - ****** Starting Act Phase ******
+
+2:21.228003 - Starting cycle 56
+
+2:21.228394 - ****** Starting Perceive Phase ******
+
+2:21.229121 - I hot data here
+
+2:21.229967 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:21.351276 - ****** Starting Interpret Phase ******
+
+2:21.491033 - ****** Starting Eval Phase ******
+
+2:21.621018 - ****** Starting Intend Phase ******
+
+2:21.621904 - Selecting goal(s): holding the green block
+
+2:21.756128 - ****** Starting Plan Phase ******
+
+2:21.757443 - Planning...
+
+2:21.757633 - call seek_plan
+
+2:21.757918 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:21.890839 - ****** Starting Act Phase ******
+
+2:22.026711 - Starting cycle 57
+
+2:22.027358 - ****** Starting Perceive Phase ******
+
+2:22.028542 - I hot data here
+
+2:22.029514 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:22.169836 - ****** Starting Interpret Phase ******
+
+2:22.307837 - ****** Starting Eval Phase ******
+
+2:22.446489 - ****** Starting Intend Phase ******
+
+2:22.447213 - Selecting goal(s): holding the green block
+
+2:22.580249 - ****** Starting Plan Phase ******
+
+2:22.585266 - Planning...
+
+2:22.585415 - call seek_plan
+
+2:22.585795 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:22.718021 - ****** Starting Act Phase ******
+
+2:22.851671 - Starting cycle 58
+
+2:22.851954 - ****** Starting Perceive Phase ******
+
+2:22.852629 - I hot data here
+
+2:22.853270 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:22.991139 - ****** Starting Interpret Phase ******
+
+2:23.131902 - ****** Starting Eval Phase ******
+
+2:23.268532 - ****** Starting Intend Phase ******
+
+2:23.269340 - Selecting goal(s): holding the green block
+
+2:23.409751 - ****** Starting Plan Phase ******
+
+2:23.410951 - Planning...
+
+2:23.411281 - call seek_plan
+
+2:23.412878 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:23.547091 - ****** Starting Act Phase ******
+
+2:23.672874 - Starting cycle 59
+
+2:23.673297 - ****** Starting Perceive Phase ******
+
+2:23.673983 - I hot data here
+
+2:23.674572 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:23.799110 - ****** Starting Interpret Phase ******
+
+2:23.927500 - ****** Starting Eval Phase ******
+
+2:24.057325 - ****** Starting Intend Phase ******
+
+2:24.058302 - Selecting goal(s): holding the green block
+
+2:24.179576 - ****** Starting Plan Phase ******
+
+2:24.180114 - Planning...
+
+2:24.180253 - call seek_plan
+
+2:24.180421 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:24.304355 - ****** Starting Act Phase ******
+
+2:24.423493 - Starting cycle 60
+
+2:24.423811 - ****** Starting Perceive Phase ******
+
+2:24.424524 - I hot data here
+
+2:24.424999 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:24.549752 - ****** Starting Interpret Phase ******
+
+2:24.670972 - ****** Starting Eval Phase ******
+
+2:24.796748 - ****** Starting Intend Phase ******
+
+2:24.797609 - Selecting goal(s): holding the green block
+
+2:24.925067 - ****** Starting Plan Phase ******
+
+2:24.925988 - Planning...
+
+2:24.926100 - call seek_plan
+
+2:24.926271 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:25.045120 - ****** Starting Act Phase ******
+
+2:25.166521 - Starting cycle 61
+
+2:25.166803 - ****** Starting Perceive Phase ******
+
+2:25.167428 - I hot data here
+
+2:25.168088 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:25.287547 - ****** Starting Interpret Phase ******
+
+2:25.409020 - ****** Starting Eval Phase ******
+
+2:25.551483 - ****** Starting Intend Phase ******
+
+2:25.552184 - Selecting goal(s): holding the green block
+
+2:25.663263 - ****** Starting Plan Phase ******
+
+2:25.663894 - Planning...
+
+2:25.664007 - call seek_plan
+
+2:25.664312 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:25.790298 - ****** Starting Act Phase ******
+
+2:25.918535 - Starting cycle 62
+
+2:25.918877 - ****** Starting Perceive Phase ******
+
+2:25.920713 - I hot data here
+
+2:25.921508 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:26.043855 - ****** Starting Interpret Phase ******
+
+2:26.168146 - ****** Starting Eval Phase ******
+
+2:26.288973 - ****** Starting Intend Phase ******
+
+2:26.289548 - Selecting goal(s): holding the green block
+
+2:26.410093 - ****** Starting Plan Phase ******
+
+2:26.410672 - Planning...
+
+2:26.410776 - call seek_plan
+
+2:26.410920 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:26.539071 - ****** Starting Act Phase ******
+
+2:26.660383 - Starting cycle 63
+
+2:26.660647 - ****** Starting Perceive Phase ******
+
+2:26.661280 - I hot data here
+
+2:26.661813 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:26.798698 - ****** Starting Interpret Phase ******
+
+2:26.932045 - ****** Starting Eval Phase ******
+
+2:27.053857 - ****** Starting Intend Phase ******
+
+2:27.054499 - Selecting goal(s): holding the green block
+
+2:27.174255 - ****** Starting Plan Phase ******
+
+2:27.175035 - Planning...
+
+2:27.175133 - call seek_plan
+
+2:27.175248 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:27.293374 - ****** Starting Act Phase ******
+
+2:27.406381 - Starting cycle 64
+
+2:27.407139 - ****** Starting Perceive Phase ******
+
+2:27.407938 - I hot data here
+
+2:27.408641 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:27.536541 - ****** Starting Interpret Phase ******
+
+2:27.662029 - ****** Starting Eval Phase ******
+
+2:27.778517 - ****** Starting Intend Phase ******
+
+2:27.779288 - Selecting goal(s): holding the green block
+
+2:27.900164 - ****** Starting Plan Phase ******
+
+2:27.900911 - Planning...
+
+2:27.901003 - call seek_plan
+
+2:27.901160 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:28.022608 - ****** Starting Act Phase ******
+
+2:28.140954 - Starting cycle 65
+
+2:28.141220 - ****** Starting Perceive Phase ******
+
+2:28.142172 - I hot data here
+
+2:28.142665 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:28.258855 - ****** Starting Interpret Phase ******
+
+2:28.388475 - ****** Starting Eval Phase ******
+
+2:28.509253 - ****** Starting Intend Phase ******
+
+2:28.509724 - Selecting goal(s): holding the green block
+
+2:28.623308 - ****** Starting Plan Phase ******
+
+2:28.623925 - Planning...
+
+2:28.623995 - call seek_plan
+
+2:28.624107 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:28.747564 - ****** Starting Act Phase ******
+
+2:28.867870 - Starting cycle 66
+
+2:28.868078 - ****** Starting Perceive Phase ******
+
+2:28.868608 - I hot data here
+
+2:28.869154 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:28.983202 - ****** Starting Interpret Phase ******
+
+2:29.099112 - ****** Starting Eval Phase ******
+
+2:29.222403 - ****** Starting Intend Phase ******
+
+2:29.223111 - Selecting goal(s): holding the green block
+
+2:29.349777 - ****** Starting Plan Phase ******
+
+2:29.350694 - Planning...
+
+2:29.350784 - call seek_plan
+
+2:29.350890 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:29.475053 - ****** Starting Act Phase ******
+
+2:29.631161 - Starting cycle 67
+
+2:29.631440 - ****** Starting Perceive Phase ******
+
+2:29.632092 - I hot data here
+
+2:29.632610 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:29.756635 - ****** Starting Interpret Phase ******
+
+2:29.899660 - ****** Starting Eval Phase ******
+
+2:30.033900 - ****** Starting Intend Phase ******
+
+2:30.035033 - Selecting goal(s): holding the green block
+
+2:30.169683 - ****** Starting Plan Phase ******
+
+2:30.170270 - Planning...
+
+2:30.170391 - call seek_plan
+
+2:30.170560 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:30.292344 - ****** Starting Act Phase ******
+
+2:30.420556 - Starting cycle 68
+
+2:30.420784 - ****** Starting Perceive Phase ******
+
+2:30.421309 - I hot data here
+
+2:30.422080 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:30.544952 - ****** Starting Interpret Phase ******
+
+2:30.667815 - ****** Starting Eval Phase ******
+
+2:30.798323 - ****** Starting Intend Phase ******
+
+2:30.799095 - Selecting goal(s): holding the green block
+
+2:30.931058 - ****** Starting Plan Phase ******
+
+2:30.931740 - Planning...
+
+2:30.931843 - call seek_plan
+
+2:30.931957 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:31.079077 - ****** Starting Act Phase ******
+
+2:31.219189 - Starting cycle 69
+
+2:31.219562 - ****** Starting Perceive Phase ******
+
+2:31.220130 - I hot data here
+
+2:31.225944 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:31.339218 - ****** Starting Interpret Phase ******
+
+2:31.458225 - ****** Starting Eval Phase ******
+
+2:31.587326 - ****** Starting Intend Phase ******
+
+2:31.588432 - Selecting goal(s): holding the green block
+
+2:31.710199 - ****** Starting Plan Phase ******
+
+2:31.711701 - Planning...
+
+2:31.711948 - call seek_plan
+
+2:31.712134 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:31.825489 - ****** Starting Act Phase ******
+
+2:31.943434 - Starting cycle 70
+
+2:31.944166 - ****** Starting Perceive Phase ******
+
+2:31.944725 - I hot data here
+
+2:31.945004 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:32.085447 - ****** Starting Interpret Phase ******
+
+2:32.235665 - ****** Starting Eval Phase ******
+
+2:32.388969 - ****** Starting Intend Phase ******
+
+2:32.389896 - Selecting goal(s): holding the green block
+
+2:32.527068 - ****** Starting Plan Phase ******
+
+2:32.527886 - Planning...
+
+2:32.528350 - call seek_plan
+
+2:32.528762 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:32.693819 - ****** Starting Act Phase ******
+
+2:32.845144 - Starting cycle 71
+
+2:32.845635 - ****** Starting Perceive Phase ******
+
+2:32.846249 - I hot data here
+
+2:32.846880 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:32.996457 - ****** Starting Interpret Phase ******
+
+2:33.146676 - ****** Starting Eval Phase ******
+
+2:33.291919 - ****** Starting Intend Phase ******
+
+2:33.292828 - Selecting goal(s): holding the green block
+
+2:33.422322 - ****** Starting Plan Phase ******
+
+2:33.423754 - Planning...
+
+2:33.423946 - call seek_plan
+
+2:33.424172 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:33.571387 - ****** Starting Act Phase ******
+
+2:33.713861 - Starting cycle 72
+
+2:33.714255 - ****** Starting Perceive Phase ******
+
+2:33.715037 - I hot data here
+
+2:33.715789 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:33.865373 - ****** Starting Interpret Phase ******
+
+2:34.009259 - ****** Starting Eval Phase ******
+
+2:34.155730 - ****** Starting Intend Phase ******
+
+2:34.156558 - Selecting goal(s): holding the green block
+
+2:34.303117 - ****** Starting Plan Phase ******
+
+2:34.303967 - Planning...
+
+2:34.304103 - call seek_plan
+
+2:34.304298 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:34.448091 - ****** Starting Act Phase ******
+
+2:34.599319 - Starting cycle 73
+
+2:34.599804 - ****** Starting Perceive Phase ******
+
+2:34.601267 - I hot data here
+
+2:34.602050 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:34.747455 - ****** Starting Interpret Phase ******
+
+2:34.895993 - ****** Starting Eval Phase ******
+
+2:35.044464 - ****** Starting Intend Phase ******
+
+2:35.045310 - Selecting goal(s): holding the green block
+
+2:35.179503 - ****** Starting Plan Phase ******
+
+2:35.180466 - Planning...
+
+2:35.180802 - call seek_plan
+
+2:35.181020 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:35.316952 - ****** Starting Act Phase ******
+
+2:35.448319 - Starting cycle 74
+
+2:35.449298 - ****** Starting Perceive Phase ******
+
+2:35.450791 - I hot data here
+
+2:35.451458 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:35.597919 - ****** Starting Interpret Phase ******
+
+2:35.747708 - ****** Starting Eval Phase ******
+
+2:35.891002 - ****** Starting Intend Phase ******
+
+2:35.891774 - Selecting goal(s): holding the green block
+
+2:36.033668 - ****** Starting Plan Phase ******
+
+2:36.034278 - Planning...
+
+2:36.034417 - call seek_plan
+
+2:36.034774 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:36.172500 - ****** Starting Act Phase ******
+
+2:36.314646 - Starting cycle 75
+
+2:36.314950 - ****** Starting Perceive Phase ******
+
+2:36.315626 - I hot data here
+
+2:36.316203 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:36.461268 - ****** Starting Interpret Phase ******
+
+2:36.615622 - ****** Starting Eval Phase ******
+
+2:36.753106 - ****** Starting Intend Phase ******
+
+2:36.753989 - Selecting goal(s): holding the green block
+
+2:36.899625 - ****** Starting Plan Phase ******
+
+2:36.900464 - Planning...
+
+2:36.900597 - call seek_plan
+
+2:36.900811 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+
+2:37.031604 - ****** Starting Act Phase ******
+
+2:37.169366 - Starting cycle 76
+
+2:37.169683 - ****** Starting Perceive Phase ******
+
+2:37.170657 - I hot data here
+
+2:37.171297 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2:37.300779 - ****** Starting Interpret Phase ******
+
+2:37.434716 - ****** Starting Eval Phase ******
+
+2:37.562319 - ****** Starting Intend Phase ******
+
+2:37.562840 - Selecting goal(s): holding the green block
+
+2:37.687576 - ****** Starting Plan Phase ******
+
+2:37.688346 - Planning...
+
+2:37.688498 - call seek_plan
+
+3:50.745124 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f22331903f8>])]
+

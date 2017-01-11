@@ -1,0 +1,2614 @@
+.274019 - Memory access at key __detected object queue
+.274244 - Memory access at key __detected object queue
+.274356 - Memory access at key __state
+.274449 - Memory access at key __state
+.390577 - Memory access at key __detected object queue
+.390753 - Memory access at key __detected object queue
+.390857 - Memory access at key __state
+.390926 - Memory access at key __state
+.500641 - Memory access at key __detected object queue
+.500813 - Memory access at key __detected object queue
+.500899 - Memory access at key __state
+.501040 - Memory access at key __state
+.613279 - Memory access at key __detected object queue
+.613427 - Memory access at key __detected object queue
+.613512 - Memory access at key __state
+.613640 - Memory access at key __state
+.722443 - Memory access at key __detected object queue
+.722644 - Memory access at key __detected object queue
+.723088 - Memory access at key __state
+.723187 - Memory access at key __state
+.834646 - Memory access at key __detected object queue
+.834801 - Memory access at key __detected object queue
+.834889 - Memory access at key __state
+.834945 - Memory access at key __state
+.942776 - Memory access at key __detected object queue
+.943246 - Memory access at key __detected object queue
+.943394 - Memory access at key __state
+.943512 - Memory access at key __state
+1.059019 - Memory access at key __detected object queue
+1.059662 - Memory access at key __detected object queue
+1.059776 - Memory access at key __state
+1.059887 - Memory access at key __state
+1.062235 - Memory access at key __current state
+1.063619 - Memory access at key __goals
+1.063768 - Starting cycle 0
+
+1.063835 - ****** Starting Perceive Phase ******
+
+1.063940 - Memory access at key __detected object queue
+1.063986 - Memory access at key __state
+1.064025 - Memory access at key __current state
+1.165192 - Memory access at key __detected object queue
+1.165403 - Memory access at key __detected object queue
+1.165510 - Memory access at key __state
+1.165614 - Memory access at key __state
+1.173627 - ****** Starting Interpret Phase ******
+
+1.173815 - Memory access at key __current state
+1.278668 - Memory access at key __detected object queue
+1.278794 - Memory access at key __detected object queue
+1.278862 - Memory access at key __state
+1.278909 - Memory access at key __state
+1.285709 - ****** Starting Eval Phase ******
+
+1.394609 - Memory access at key __detected object queue
+1.394726 - Memory access at key __detected object queue
+1.394804 - Memory access at key __state
+1.394886 - Memory access at key __state
+1.401372 - ****** Starting Intend Phase ******
+
+1.401599 - Memory access at key __goals
+1.401706 - Memory access at key __current goals
+1.511637 - Memory access at key __detected object queue
+1.511976 - Memory access at key __detected object queue
+1.512118 - Memory access at key __state
+1.512938 - Memory access at key __state
+1.517810 - ****** Starting Plan Phase ******
+
+1.518072 - Memory access at key __current state
+1.518153 - Memory access at key __current goals
+1.629595 - Memory access at key __detected object queue
+1.629858 - Memory access at key __detected object queue
+1.630375 - Memory access at key __state
+1.630458 - Memory access at key __state
+1.635847 - ****** Starting Act Phase ******
+
+1.636107 - Memory access at key __current goals
+1.750178 - Memory access at key __detected object queue
+1.750438 - Memory access at key __detected object queue
+1.750517 - Memory access at key __state
+1.750585 - Memory access at key __state
+1.757634 - Starting cycle 1
+
+1.757809 - ****** Starting Perceive Phase ******
+
+1.757925 - Memory access at key __detected object queue
+1.757983 - Memory access at key __state
+1.758036 - Memory access at key __current state
+1.861013 - Memory access at key __detected object queue
+1.861330 - Memory access at key __detected object queue
+1.861470 - Memory access at key __state
+1.861614 - Memory access at key __state
+1.871016 - ****** Starting Interpret Phase ******
+
+1.871631 - Memory access at key __current state
+1.984478 - Memory access at key __detected object queue
+1.984632 - Memory access at key __detected object queue
+1.984722 - Memory access at key __state
+1.984783 - Memory access at key __state
+1.998149 - ****** Starting Eval Phase ******
+
+1.998578 - Memory access at key __current goals
+2.100025 - Memory access at key __detected object queue
+2.100200 - Memory access at key __detected object queue
+2.100314 - Memory access at key __state
+2.100413 - Memory access at key __state
+2.107326 - ****** Starting Intend Phase ******
+
+2.107630 - Memory access at key __goals
+2.107683 - Memory access at key __current goals
+2.209634 - Memory access at key __detected object queue
+2.209805 - Memory access at key __detected object queue
+2.209896 - Memory access at key __state
+2.209980 - Memory access at key __state
+2.218053 - ****** Starting Plan Phase ******
+
+2.218332 - Memory access at key __current state
+2.218408 - Memory access at key __current goals
+2.319051 - Memory access at key __detected object queue
+2.319215 - Memory access at key __detected object queue
+2.319316 - Memory access at key __state
+2.319415 - Memory access at key __state
+2.326280 - ****** Starting Act Phase ******
+
+2.326527 - Memory access at key __current goals
+2.431807 - Memory access at key __detected object queue
+2.431935 - Memory access at key __detected object queue
+2.431991 - Memory access at key __state
+2.432035 - Memory access at key __state
+2.442367 - Starting cycle 2
+
+2.442549 - ****** Starting Perceive Phase ******
+
+2.442668 - Memory access at key __detected object queue
+2.442731 - Memory access at key __state
+2.442775 - Memory access at key __current state
+2.546494 - Memory access at key __detected object queue
+2.546617 - Memory access at key __detected object queue
+2.546677 - Memory access at key __state
+2.546733 - Memory access at key __state
+2.552525 - ****** Starting Interpret Phase ******
+
+2.552715 - Memory access at key __current state
+2.654570 - Memory access at key __detected object queue
+2.654811 - Memory access at key __detected object queue
+2.654898 - Memory access at key __state
+2.654967 - Memory access at key __state
+2.661456 - ****** Starting Eval Phase ******
+
+2.661789 - Memory access at key __current goals
+2.766828 - Memory access at key __detected object queue
+2.766949 - Memory access at key __detected object queue
+2.767012 - Memory access at key __state
+2.767072 - Memory access at key __state
+2.772878 - ****** Starting Intend Phase ******
+
+2.773098 - Memory access at key __goals
+2.773156 - Memory access at key __current goals
+2.883886 - Memory access at key __detected object queue
+2.884337 - Memory access at key __detected object queue
+2.884691 - Memory access at key __state
+2.884836 - Memory access at key __state
+2.892169 - ****** Starting Plan Phase ******
+
+2.892424 - Memory access at key __current state
+2.892487 - Memory access at key __current goals
+3.008981 - ****** Starting Act Phase ******
+
+3.009372 - Memory access at key __current goals
+3.010102 - Memory access at key __detected object queue
+3.010267 - Memory access at key __detected object queue
+3.010371 - Memory access at key __state
+3.010458 - Memory access at key __state
+3.122394 - Memory access at key __detected object queue
+3.122540 - Memory access at key __detected object queue
+3.122771 - Memory access at key __state
+3.122851 - Memory access at key __state
+3.129285 - Starting cycle 3
+
+3.129456 - ****** Starting Perceive Phase ******
+
+3.129679 - Memory access at key __detected object queue
+3.129749 - Memory access at key __state
+3.129827 - Memory access at key __current state
+3.234962 - Memory access at key __detected object queue
+3.235126 - Memory access at key __detected object queue
+3.235226 - Memory access at key __state
+3.235314 - Memory access at key __state
+3.244151 - ****** Starting Interpret Phase ******
+
+3.244389 - Memory access at key __current state
+3.354313 - Memory access at key __detected object queue
+3.354444 - Memory access at key __detected object queue
+3.354500 - Memory access at key __state
+3.354545 - Memory access at key __state
+3.363782 - ****** Starting Eval Phase ******
+
+3.364039 - Memory access at key __current goals
+3.465860 - Memory access at key __detected object queue
+3.466033 - Memory access at key __detected object queue
+3.466131 - Memory access at key __state
+3.466222 - Memory access at key __state
+3.475463 - ****** Starting Intend Phase ******
+
+3.475678 - Memory access at key __goals
+3.475763 - Memory access at key __current goals
+3.580905 - Memory access at key __detected object queue
+3.581229 - Memory access at key __detected object queue
+3.581421 - Memory access at key __state
+3.581658 - Memory access at key __state
+3.588778 - ****** Starting Plan Phase ******
+
+3.589532 - Memory access at key __current state
+3.590391 - Memory access at key __current goals
+3.695722 - Memory access at key __detected object queue
+3.695859 - Memory access at key __detected object queue
+3.695928 - Memory access at key __state
+3.696006 - Memory access at key __state
+3.702160 - ****** Starting Act Phase ******
+
+3.702389 - Memory access at key __current goals
+3.805321 - Memory access at key __detected object queue
+3.805565 - Memory access at key __detected object queue
+3.806736 - Memory access at key __state
+3.806889 - Memory access at key __state
+3.814485 - Starting cycle 4
+
+3.814755 - ****** Starting Perceive Phase ******
+
+3.814930 - Memory access at key __detected object queue
+3.815011 - Memory access at key __state
+3.815089 - Memory access at key __current state
+3.914726 - Memory access at key __detected object queue
+3.914914 - Memory access at key __detected object queue
+3.915036 - Memory access at key __state
+3.915547 - Memory access at key __state
+3.921463 - ****** Starting Interpret Phase ******
+
+3.921660 - Memory access at key __current state
+4.027249 - Memory access at key __detected object queue
+4.027542 - Memory access at key __detected object queue
+4.027757 - Memory access at key __state
+4.028040 - Memory access at key __state
+4.036133 - ****** Starting Eval Phase ******
+
+4.036449 - Memory access at key __current goals
+4.137041 - Memory access at key __detected object queue
+4.137201 - Memory access at key __detected object queue
+4.137338 - Memory access at key __state
+4.137427 - Memory access at key __state
+4.143002 - ****** Starting Intend Phase ******
+
+4.143265 - Memory access at key __goals
+4.143349 - Memory access at key __current goals
+4.253730 - Memory access at key __detected object queue
+4.253921 - Memory access at key __detected object queue
+4.254112 - Memory access at key __state
+4.254251 - Memory access at key __state
+4.259830 - ****** Starting Plan Phase ******
+
+4.260104 - Memory access at key __current state
+4.260188 - Memory access at key __current goals
+4.364124 - Memory access at key __detected object queue
+4.364425 - Memory access at key __detected object queue
+4.364505 - Memory access at key __state
+4.364559 - Memory access at key __state
+4.372358 - ****** Starting Act Phase ******
+
+4.372848 - Memory access at key __current goals
+4.485639 - Memory access at key __detected object queue
+4.485846 - Memory access at key __detected object queue
+4.485929 - Memory access at key __state
+4.486009 - Memory access at key __state
+4.492222 - Starting cycle 5
+
+4.492472 - ****** Starting Perceive Phase ******
+
+4.492620 - Memory access at key __detected object queue
+4.492665 - Memory access at key __state
+4.492706 - Memory access at key __current state
+4.598335 - Memory access at key __detected object queue
+4.598566 - Memory access at key __detected object queue
+4.598713 - Memory access at key __state
+4.598839 - Memory access at key __state
+4.606982 - ****** Starting Interpret Phase ******
+
+4.607222 - Memory access at key __current state
+4.712240 - Memory access at key __detected object queue
+4.712454 - Memory access at key __detected object queue
+4.712819 - Memory access at key __state
+4.712884 - Memory access at key __state
+4.718971 - ****** Starting Eval Phase ******
+
+4.719237 - Memory access at key __current goals
+4.824938 - Memory access at key __detected object queue
+4.825100 - Memory access at key __detected object queue
+4.825461 - Memory access at key __state
+4.825553 - Memory access at key __state
+4.829795 - ****** Starting Intend Phase ******
+
+4.829981 - Memory access at key __goals
+4.830034 - Memory access at key __current goals
+4.944134 - Memory access at key __detected object queue
+4.944583 - Memory access at key __detected object queue
+4.944724 - Memory access at key __state
+4.944820 - Memory access at key __state
+4.952938 - ****** Starting Plan Phase ******
+
+4.953517 - Memory access at key __current state
+4.953636 - Memory access at key __current goals
+5.054062 - Memory access at key __detected object queue
+5.054232 - Memory access at key __detected object queue
+5.054317 - Memory access at key __state
+5.054401 - Memory access at key __state
+5.060060 - ****** Starting Act Phase ******
+
+5.060323 - Memory access at key __current goals
+5.162180 - Memory access at key __detected object queue
+5.162428 - Memory access at key __detected object queue
+5.162745 - Memory access at key __state
+5.162827 - Memory access at key __state
+5.170562 - Starting cycle 6
+
+5.170789 - ****** Starting Perceive Phase ******
+
+5.170970 - Memory access at key __detected object queue
+5.171049 - Memory access at key __state
+5.171185 - Memory access at key __current state
+5.272879 - Memory access at key __detected object queue
+5.273193 - Memory access at key __detected object queue
+5.273385 - Memory access at key __state
+5.273474 - Memory access at key __state
+5.280573 - ****** Starting Interpret Phase ******
+
+5.280921 - Memory access at key __current state
+5.293651 - Memory access at key __words heard queue
+5.388089 - Memory access at key __detected object queue
+5.388403 - Memory access at key __detected object queue
+5.388507 - Memory access at key __state
+5.388588 - Memory access at key __state
+5.396725 - ****** Starting Eval Phase ******
+
+5.397418 - Memory access at key __current goals
+5.498308 - Memory access at key __detected object queue
+5.498461 - Memory access at key __detected object queue
+5.498573 - Memory access at key __state
+5.498665 - Memory access at key __state
+5.506059 - ****** Starting Intend Phase ******
+
+5.506264 - Memory access at key __goals
+5.506319 - Memory access at key __current goals
+5.616581 - Memory access at key __detected object queue
+5.616716 - Memory access at key __detected object queue
+5.616772 - Memory access at key __state
+5.616817 - Memory access at key __state
+5.625262 - ****** Starting Plan Phase ******
+
+5.625512 - Memory access at key __current state
+5.625600 - Memory access at key __current goals
+5.731660 - Memory access at key __detected object queue
+5.731873 - Memory access at key __detected object queue
+5.731994 - Memory access at key __state
+5.732089 - Memory access at key __state
+5.740262 - ****** Starting Act Phase ******
+
+5.740566 - Memory access at key __current goals
+5.849599 - Memory access at key __detected object queue
+5.850161 - Memory access at key __detected object queue
+5.850272 - Memory access at key __state
+5.850357 - Memory access at key __state
+5.855351 - Starting cycle 7
+
+5.855599 - ****** Starting Perceive Phase ******
+
+5.855740 - Memory access at key __detected object queue
+5.855803 - Memory access at key __state
+5.855842 - Memory access at key __words heard queue
+5.855889 - Memory access at key __current state
+5.958848 - Memory access at key __detected object queue
+5.959143 - Memory access at key __detected object queue
+5.960409 - Memory access at key __state
+5.960504 - Memory access at key __state
+5.965894 - ****** Starting Interpret Phase ******
+
+5.966638 - Memory access at key __current state
+5.967108 - Memory access at key __goals
+6.071905 - Memory access at key __detected object queue
+6.072080 - Memory access at key __detected object queue
+6.072176 - Memory access at key __state
+6.072256 - Memory access at key __state
+6.078008 - ****** Starting Eval Phase ******
+
+6.078243 - Memory access at key __current goals
+6.188683 - Memory access at key __detected object queue
+6.188825 - Memory access at key __detected object queue
+6.188888 - Memory access at key __state
+6.188937 - Memory access at key __state
+6.190669 - ****** Starting Intend Phase ******
+
+6.190840 - Memory access at key __goals
+6.190884 - Memory access at key __current goals
+6.295359 - Memory access at key __detected object queue
+6.295504 - Memory access at key __detected object queue
+6.295591 - Memory access at key __state
+6.295665 - Memory access at key __state
+6.301577 - ****** Starting Plan Phase ******
+
+6.301856 - Memory access at key __current state
+6.301943 - Memory access at key __current goals
+6.302021 - Memory access at key __goals
+6.403593 - Memory access at key __detected object queue
+6.403813 - Memory access at key __detected object queue
+6.403921 - Memory access at key __state
+6.404002 - Memory access at key __state
+6.513792 - Memory access at key __detected object queue
+6.513969 - Memory access at key __detected object queue
+6.514076 - Memory access at key __state
+6.514139 - Memory access at key __state
+6.622523 - Memory access at key __detected object queue
+6.622718 - Memory access at key __detected object queue
+6.622798 - Memory access at key __state
+6.622849 - Memory access at key __state
+6.734550 - Memory access at key __detected object queue
+6.735040 - Memory access at key __detected object queue
+6.735131 - Memory access at key __state
+6.735181 - Memory access at key __state
+6.848780 - Memory access at key __detected object queue
+6.848931 - Memory access at key __detected object queue
+6.849000 - Memory access at key __state
+6.849083 - Memory access at key __state
+6.955035 - Memory access at key __detected object queue
+6.955217 - Memory access at key __detected object queue
+6.955329 - Memory access at key __state
+6.955421 - Memory access at key __state
+7.072231 - Memory access at key __detected object queue
+7.072626 - Memory access at key __detected object queue
+7.072723 - Memory access at key __state
+7.072775 - Memory access at key __state
+7.177396 - Memory access at key __detected object queue
+7.177597 - Memory access at key __detected object queue
+7.177721 - Memory access at key __state
+7.177827 - Memory access at key __state
+7.298527 - Memory access at key __detected object queue
+7.299187 - Memory access at key __detected object queue
+7.299367 - Memory access at key __state
+7.299495 - Memory access at key __state
+7.417360 - Memory access at key __detected object queue
+7.417601 - Memory access at key __detected object queue
+7.417775 - Memory access at key __state
+7.417913 - Memory access at key __state
+7.530090 - Memory access at key __detected object queue
+7.530341 - Memory access at key __detected object queue
+7.530768 - Memory access at key __state
+7.530904 - Memory access at key __state
+7.650545 - Memory access at key __detected object queue
+7.650714 - Memory access at key __detected object queue
+7.650799 - Memory access at key __state
+7.650868 - Memory access at key __state
+7.779583 - Memory access at key __detected object queue
+7.779853 - Memory access at key __detected object queue
+7.780003 - Memory access at key __state
+7.780123 - Memory access at key __state
+7.899973 - Memory access at key __detected object queue
+7.900186 - Memory access at key __detected object queue
+7.900321 - Memory access at key __state
+7.900412 - Memory access at key __state
+8.015632 - Memory access at key __detected object queue
+8.015897 - Memory access at key __detected object queue
+8.016068 - Memory access at key __state
+8.016189 - Memory access at key __state
+8.141103 - Memory access at key __detected object queue
+8.141569 - Memory access at key __detected object queue
+8.141751 - Memory access at key __state
+8.141890 - Memory access at key __state
+8.257989 - Memory access at key __detected object queue
+8.258164 - Memory access at key __detected object queue
+8.258254 - Memory access at key __state
+8.258336 - Memory access at key __state
+8.381666 - Memory access at key __detected object queue
+8.381950 - Memory access at key __detected object queue
+8.382125 - Memory access at key __state
+8.382292 - Memory access at key __state
+8.502399 - Memory access at key __detected object queue
+8.502645 - Memory access at key __detected object queue
+8.502801 - Memory access at key __state
+8.503283 - Memory access at key __state
+8.620395 - Memory access at key __detected object queue
+8.620640 - Memory access at key __detected object queue
+8.620804 - Memory access at key __state
+8.620957 - Memory access at key __state
+8.738372 - Memory access at key __detected object queue
+8.738692 - Memory access at key __detected object queue
+8.738968 - Memory access at key __state
+8.739171 - Memory access at key __state
+8.855214 - Memory access at key __detected object queue
+8.855409 - Memory access at key __detected object queue
+8.855509 - Memory access at key __state
+8.855600 - Memory access at key __state
+8.974155 - Memory access at key __detected object queue
+8.974327 - Memory access at key __detected object queue
+8.974442 - Memory access at key __state
+8.974577 - Memory access at key __state
+9.101075 - Memory access at key __detected object queue
+9.101300 - Memory access at key __detected object queue
+9.101451 - Memory access at key __state
+9.102186 - Memory access at key __state
+9.223505 - Memory access at key __detected object queue
+9.223828 - Memory access at key __detected object queue
+9.224016 - Memory access at key __state
+9.224172 - Memory access at key __state
+9.346423 - Memory access at key __detected object queue
+9.346634 - Memory access at key __detected object queue
+9.346760 - Memory access at key __state
+9.346911 - Memory access at key __state
+9.459841 - Memory access at key __detected object queue
+9.460091 - Memory access at key __detected object queue
+9.460192 - Memory access at key __state
+9.460264 - Memory access at key __state
+9.581157 - Memory access at key __detected object queue
+9.581470 - Memory access at key __detected object queue
+9.581659 - Memory access at key __state
+9.581798 - Memory access at key __state
+9.698029 - Memory access at key __detected object queue
+9.698528 - Memory access at key __detected object queue
+9.698825 - Memory access at key __state
+9.699080 - Memory access at key __state
+9.814075 - Memory access at key __detected object queue
+9.814390 - Memory access at key __detected object queue
+9.814523 - Memory access at key __state
+9.814637 - Memory access at key __state
+9.940840 - Memory access at key __detected object queue
+9.941104 - Memory access at key __detected object queue
+9.941264 - Memory access at key __state
+9.941408 - Memory access at key __state
+10.067468 - Memory access at key __detected object queue
+10.067662 - Memory access at key __detected object queue
+10.067756 - Memory access at key __state
+10.067851 - Memory access at key __state
+10.186234 - Memory access at key __detected object queue
+10.186547 - Memory access at key __detected object queue
+10.186722 - Memory access at key __state
+10.186863 - Memory access at key __state
+10.318132 - Memory access at key __detected object queue
+10.318370 - Memory access at key __detected object queue
+10.318526 - Memory access at key __state
+10.318664 - Memory access at key __state
+10.436733 - Memory access at key __detected object queue
+10.436951 - Memory access at key __detected object queue
+10.437044 - Memory access at key __state
+10.437123 - Memory access at key __state
+10.562339 - Memory access at key __detected object queue
+10.562535 - Memory access at key __detected object queue
+10.562679 - Memory access at key __state
+10.563638 - Memory access at key __state
+10.687458 - Memory access at key __detected object queue
+10.687684 - Memory access at key __detected object queue
+10.687808 - Memory access at key __state
+10.687879 - Memory access at key __state
+10.811448 - Memory access at key __detected object queue
+10.811675 - Memory access at key __detected object queue
+10.812360 - Memory access at key __state
+10.812491 - Memory access at key __state
+10.920315 - Memory access at key __detected object queue
+10.920476 - Memory access at key __detected object queue
+10.920559 - Memory access at key __state
+10.920643 - Memory access at key __state
+11.039614 - Memory access at key __detected object queue
+11.039801 - Memory access at key __detected object queue
+11.039910 - Memory access at key __state
+11.040020 - Memory access at key __state
+11.179848 - Memory access at key __detected object queue
+11.180093 - Memory access at key __detected object queue
+11.180240 - Memory access at key __state
+11.180313 - Memory access at key __state
+11.295224 - Memory access at key __detected object queue
+11.295368 - Memory access at key __detected object queue
+11.295435 - Memory access at key __state
+11.295490 - Memory access at key __state
+11.404057 - Memory access at key __detected object queue
+11.404190 - Memory access at key __detected object queue
+11.404261 - Memory access at key __state
+11.404337 - Memory access at key __state
+11.515311 - Memory access at key __detected object queue
+11.515492 - Memory access at key __detected object queue
+11.515605 - Memory access at key __state
+11.515796 - Memory access at key __state
+11.628725 - Memory access at key __detected object queue
+11.628890 - Memory access at key __detected object queue
+11.628986 - Memory access at key __state
+11.629073 - Memory access at key __state
+11.736533 - Memory access at key __detected object queue
+11.736661 - Memory access at key __detected object queue
+11.736741 - Memory access at key __state
+11.736839 - Memory access at key __state
+11.845027 - Memory access at key __detected object queue
+11.845366 - Memory access at key __detected object queue
+11.845473 - Memory access at key __state
+11.845582 - Memory access at key __state
+11.955562 - Memory access at key __detected object queue
+11.955727 - Memory access at key __detected object queue
+11.955807 - Memory access at key __state
+11.955884 - Memory access at key __state
+12.069011 - Memory access at key __detected object queue
+12.069587 - Memory access at key __detected object queue
+12.069868 - Memory access at key __state
+12.069986 - Memory access at key __state
+12.178541 - Memory access at key __detected object queue
+12.178755 - Memory access at key __detected object queue
+12.178881 - Memory access at key __state
+12.178963 - Memory access at key __state
+12.290549 - Memory access at key __detected object queue
+12.290726 - Memory access at key __detected object queue
+12.290838 - Memory access at key __state
+12.290929 - Memory access at key __state
+12.406645 - Memory access at key __detected object queue
+12.406952 - Memory access at key __detected object queue
+12.407158 - Memory access at key __state
+12.407313 - Memory access at key __state
+12.522533 - Memory access at key __detected object queue
+12.522767 - Memory access at key __detected object queue
+12.522880 - Memory access at key __state
+12.522966 - Memory access at key __state
+12.647943 - Memory access at key __detected object queue
+12.648073 - Memory access at key __detected object queue
+12.648159 - Memory access at key __state
+12.648211 - Memory access at key __state
+12.761847 - Memory access at key __detected object queue
+12.761997 - Memory access at key __detected object queue
+12.762077 - Memory access at key __state
+12.762136 - Memory access at key __state
+12.870983 - Memory access at key __detected object queue
+12.871175 - Memory access at key __detected object queue
+12.871287 - Memory access at key __state
+12.871387 - Memory access at key __state
+12.985125 - Memory access at key __detected object queue
+12.985273 - Memory access at key __detected object queue
+12.985339 - Memory access at key __state
+12.985408 - Memory access at key __state
+13.097825 - Memory access at key __detected object queue
+13.098016 - Memory access at key __detected object queue
+13.098132 - Memory access at key __state
+13.098218 - Memory access at key __state
+13.212155 - Memory access at key __detected object queue
+13.212342 - Memory access at key __detected object queue
+13.212436 - Memory access at key __state
+13.212850 - Memory access at key __state
+13.325294 - Memory access at key __detected object queue
+13.325910 - Memory access at key __detected object queue
+13.326161 - Memory access at key __state
+13.326318 - Memory access at key __state
+13.436961 - Memory access at key __detected object queue
+13.437212 - Memory access at key __detected object queue
+13.437336 - Memory access at key __state
+13.437415 - Memory access at key __state
+13.553362 - Memory access at key __detected object queue
+13.553564 - Memory access at key __detected object queue
+13.553793 - Memory access at key __state
+13.553851 - Memory access at key __state
+13.669610 - Memory access at key __detected object queue
+13.669944 - Memory access at key __detected object queue
+13.670105 - Memory access at key __state
+13.670434 - Memory access at key __state
+13.781175 - Memory access at key __detected object queue
+13.781368 - Memory access at key __detected object queue
+13.781468 - Memory access at key __state
+13.781574 - Memory access at key __state
+13.894089 - Memory access at key __detected object queue
+13.894260 - Memory access at key __detected object queue
+13.894341 - Memory access at key __state
+13.894403 - Memory access at key __state
+14.000470 - Memory access at key __detected object queue
+14.000633 - Memory access at key __detected object queue
+14.000699 - Memory access at key __state
+14.000752 - Memory access at key __state
+14.108331 - Memory access at key __detected object queue
+14.108499 - Memory access at key __detected object queue
+14.108577 - Memory access at key __state
+14.108657 - Memory access at key __state
+14.223100 - Memory access at key __detected object queue
+14.223301 - Memory access at key __detected object queue
+14.223415 - Memory access at key __state
+14.223510 - Memory access at key __state
+14.341218 - Memory access at key __detected object queue
+14.341372 - Memory access at key __detected object queue
+14.341477 - Memory access at key __state
+14.341873 - Memory access at key __state
+14.446320 - Memory access at key __detected object queue
+14.446505 - Memory access at key __detected object queue
+14.446613 - Memory access at key __state
+14.446707 - Memory access at key __state
+14.567649 - Memory access at key __detected object queue
+14.567823 - Memory access at key __detected object queue
+14.567912 - Memory access at key __state
+14.567996 - Memory access at key __state
+14.679825 - Memory access at key __detected object queue
+14.680131 - Memory access at key __detected object queue
+14.680231 - Memory access at key __state
+14.680327 - Memory access at key __state
+14.791664 - Memory access at key __detected object queue
+14.791832 - Memory access at key __detected object queue
+14.791933 - Memory access at key __state
+14.792030 - Memory access at key __state
+14.903786 - Memory access at key __detected object queue
+14.904108 - Memory access at key __detected object queue
+14.904342 - Memory access at key __state
+14.904782 - Memory access at key __state
+15.013197 - Memory access at key __detected object queue
+15.013422 - Memory access at key __detected object queue
+15.013650 - Memory access at key __state
+15.013748 - Memory access at key __state
+15.125274 - Memory access at key __detected object queue
+15.125486 - Memory access at key __detected object queue
+15.125602 - Memory access at key __state
+15.125715 - Memory access at key __state
+15.236485 - Memory access at key __detected object queue
+15.236637 - Memory access at key __detected object queue
+15.236728 - Memory access at key __state
+15.236803 - Memory access at key __state
+15.353620 - Memory access at key __detected object queue
+15.353779 - Memory access at key __detected object queue
+15.353874 - Memory access at key __state
+15.354058 - Memory access at key __state
+15.487810 - Memory access at key __detected object queue
+15.487982 - Memory access at key __detected object queue
+15.488070 - Memory access at key __state
+15.488138 - Memory access at key __state
+15.623442 - Memory access at key __detected object queue
+15.623613 - Memory access at key __detected object queue
+15.623686 - Memory access at key __state
+15.623761 - Memory access at key __state
+15.743753 - Memory access at key __detected object queue
+15.743996 - Memory access at key __detected object queue
+15.744061 - Memory access at key __state
+15.744111 - Memory access at key __state
+15.855974 - Memory access at key __detected object queue
+15.856275 - Memory access at key __detected object queue
+15.856344 - Memory access at key __state
+15.856410 - Memory access at key __state
+15.972304 - Memory access at key __detected object queue
+15.972449 - Memory access at key __detected object queue
+15.972541 - Memory access at key __state
+15.972627 - Memory access at key __state
+16.084415 - Memory access at key __detected object queue
+16.084696 - Memory access at key __detected object queue
+16.085261 - Memory access at key __state
+16.085411 - Memory access at key __state
+16.196163 - Memory access at key __detected object queue
+16.196319 - Memory access at key __detected object queue
+16.196379 - Memory access at key __state
+16.196427 - Memory access at key __state
+16.314307 - Memory access at key __detected object queue
+16.314476 - Memory access at key __detected object queue
+16.314570 - Memory access at key __state
+16.314659 - Memory access at key __state
+16.424774 - Memory access at key __detected object queue
+16.424973 - Memory access at key __detected object queue
+16.425092 - Memory access at key __state
+16.425196 - Memory access at key __state
+16.536574 - Memory access at key __detected object queue
+16.536946 - Memory access at key __detected object queue
+16.537169 - Memory access at key __state
+16.537304 - Memory access at key __state
+16.646673 - Memory access at key __detected object queue
+16.646872 - Memory access at key __detected object queue
+16.646993 - Memory access at key __state
+16.647064 - Memory access at key __state
+16.762899 - Memory access at key __detected object queue
+16.763139 - Memory access at key __detected object queue
+16.763227 - Memory access at key __state
+16.763307 - Memory access at key __state
+16.868644 - Memory access at key __detected object queue
+16.868809 - Memory access at key __detected object queue
+16.869006 - Memory access at key __state
+16.869063 - Memory access at key __state
+16.987269 - Memory access at key __detected object queue
+16.987396 - Memory access at key __detected object queue
+16.987453 - Memory access at key __state
+16.987513 - Memory access at key __state
+17.103925 - Memory access at key __detected object queue
+17.104111 - Memory access at key __detected object queue
+17.104203 - Memory access at key __state
+17.104497 - Memory access at key __state
+17.205877 - Memory access at key __detected object queue
+17.206045 - Memory access at key __detected object queue
+17.206133 - Memory access at key __state
+17.206207 - Memory access at key __state
+17.312140 - Memory access at key __detected object queue
+17.312308 - Memory access at key __detected object queue
+17.312401 - Memory access at key __state
+17.312483 - Memory access at key __state
+17.424772 - Memory access at key __detected object queue
+17.424895 - Memory access at key __detected object queue
+17.424954 - Memory access at key __state
+17.425007 - Memory access at key __state
+17.543128 - Memory access at key __detected object queue
+17.543495 - Memory access at key __detected object queue
+17.543712 - Memory access at key __state
+17.543836 - Memory access at key __state
+17.652075 - Memory access at key __detected object queue
+17.652249 - Memory access at key __detected object queue
+17.652359 - Memory access at key __state
+17.652457 - Memory access at key __state
+17.717118 - Memory access at key __words heard queue
+17.767239 - Memory access at key __detected object queue
+17.767491 - Memory access at key __detected object queue
+17.767595 - Memory access at key __state
+17.767677 - Memory access at key __state
+17.878479 - Memory access at key __detected object queue
+17.878624 - Memory access at key __detected object queue
+17.878693 - Memory access at key __state
+17.878746 - Memory access at key __state
+17.993127 - Memory access at key __detected object queue
+17.993246 - Memory access at key __detected object queue
+17.993321 - Memory access at key __state
+17.993384 - Memory access at key __state
+18.103878 - Memory access at key __detected object queue
+18.104010 - Memory access at key __detected object queue
+18.104079 - Memory access at key __state
+18.104162 - Memory access at key __state
+18.219444 - Memory access at key __detected object queue
+18.219595 - Memory access at key __detected object queue
+18.219682 - Memory access at key __state
+18.219876 - Memory access at key __state
+18.333325 - Memory access at key __detected object queue
+18.333688 - Memory access at key __detected object queue
+18.333990 - Memory access at key __state
+18.335808 - Memory access at key __state
+18.447869 - Memory access at key __detected object queue
+18.448268 - Memory access at key __detected object queue
+18.448341 - Memory access at key __state
+18.448432 - Memory access at key __state
+18.564829 - Memory access at key __detected object queue
+18.565146 - Memory access at key __detected object queue
+18.565217 - Memory access at key __state
+18.565265 - Memory access at key __state
+18.679427 - Memory access at key __detected object queue
+18.679620 - Memory access at key __detected object queue
+18.679729 - Memory access at key __state
+18.679811 - Memory access at key __state
+18.790525 - Memory access at key __detected object queue
+18.790678 - Memory access at key __detected object queue
+18.790750 - Memory access at key __state
+18.790814 - Memory access at key __state
+18.897385 - Memory access at key __detected object queue
+18.897586 - Memory access at key __detected object queue
+18.897699 - Memory access at key __state
+18.897779 - Memory access at key __state
+19.009515 - Memory access at key __detected object queue
+19.009695 - Memory access at key __detected object queue
+19.009789 - Memory access at key __state
+19.009873 - Memory access at key __state
+19.119517 - Memory access at key __detected object queue
+19.119675 - Memory access at key __detected object queue
+19.119762 - Memory access at key __state
+19.119830 - Memory access at key __state
+19.230168 - Memory access at key __detected object queue
+19.230331 - Memory access at key __detected object queue
+19.230437 - Memory access at key __state
+19.230514 - Memory access at key __state
+19.339179 - Memory access at key __detected object queue
+19.339344 - Memory access at key __detected object queue
+19.339437 - Memory access at key __state
+19.339517 - Memory access at key __state
+19.453197 - Memory access at key __detected object queue
+19.453378 - Memory access at key __detected object queue
+19.453797 - Memory access at key __state
+19.453881 - Memory access at key __state
+19.564535 - Memory access at key __detected object queue
+19.565103 - Memory access at key __detected object queue
+19.565494 - Memory access at key __state
+19.565801 - Memory access at key __state
+19.684239 - Memory access at key __detected object queue
+19.684378 - Memory access at key __detected object queue
+19.684478 - Memory access at key __state
+19.684569 - Memory access at key __state
+19.801288 - Memory access at key __detected object queue
+19.801569 - Memory access at key __detected object queue
+19.801662 - Memory access at key __state
+19.801730 - Memory access at key __state
+19.910228 - Memory access at key __detected object queue
+19.910389 - Memory access at key __detected object queue
+19.910495 - Memory access at key __state
+19.910721 - Memory access at key __state
+20.021323 - Memory access at key __detected object queue
+20.021489 - Memory access at key __detected object queue
+20.021615 - Memory access at key __state
+20.021708 - Memory access at key __state
+20.132743 - Memory access at key __detected object queue
+20.132923 - Memory access at key __detected object queue
+20.133049 - Memory access at key __state
+20.133190 - Memory access at key __state
+20.244686 - Memory access at key __detected object queue
+20.244866 - Memory access at key __detected object queue
+20.244966 - Memory access at key __state
+20.245050 - Memory access at key __state
+20.351954 - Memory access at key __detected object queue
+20.352146 - Memory access at key __detected object queue
+20.352281 - Memory access at key __state
+20.352378 - Memory access at key __state
+20.460799 - Memory access at key __detected object queue
+20.460942 - Memory access at key __detected object queue
+20.461025 - Memory access at key __state
+20.461080 - Memory access at key __state
+20.575596 - Memory access at key __detected object queue
+20.575799 - Memory access at key __detected object queue
+20.575918 - Memory access at key __state
+20.576014 - Memory access at key __state
+20.681968 - Memory access at key __detected object queue
+20.682139 - Memory access at key __detected object queue
+20.682211 - Memory access at key __state
+20.682265 - Memory access at key __state
+20.795122 - Memory access at key __detected object queue
+20.795353 - Memory access at key __detected object queue
+20.795451 - Memory access at key __state
+20.795549 - Memory access at key __state
+20.909025 - Memory access at key __detected object queue
+20.909192 - Memory access at key __detected object queue
+20.909591 - Memory access at key __state
+20.909691 - Memory access at key __state
+21.022613 - Memory access at key __detected object queue
+21.022787 - Memory access at key __detected object queue
+21.022911 - Memory access at key __state
+21.023017 - Memory access at key __state
+21.139221 - Memory access at key __detected object queue
+21.139348 - Memory access at key __detected object queue
+21.139408 - Memory access at key __state
+21.139455 - Memory access at key __state
+21.251402 - Memory access at key __detected object queue
+21.251578 - Memory access at key __detected object queue
+21.251936 - Memory access at key __state
+21.252006 - Memory access at key __state
+21.359498 - Memory access at key __detected object queue
+21.359662 - Memory access at key __detected object queue
+21.359762 - Memory access at key __state
+21.359842 - Memory access at key __state
+21.469422 - Memory access at key __detected object queue
+21.469552 - Memory access at key __detected object queue
+21.469633 - Memory access at key __state
+21.469684 - Memory access at key __state
+21.576743 - Memory access at key __detected object queue
+21.582357 - Memory access at key __detected object queue
+21.582852 - Memory access at key __state
+21.582955 - Memory access at key __state
+21.703119 - Memory access at key __detected object queue
+21.703233 - Memory access at key __detected object queue
+21.703294 - Memory access at key __state
+21.703371 - Memory access at key __state
+21.812576 - Memory access at key __detected object queue
+21.812817 - Memory access at key __detected object queue
+21.812899 - Memory access at key __state
+21.812967 - Memory access at key __state
+21.922884 - Memory access at key __detected object queue
+21.923093 - Memory access at key __detected object queue
+21.923208 - Memory access at key __state
+21.923304 - Memory access at key __state
+22.041955 - Memory access at key __detected object queue
+22.042095 - Memory access at key __detected object queue
+22.042159 - Memory access at key __state
+22.042206 - Memory access at key __state
+22.147607 - Memory access at key __detected object queue
+22.147785 - Memory access at key __detected object queue
+22.147886 - Memory access at key __state
+22.147937 - Memory access at key __state
+22.264967 - Memory access at key __detected object queue
+22.265154 - Memory access at key __detected object queue
+22.265221 - Memory access at key __state
+22.265279 - Memory access at key __state
+22.382403 - Memory access at key __detected object queue
+22.382663 - Memory access at key __detected object queue
+22.382804 - Memory access at key __state
+22.382895 - Memory access at key __state
+22.495238 - Memory access at key __detected object queue
+22.495447 - Memory access at key __detected object queue
+22.495563 - Memory access at key __state
+22.495877 - Memory access at key __state
+22.612635 - Memory access at key __detected object queue
+22.612852 - Memory access at key __detected object queue
+22.612950 - Memory access at key __state
+22.613036 - Memory access at key __state
+22.719171 - Memory access at key __detected object queue
+22.719337 - Memory access at key __detected object queue
+22.719441 - Memory access at key __state
+22.719595 - Memory access at key __state
+22.830010 - Memory access at key __detected object queue
+22.830831 - Memory access at key __detected object queue
+22.831051 - Memory access at key __state
+22.831181 - Memory access at key __state
+22.937661 - Memory access at key __detected object queue
+22.937865 - Memory access at key __detected object queue
+22.937979 - Memory access at key __state
+22.938074 - Memory access at key __state
+23.046970 - Memory access at key __detected object queue
+23.047189 - Memory access at key __detected object queue
+23.047321 - Memory access at key __state
+23.048438 - Memory access at key __state
+23.156855 - Memory access at key __detected object queue
+23.156985 - Memory access at key __detected object queue
+23.157054 - Memory access at key __state
+23.157123 - Memory access at key __state
+23.272357 - Memory access at key __detected object queue
+23.272747 - Memory access at key __detected object queue
+23.272873 - Memory access at key __state
+23.272995 - Memory access at key __state
+23.395096 - Memory access at key __detected object queue
+23.395413 - Memory access at key __detected object queue
+23.395527 - Memory access at key __state
+23.395613 - Memory access at key __state
+23.516214 - Memory access at key __detected object queue
+23.516465 - Memory access at key __detected object queue
+23.516616 - Memory access at key __state
+23.516727 - Memory access at key __state
+23.635969 - Memory access at key __detected object queue
+23.636219 - Memory access at key __detected object queue
+23.636358 - Memory access at key __state
+23.636516 - Memory access at key __state
+23.758923 - Memory access at key __detected object queue
+23.759141 - Memory access at key __detected object queue
+23.759259 - Memory access at key __state
+23.759358 - Memory access at key __state
+23.881815 - Memory access at key __detected object queue
+23.882029 - Memory access at key __detected object queue
+23.882120 - Memory access at key __state
+23.882193 - Memory access at key __state
+24.006590 - Memory access at key __detected object queue
+24.006803 - Memory access at key __detected object queue
+24.006924 - Memory access at key __state
+24.007005 - Memory access at key __state
+24.124388 - Memory access at key __detected object queue
+24.124587 - Memory access at key __detected object queue
+24.124679 - Memory access at key __state
+24.124752 - Memory access at key __state
+24.247300 - Memory access at key __detected object queue
+24.247496 - Memory access at key __detected object queue
+24.247614 - Memory access at key __state
+24.247689 - Memory access at key __state
+24.371596 - Memory access at key __detected object queue
+24.371755 - Memory access at key __detected object queue
+24.371847 - Memory access at key __state
+24.371916 - Memory access at key __state
+24.489586 - Memory access at key __detected object queue
+24.490290 - Memory access at key __detected object queue
+24.490448 - Memory access at key __state
+24.490559 - Memory access at key __state
+24.613710 - Memory access at key __detected object queue
+24.613961 - Memory access at key __detected object queue
+24.614104 - Memory access at key __state
+24.614207 - Memory access at key __state
+24.743637 - Memory access at key __detected object queue
+24.743851 - Memory access at key __detected object queue
+24.743987 - Memory access at key __state
+24.744103 - Memory access at key __state
+24.861352 - Memory access at key __detected object queue
+24.861640 - Memory access at key __detected object queue
+24.862102 - Memory access at key __state
+24.862210 - Memory access at key __state
+24.984360 - Memory access at key __detected object queue
+24.984639 - Memory access at key __detected object queue
+24.984784 - Memory access at key __state
+24.985446 - Memory access at key __state
+25.102915 - Memory access at key __detected object queue
+25.103150 - Memory access at key __detected object queue
+25.103263 - Memory access at key __state
+25.103385 - Memory access at key __state
+25.220468 - Memory access at key __detected object queue
+25.220718 - Memory access at key __detected object queue
+25.220867 - Memory access at key __state
+25.220988 - Memory access at key __state
+25.347635 - Memory access at key __detected object queue
+25.347865 - Memory access at key __detected object queue
+25.348246 - Memory access at key __state
+25.348326 - Memory access at key __state
+25.467559 - Memory access at key __detected object queue
+25.468046 - Memory access at key __detected object queue
+25.468467 - Memory access at key __state
+25.469113 - Memory access at key __state
+25.592620 - Memory access at key __detected object queue
+25.592862 - Memory access at key __detected object queue
+25.593025 - Memory access at key __state
+25.593166 - Memory access at key __state
+25.716389 - Memory access at key __detected object queue
+25.716627 - Memory access at key __detected object queue
+25.716792 - Memory access at key __state
+25.716898 - Memory access at key __state
+25.839986 - Memory access at key __detected object queue
+25.840164 - Memory access at key __detected object queue
+25.840259 - Memory access at key __state
+25.840371 - Memory access at key __state
+25.966949 - Memory access at key __detected object queue
+25.967177 - Memory access at key __detected object queue
+25.967299 - Memory access at key __state
+25.967398 - Memory access at key __state
+26.082693 - Memory access at key __detected object queue
+26.082907 - Memory access at key __detected object queue
+26.083031 - Memory access at key __state
+26.083146 - Memory access at key __state
+26.200546 - Memory access at key __detected object queue
+26.200817 - Memory access at key __detected object queue
+26.200920 - Memory access at key __state
+26.201019 - Memory access at key __state
+26.330188 - Memory access at key __detected object queue
+26.330393 - Memory access at key __detected object queue
+26.330506 - Memory access at key __state
+26.330634 - Memory access at key __state
+26.436520 - Memory access at key __goals
+26.437851 - ****** Starting Act Phase ******
+
+26.438155 - Memory access at key __current goals
+26.438938 - Memory access at key __goals
+26.440184 - Memory access at key __current state
+26.460852 - Memory access at key __detected object queue
+26.461238 - Memory access at key __detected object queue
+26.461335 - Memory access at key __state
+26.461408 - Memory access at key __state
+26.580412 - Starting cycle 8
+
+26.580624 - ****** Starting Perceive Phase ******
+
+26.580789 - Memory access at key __detected object queue
+26.580894 - Memory access at key __state
+26.580980 - Memory access at key __words heard queue
+26.581065 - Memory access at key __current state
+26.592885 - Memory access at key __detected object queue
+26.593145 - Memory access at key __detected object queue
+26.593299 - Memory access at key __state
+26.593426 - Memory access at key __state
+26.712096 - ****** Starting Interpret Phase ******
+
+26.712458 - Memory access at key __current state
+26.712734 - Memory access at key __goals
+26.725048 - Memory access at key __detected object queue
+26.725258 - Memory access at key __detected object queue
+26.725344 - Memory access at key __state
+26.725456 - Memory access at key __state
+26.836163 - ****** Starting Eval Phase ******
+
+26.837097 - Memory access at key __current goals
+26.837372 - Memory access at key __goals
+26.851707 - Memory access at key __detected object queue
+26.852043 - Memory access at key __detected object queue
+26.854477 - Memory access at key __state
+26.854617 - Memory access at key __state
+26.957816 - ****** Starting Intend Phase ******
+
+26.958164 - Memory access at key __goals
+26.958279 - Memory access at key __current goals
+26.976806 - Memory access at key __detected object queue
+26.977048 - Memory access at key __detected object queue
+26.977184 - Memory access at key __state
+26.977328 - Memory access at key __state
+27.083892 - ****** Starting Plan Phase ******
+
+27.084221 - Memory access at key __current state
+27.084328 - Memory access at key __current goals
+27.084415 - Memory access at key __goals
+27.099385 - Memory access at key __detected object queue
+27.099637 - Memory access at key __detected object queue
+27.099783 - Memory access at key __state
+27.099903 - Memory access at key __state
+27.218023 - ****** Starting Act Phase ******
+
+27.219037 - Memory access at key __current goals
+27.219312 - Memory access at key __goals
+27.229831 - Memory access at key __detected object queue
+27.230049 - Memory access at key __detected object queue
+27.230224 - Memory access at key __state
+27.230355 - Memory access at key __state
+27.340063 - Starting cycle 9
+
+27.340313 - ****** Starting Perceive Phase ******
+
+27.340758 - Memory access at key __detected object queue
+27.341094 - Memory access at key __state
+27.341463 - Memory access at key __current state
+27.355546 - Memory access at key __detected object queue
+27.355736 - Memory access at key __detected object queue
+27.355851 - Memory access at key __state
+27.355947 - Memory access at key __state
+27.458352 - ****** Starting Interpret Phase ******
+
+27.458732 - Memory access at key __current state
+27.470427 - Memory access at key __detected object queue
+27.471873 - Memory access at key __detected object queue
+27.471962 - Memory access at key __state
+27.472016 - Memory access at key __state
+27.568610 - ****** Starting Eval Phase ******
+
+27.568856 - Memory access at key __current goals
+27.568925 - Memory access at key __goals
+27.586578 - Memory access at key __detected object queue
+27.586991 - Memory access at key __detected object queue
+27.587081 - Memory access at key __state
+27.587160 - Memory access at key __state
+27.688389 - ****** Starting Intend Phase ******
+
+27.688646 - Memory access at key __goals
+27.688729 - Memory access at key __current goals
+27.704735 - Memory access at key __detected object queue
+27.704901 - Memory access at key __detected object queue
+27.704993 - Memory access at key __state
+27.705069 - Memory access at key __state
+27.801808 - ****** Starting Plan Phase ******
+
+27.802025 - Memory access at key __current state
+27.802078 - Memory access at key __current goals
+27.802132 - Memory access at key __goals
+27.814071 - Memory access at key __detected object queue
+27.814284 - Memory access at key __detected object queue
+27.814400 - Memory access at key __state
+27.814488 - Memory access at key __state
+27.915487 - ****** Starting Act Phase ******
+
+27.915754 - Memory access at key __current goals
+27.915815 - Memory access at key __goals
+27.931043 - Memory access at key __detected object queue
+27.931239 - Memory access at key __detected object queue
+27.931350 - Memory access at key __state
+27.932363 - Memory access at key __state
+28.032257 - Starting cycle 10
+
+28.032457 - ****** Starting Perceive Phase ******
+
+28.032656 - Memory access at key __detected object queue
+28.032730 - Memory access at key __state
+28.032808 - Memory access at key __current state
+28.043815 - Memory access at key __detected object queue
+28.043988 - Memory access at key __detected object queue
+28.044099 - Memory access at key __state
+28.044204 - Memory access at key __state
+28.143278 - ****** Starting Interpret Phase ******
+
+28.143565 - Memory access at key __current state
+28.160188 - Memory access at key __detected object queue
+28.160332 - Memory access at key __detected object queue
+28.160423 - Memory access at key __state
+28.160488 - Memory access at key __state
+28.260411 - ****** Starting Eval Phase ******
+
+28.260706 - Memory access at key __current goals
+28.260808 - Memory access at key __goals
+28.271010 - Memory access at key __detected object queue
+28.271142 - Memory access at key __detected object queue
+28.271212 - Memory access at key __state
+28.271338 - Memory access at key __state
+28.378494 - ****** Starting Intend Phase ******
+
+28.378703 - Memory access at key __goals
+28.378754 - Memory access at key __current goals
+28.391268 - Memory access at key __detected object queue
+28.391459 - Memory access at key __detected object queue
+28.391556 - Memory access at key __state
+28.391649 - Memory access at key __state
+28.497424 - ****** Starting Plan Phase ******
+
+28.498381 - Memory access at key __current state
+28.498520 - Memory access at key __current goals
+28.498604 - Memory access at key __goals
+28.512104 - Memory access at key __detected object queue
+28.512291 - Memory access at key __detected object queue
+28.512791 - Memory access at key __state
+28.512908 - Memory access at key __state
+28.613633 - ****** Starting Act Phase ******
+
+28.613893 - Memory access at key __current goals
+28.613958 - Memory access at key __goals
+28.629030 - Memory access at key __detected object queue
+28.629389 - Memory access at key __detected object queue
+28.629668 - Memory access at key __state
+28.629893 - Memory access at key __state
+28.730463 - Starting cycle 11
+
+28.730661 - ****** Starting Perceive Phase ******
+
+28.730799 - Memory access at key __detected object queue
+28.730891 - Memory access at key __state
+28.730976 - Memory access at key __current state
+28.745363 - Memory access at key __detected object queue
+28.745581 - Memory access at key __detected object queue
+28.746262 - Memory access at key __state
+28.746601 - Memory access at key __state
+28.843326 - ****** Starting Interpret Phase ******
+
+28.843644 - Memory access at key __current state
+28.859488 - Memory access at key __detected object queue
+28.864004 - Memory access at key __detected object queue
+28.864206 - Memory access at key __state
+28.864343 - Memory access at key __state
+28.954568 - ****** Starting Eval Phase ******
+
+28.954776 - Memory access at key __current goals
+28.954821 - Memory access at key __goals
+28.967636 - Memory access at key __detected object queue
+28.967791 - Memory access at key __detected object queue
+28.967913 - Memory access at key __state
+28.967978 - Memory access at key __state
+29.068229 - ****** Starting Intend Phase ******
+
+29.068582 - Memory access at key __goals
+29.068666 - Memory access at key __current goals
+29.086422 - Memory access at key __detected object queue
+29.087108 - Memory access at key __detected object queue
+29.087181 - Memory access at key __state
+29.087233 - Memory access at key __state
+29.188817 - ****** Starting Plan Phase ******
+
+29.189155 - Memory access at key __current state
+29.189210 - Memory access at key __current goals
+29.189265 - Memory access at key __goals
+29.204812 - Memory access at key __detected object queue
+29.205010 - Memory access at key __detected object queue
+29.205106 - Memory access at key __state
+29.205173 - Memory access at key __state
+29.309600 - ****** Starting Act Phase ******
+
+29.309790 - Memory access at key __current goals
+29.309834 - Memory access at key __goals
+29.321671 - Memory access at key __detected object queue
+29.321897 - Memory access at key __detected object queue
+29.322037 - Memory access at key __state
+29.322106 - Memory access at key __state
+29.435311 - Starting cycle 12
+
+29.436018 - ****** Starting Perceive Phase ******
+
+29.436523 - Memory access at key __detected object queue
+29.436608 - Memory access at key __state
+29.436686 - Memory access at key __current state
+29.447148 - Memory access at key __detected object queue
+29.447616 - Memory access at key __detected object queue
+29.447718 - Memory access at key __state
+29.447799 - Memory access at key __state
+29.549871 - ****** Starting Interpret Phase ******
+
+29.550141 - Memory access at key __current state
+29.564873 - Memory access at key __detected object queue
+29.565521 - Memory access at key __detected object queue
+29.565992 - Memory access at key __state
+29.566274 - Memory access at key __state
+29.667311 - ****** Starting Eval Phase ******
+
+29.667593 - Memory access at key __current goals
+29.667644 - Memory access at key __goals
+29.684151 - Memory access at key __detected object queue
+29.684318 - Memory access at key __detected object queue
+29.684412 - Memory access at key __state
+29.684508 - Memory access at key __state
+29.778584 - ****** Starting Intend Phase ******
+
+29.778790 - Memory access at key __goals
+29.778842 - Memory access at key __current goals
+29.792382 - Memory access at key __detected object queue
+29.792616 - Memory access at key __detected object queue
+29.792690 - Memory access at key __state
+29.792740 - Memory access at key __state
+29.892079 - ****** Starting Plan Phase ******
+
+29.892306 - Memory access at key __current state
+29.892367 - Memory access at key __current goals
+29.892412 - Memory access at key __goals
+29.907011 - Memory access at key __detected object queue
+29.908985 - Memory access at key __detected object queue
+29.909172 - Memory access at key __state
+29.909289 - Memory access at key __state
+30.010132 - ****** Starting Act Phase ******
+
+30.010371 - Memory access at key __current goals
+30.010430 - Memory access at key __goals
+30.022747 - Memory access at key __detected object queue
+30.022884 - Memory access at key __detected object queue
+30.022945 - Memory access at key __state
+30.022996 - Memory access at key __state
+30.128256 - Starting cycle 13
+
+30.128500 - ****** Starting Perceive Phase ******
+
+30.128648 - Memory access at key __detected object queue
+30.128697 - Memory access at key __state
+30.128743 - Memory access at key __current state
+30.142094 - Memory access at key __detected object queue
+30.142273 - Memory access at key __detected object queue
+30.142356 - Memory access at key __state
+30.142421 - Memory access at key __state
+30.241773 - ****** Starting Interpret Phase ******
+
+30.241985 - Memory access at key __current state
+30.256363 - Memory access at key __detected object queue
+30.256624 - Memory access at key __detected object queue
+30.256794 - Memory access at key __state
+30.257307 - Memory access at key __state
+30.362304 - ****** Starting Eval Phase ******
+
+30.362521 - Memory access at key __current goals
+30.362620 - Memory access at key __goals
+30.372827 - Memory access at key __detected object queue
+30.373009 - Memory access at key __detected object queue
+30.373131 - Memory access at key __state
+30.373328 - Memory access at key __state
+30.469164 - ****** Starting Intend Phase ******
+
+30.469442 - Memory access at key __goals
+30.469529 - Memory access at key __current goals
+30.484613 - Memory access at key __detected object queue
+30.484769 - Memory access at key __detected object queue
+30.484875 - Memory access at key __state
+30.485069 - Memory access at key __state
+30.582067 - ****** Starting Plan Phase ******
+
+30.582306 - Memory access at key __current state
+30.582355 - Memory access at key __current goals
+30.582403 - Memory access at key __goals
+30.596140 - Memory access at key __detected object queue
+30.596310 - Memory access at key __detected object queue
+30.596377 - Memory access at key __state
+30.596460 - Memory access at key __state
+30.699378 - ****** Starting Act Phase ******
+
+30.699578 - Memory access at key __current goals
+30.699640 - Memory access at key __goals
+30.711549 - Memory access at key __detected object queue
+30.711723 - Memory access at key __detected object queue
+30.711838 - Memory access at key __state
+30.711939 - Memory access at key __state
+30.817518 - Starting cycle 14
+
+30.817697 - ****** Starting Perceive Phase ******
+
+30.817828 - Memory access at key __detected object queue
+30.817905 - Memory access at key __state
+30.817992 - Memory access at key __current state
+30.837851 - Memory access at key __detected object queue
+30.838172 - Memory access at key __detected object queue
+30.838294 - Memory access at key __state
+30.838393 - Memory access at key __state
+30.867571 - Memory access at key __ros feedback
+30.936755 - ****** Starting Interpret Phase ******
+
+30.937032 - Memory access at key __current state
+30.948222 - Memory access at key __detected object queue
+30.948420 - Memory access at key __detected object queue
+30.948556 - Memory access at key __state
+30.948654 - Memory access at key __state
+31.055168 - ****** Starting Eval Phase ******
+
+31.055369 - Memory access at key __current goals
+31.055422 - Memory access at key __goals
+31.065427 - Memory access at key __detected object queue
+31.065576 - Memory access at key __detected object queue
+31.065663 - Memory access at key __state
+31.065762 - Memory access at key __state
+31.160687 - ****** Starting Intend Phase ******
+
+31.161031 - Memory access at key __goals
+31.161110 - Memory access at key __current goals
+31.177489 - Memory access at key __detected object queue
+31.177730 - Memory access at key __detected object queue
+31.177832 - Memory access at key __state
+31.177914 - Memory access at key __state
+31.272893 - ****** Starting Plan Phase ******
+
+31.273450 - Memory access at key __current state
+31.273574 - Memory access at key __current goals
+31.273671 - Memory access at key __goals
+31.286569 - Memory access at key __detected object queue
+31.286690 - Memory access at key __detected object queue
+31.286745 - Memory access at key __state
+31.286790 - Memory access at key __state
+31.382957 - ****** Starting Act Phase ******
+
+31.383212 - Memory access at key __current goals
+31.383286 - Memory access at key __goals
+31.394816 - Memory access at key __detected object queue
+31.395005 - Memory access at key __detected object queue
+31.395118 - Memory access at key __state
+31.395179 - Memory access at key __state
+31.495920 - Starting cycle 15
+
+31.496537 - ****** Starting Perceive Phase ******
+
+31.497202 - Memory access at key __detected object queue
+31.497386 - Memory access at key __state
+31.497707 - Memory access at key __ros feedback
+31.497978 - Memory access at key __current state
+31.500548 - Memory access at key __feedback
+31.508766 - Memory access at key __detected object queue
+31.508897 - Memory access at key __detected object queue
+31.508956 - Memory access at key __state
+31.509018 - Memory access at key __state
+31.608871 - ****** Starting Interpret Phase ******
+
+31.609098 - Memory access at key __current state
+31.623564 - Memory access at key __detected object queue
+31.623887 - Memory access at key __detected object queue
+31.624270 - Memory access at key __state
+31.624433 - Memory access at key __state
+31.722202 - ****** Starting Eval Phase ******
+
+31.722507 - Memory access at key __current goals
+31.722562 - Memory access at key __goals
+31.732589 - Memory access at key __detected object queue
+31.732725 - Memory access at key __detected object queue
+31.732788 - Memory access at key __state
+31.732848 - Memory access at key __state
+31.827581 - ****** Starting Intend Phase ******
+
+31.827797 - Memory access at key __goals
+31.827848 - Memory access at key __current goals
+31.844548 - Memory access at key __detected object queue
+31.844759 - Memory access at key __detected object queue
+31.844886 - Memory access at key __state
+31.844986 - Memory access at key __state
+31.942907 - ****** Starting Plan Phase ******
+
+31.943126 - Memory access at key __current state
+31.943170 - Memory access at key __current goals
+31.943208 - Memory access at key __goals
+31.953944 - Memory access at key __detected object queue
+31.954152 - Memory access at key __detected object queue
+31.954274 - Memory access at key __state
+31.954479 - Memory access at key __state
+32.054298 - ****** Starting Act Phase ******
+
+32.054675 - Memory access at key __current goals
+32.054767 - Memory access at key __goals
+32.054871 - Memory access at key __feedback
+32.055075 - Memory access at key __feedback
+32.057182 - Memory access at key __ros feedback
+32.066998 - Memory access at key __detected object queue
+32.067243 - Memory access at key __detected object queue
+32.067382 - Memory access at key __state
+32.068274 - Memory access at key __state
+32.165359 - Starting cycle 16
+
+32.165562 - ****** Starting Perceive Phase ******
+
+32.165735 - Memory access at key __detected object queue
+32.165812 - Memory access at key __state
+32.165980 - Memory access at key __ros feedback
+32.166143 - Memory access at key __current state
+32.167006 - Memory access at key __feedback
+32.179161 - Memory access at key __detected object queue
+32.179676 - Memory access at key __detected object queue
+32.179797 - Memory access at key __state
+32.179890 - Memory access at key __state
+32.276918 - ****** Starting Interpret Phase ******
+
+32.277221 - Memory access at key __current state
+32.294915 - Memory access at key __detected object queue
+32.295070 - Memory access at key __detected object queue
+32.295153 - Memory access at key __state
+32.295225 - Memory access at key __state
+32.393174 - ****** Starting Eval Phase ******
+
+32.393396 - Memory access at key __current goals
+32.393439 - Memory access at key __goals
+32.404855 - Memory access at key __detected object queue
+32.405004 - Memory access at key __detected object queue
+32.405076 - Memory access at key __state
+32.405130 - Memory access at key __state
+32.510669 - ****** Starting Intend Phase ******
+
+32.511462 - Memory access at key __goals
+32.511588 - Memory access at key __current goals
+32.523174 - Memory access at key __detected object queue
+32.523371 - Memory access at key __detected object queue
+32.523499 - Memory access at key __state
+32.523614 - Memory access at key __state
+32.621571 - ****** Starting Plan Phase ******
+
+32.621771 - Memory access at key __current state
+32.621828 - Memory access at key __current goals
+32.621879 - Memory access at key __goals
+32.637856 - Memory access at key __detected object queue
+32.638132 - Memory access at key __detected object queue
+32.638228 - Memory access at key __state
+32.638312 - Memory access at key __state
+32.734635 - ****** Starting Act Phase ******
+
+32.734872 - Memory access at key __current goals
+32.734944 - Memory access at key __goals
+32.735052 - Memory access at key __feedback
+32.735439 - Memory access at key __feedback
+32.747076 - Memory access at key __detected object queue
+32.747307 - Memory access at key __detected object queue
+32.747399 - Memory access at key __state
+32.747481 - Memory access at key __state
+32.855244 - Starting cycle 17
+
+32.855680 - ****** Starting Perceive Phase ******
+
+32.855937 - Memory access at key __detected object queue
+32.856031 - Memory access at key __state
+32.856123 - Memory access at key __current state
+32.871770 - Memory access at key __detected object queue
+32.871946 - Memory access at key __detected object queue
+32.872051 - Memory access at key __state
+32.872440 - Memory access at key __state
+32.967993 - ****** Starting Interpret Phase ******
+
+32.968250 - Memory access at key __current state
+32.985900 - Memory access at key __detected object queue
+32.986187 - Memory access at key __detected object queue
+32.986347 - Memory access at key __state
+32.986476 - Memory access at key __state
+33.082620 - ****** Starting Eval Phase ******
+
+33.082859 - Memory access at key __current goals
+33.082900 - Memory access at key __goals
+33.094962 - Memory access at key __detected object queue
+33.095136 - Memory access at key __detected object queue
+33.095336 - Memory access at key __state
+33.095435 - Memory access at key __state
+33.191474 - ****** Starting Intend Phase ******
+
+33.191721 - Memory access at key __goals
+33.191778 - Memory access at key __current goals
+33.209254 - Memory access at key __detected object queue
+33.209399 - Memory access at key __detected object queue
+33.209478 - Memory access at key __state
+33.209574 - Memory access at key __state
+33.308533 - ****** Starting Plan Phase ******
+
+33.308751 - Memory access at key __current state
+33.308814 - Memory access at key __current goals
+33.308857 - Memory access at key __goals
+33.321234 - Memory access at key __detected object queue
+33.321395 - Memory access at key __detected object queue
+33.321502 - Memory access at key __state
+33.321823 - Memory access at key __state
+33.423115 - ****** Starting Act Phase ******
+
+33.423321 - Memory access at key __current goals
+33.423362 - Memory access at key __goals
+33.423483 - Memory access at key __feedback
+33.441041 - Memory access at key __detected object queue
+33.441181 - Memory access at key __detected object queue
+33.441290 - Memory access at key __state
+33.441383 - Memory access at key __state
+33.537237 - Starting cycle 18
+
+33.537417 - ****** Starting Perceive Phase ******
+
+33.537531 - Memory access at key __detected object queue
+33.537594 - Memory access at key __state
+33.537675 - Memory access at key __current state
+33.553467 - Memory access at key __detected object queue
+33.553799 - Memory access at key __detected object queue
+33.553906 - Memory access at key __state
+33.553994 - Memory access at key __state
+33.656126 - ****** Starting Interpret Phase ******
+
+33.657186 - Memory access at key __current state
+33.670187 - Memory access at key __detected object queue
+33.670382 - Memory access at key __detected object queue
+33.670493 - Memory access at key __state
+33.670748 - Memory access at key __state
+33.768056 - ****** Starting Eval Phase ******
+
+33.768394 - Memory access at key __current goals
+33.768475 - Memory access at key __goals
+33.781776 - Memory access at key __detected object queue
+33.782014 - Memory access at key __detected object queue
+33.782107 - Memory access at key __state
+33.782185 - Memory access at key __state
+33.884325 - ****** Starting Intend Phase ******
+
+33.884616 - Memory access at key __goals
+33.884831 - Memory access at key __current goals
+33.897439 - Memory access at key __detected object queue
+33.897660 - Memory access at key __detected object queue
+33.897779 - Memory access at key __state
+33.897902 - Memory access at key __state
+34.002452 - ****** Starting Plan Phase ******
+
+34.002743 - Memory access at key __current state
+34.002814 - Memory access at key __current goals
+34.002860 - Memory access at key __goals
+34.014929 - Memory access at key __detected object queue
+34.015729 - Memory access at key __detected object queue
+34.015972 - Memory access at key __state
+34.016051 - Memory access at key __state
+34.110975 - ****** Starting Act Phase ******
+
+34.111225 - Memory access at key __current goals
+34.111292 - Memory access at key __goals
+34.111378 - Memory access at key __feedback
+34.128498 - Memory access at key __detected object queue
+34.128754 - Memory access at key __detected object queue
+34.128831 - Memory access at key __state
+34.128884 - Memory access at key __state
+34.224532 - Starting cycle 19
+
+34.225389 - ****** Starting Perceive Phase ******
+
+34.226555 - Memory access at key __detected object queue
+34.227008 - Memory access at key __state
+34.227159 - Memory access at key __current state
+34.237784 - Memory access at key __detected object queue
+34.237937 - Memory access at key __detected object queue
+34.238030 - Memory access at key __state
+34.238197 - Memory access at key __state
+34.339403 - ****** Starting Interpret Phase ******
+
+34.339629 - Memory access at key __current state
+34.360793 - Memory access at key __detected object queue
+34.361032 - Memory access at key __detected object queue
+34.361098 - Memory access at key __state
+34.361175 - Memory access at key __state
+34.458918 - ****** Starting Eval Phase ******
+
+34.459140 - Memory access at key __current goals
+34.459190 - Memory access at key __goals
+34.471027 - Memory access at key __detected object queue
+34.471163 - Memory access at key __detected object queue
+34.471232 - Memory access at key __state
+34.471318 - Memory access at key __state
+34.568461 - ****** Starting Intend Phase ******
+
+34.569033 - Memory access at key __goals
+34.569107 - Memory access at key __current goals
+34.583035 - Memory access at key __detected object queue
+34.583197 - Memory access at key __detected object queue
+34.583288 - Memory access at key __state
+34.583371 - Memory access at key __state
+34.683072 - ****** Starting Plan Phase ******
+
+34.683330 - Memory access at key __current state
+34.683427 - Memory access at key __current goals
+34.683500 - Memory access at key __goals
+34.695517 - Memory access at key __detected object queue
+34.695677 - Memory access at key __detected object queue
+34.695776 - Memory access at key __state
+34.695860 - Memory access at key __state
+34.799792 - ****** Starting Act Phase ******
+
+34.800694 - Memory access at key __current goals
+34.801344 - Memory access at key __goals
+34.801869 - Memory access at key __feedback
+34.814174 - Memory access at key __detected object queue
+34.814333 - Memory access at key __detected object queue
+34.814427 - Memory access at key __state
+34.814510 - Memory access at key __state
+34.917831 - Starting cycle 20
+
+34.918187 - ****** Starting Perceive Phase ******
+
+34.918381 - Memory access at key __detected object queue
+34.918575 - Memory access at key __state
+34.918671 - Memory access at key __current state
+34.936038 - Memory access at key __detected object queue
+34.936208 - Memory access at key __detected object queue
+34.936276 - Memory access at key __state
+34.936337 - Memory access at key __state
+35.035492 - ****** Starting Interpret Phase ******
+
+35.035690 - Memory access at key __current state
+35.053469 - Memory access at key __detected object queue
+35.053692 - Memory access at key __detected object queue
+35.053807 - Memory access at key __state
+35.053894 - Memory access at key __state
+35.146286 - ****** Starting Eval Phase ******
+
+35.146562 - Memory access at key __current goals
+35.146615 - Memory access at key __goals
+35.158859 - Memory access at key __detected object queue
+35.159036 - Memory access at key __detected object queue
+35.159122 - Memory access at key __state
+35.159196 - Memory access at key __state
+35.255030 - ****** Starting Intend Phase ******
+
+35.255323 - Memory access at key __goals
+35.255381 - Memory access at key __current goals
+35.267953 - Memory access at key __detected object queue
+35.268160 - Memory access at key __detected object queue
+35.268274 - Memory access at key __state
+35.268362 - Memory access at key __state
+35.369841 - ****** Starting Plan Phase ******
+
+35.370644 - Memory access at key __current state
+35.370959 - Memory access at key __current goals
+35.371195 - Memory access at key __goals
+35.384914 - Memory access at key __detected object queue
+35.385487 - Memory access at key __detected object queue
+35.385619 - Memory access at key __state
+35.385701 - Memory access at key __state
+35.482016 - ****** Starting Act Phase ******
+
+35.482304 - Memory access at key __current goals
+35.482365 - Memory access at key __goals
+35.482447 - Memory access at key __feedback
+35.501507 - Memory access at key __detected object queue
+35.502248 - Memory access at key __detected object queue
+35.502776 - Memory access at key __state
+35.503046 - Memory access at key __state
+35.607077 - Starting cycle 21
+
+35.607227 - ****** Starting Perceive Phase ******
+
+35.607343 - Memory access at key __detected object queue
+35.607387 - Memory access at key __state
+35.607426 - Memory access at key __current state
+35.617753 - Memory access at key __detected object queue
+35.617954 - Memory access at key __detected object queue
+35.618068 - Memory access at key __state
+35.618161 - Memory access at key __state
+35.718530 - ****** Starting Interpret Phase ******
+
+35.718849 - Memory access at key __current state
+35.731408 - Memory access at key __detected object queue
+35.731578 - Memory access at key __detected object queue
+35.731633 - Memory access at key __state
+35.731675 - Memory access at key __state
+35.834485 - ****** Starting Eval Phase ******
+
+35.834704 - Memory access at key __current goals
+35.834777 - Memory access at key __goals
+35.851715 - Memory access at key __detected object queue
+35.852432 - Memory access at key __detected object queue
+35.852918 - Memory access at key __state
+35.853476 - Memory access at key __state
+35.949742 - ****** Starting Intend Phase ******
+
+35.950247 - Memory access at key __goals
+35.950324 - Memory access at key __current goals
+35.961551 - Memory access at key __detected object queue
+35.961730 - Memory access at key __detected object queue
+35.961830 - Memory access at key __state
+35.961915 - Memory access at key __state
+36.060983 - ****** Starting Plan Phase ******
+
+36.061395 - Memory access at key __current state
+36.061486 - Memory access at key __current goals
+36.061638 - Memory access at key __goals
+36.079376 - Memory access at key __detected object queue
+36.079491 - Memory access at key __detected object queue
+36.079548 - Memory access at key __state
+36.079591 - Memory access at key __state
+36.177017 - ****** Starting Act Phase ******
+
+36.177277 - Memory access at key __current goals
+36.177359 - Memory access at key __goals
+36.177475 - Memory access at key __feedback
+36.190955 - Memory access at key __detected object queue
+36.191116 - Memory access at key __detected object queue
+36.191200 - Memory access at key __state
+36.191558 - Memory access at key __state
+36.288225 - Starting cycle 22
+
+36.288740 - ****** Starting Perceive Phase ******
+
+36.289087 - Memory access at key __detected object queue
+36.289443 - Memory access at key __state
+36.791755 - Memory access at key __current state
+36.792087 - Memory access at key __detected object queue
+36.792225 - Memory access at key __detected object queue
+36.792314 - Memory access at key __state
+36.792401 - Memory access at key __state
+36.792859 - ****** Starting Interpret Phase ******
+
+36.792967 - Memory access at key __current state
+36.793306 - Memory access at key __detected object queue
+36.793421 - Memory access at key __detected object queue
+36.793486 - Memory access at key __state
+36.793581 - Memory access at key __state
+36.908771 - ****** Starting Eval Phase ******
+
+36.909815 - Memory access at key __current goals
+36.910107 - Memory access at key __goals
+36.910867 - Memory access at key __detected object queue
+36.911166 - Memory access at key __detected object queue
+36.911320 - Memory access at key __state
+36.911483 - Memory access at key __state
+37.028009 - ****** Starting Intend Phase ******
+
+37.029135 - Memory access at key __goals
+37.031405 - Memory access at key __current goals
+37.032583 - Memory access at key __ros feedback
+37.141198 - ****** Starting Plan Phase ******
+
+37.141470 - Memory access at key __current state
+37.141572 - Memory access at key __current goals
+37.141803 - Memory access at key __detected object queue
+37.141657 - Memory access at key __goals
+37.141951 - Memory access at key __detected object queue
+37.142806 - Memory access at key __state
+37.142904 - Memory access at key __state
+37.255782 - ****** Starting Act Phase ******
+
+37.256695 - Memory access at key __detected object queue
+37.257258 - Memory access at key __detected object queue
+37.257439 - Memory access at key __state
+37.257514 - Memory access at key __state
+37.369585 - Memory access at key __detected object queue
+37.369754 - Memory access at key __detected object queue
+37.369828 - Memory access at key __state
+37.369905 - Memory access at key __state
+37.483069 - Memory access at key __detected object queue
+37.483599 - Memory access at key __detected object queue
+37.483814 - Memory access at key __state
+37.483991 - Memory access at key __state
+37.593520 - Memory access at key __detected object queue
+37.593663 - Memory access at key __detected object queue
+37.593726 - Memory access at key __state
+37.593788 - Memory access at key __state
+37.706240 - Memory access at key __detected object queue
+37.706407 - Memory access at key __detected object queue
+37.706681 - Memory access at key __state
+37.706743 - Memory access at key __state
+37.821388 - Memory access at key __detected object queue
+37.821637 - Memory access at key __detected object queue
+37.821750 - Memory access at key __state
+37.821846 - Memory access at key __state
+37.929995 - Memory access at key __detected object queue
+37.930159 - Memory access at key __detected object queue
+37.930260 - Memory access at key __state
+37.930342 - Memory access at key __state
+38.039294 - Memory access at key __detected object queue
+38.039633 - Memory access at key __detected object queue
+38.039784 - Memory access at key __state
+38.039979 - Memory access at key __state
+38.150212 - Memory access at key __detected object queue
+38.150345 - Memory access at key __detected object queue
+38.150425 - Memory access at key __state
+38.150492 - Memory access at key __state
+38.258740 - Memory access at key __detected object queue
+38.258862 - Memory access at key __detected object queue
+38.258922 - Memory access at key __state
+38.258966 - Memory access at key __state
+38.367824 - Memory access at key __detected object queue
+38.368112 - Memory access at key __detected object queue
+38.368210 - Memory access at key __state
+38.368298 - Memory access at key __state
+38.478961 - Memory access at key __detected object queue
+38.479848 - Memory access at key __detected object queue
+38.479943 - Memory access at key __state
+38.480027 - Memory access at key __state
+38.591133 - Memory access at key __detected object queue
+38.591259 - Memory access at key __detected object queue
+38.591316 - Memory access at key __state
+38.591364 - Memory access at key __state
+38.700653 - Memory access at key __detected object queue
+38.700911 - Memory access at key __detected object queue
+38.701003 - Memory access at key __state
+38.701088 - Memory access at key __state
+38.816593 - Memory access at key __detected object queue
+38.816730 - Memory access at key __detected object queue
+38.816793 - Memory access at key __state
+38.816871 - Memory access at key __state
+38.932965 - Memory access at key __detected object queue
+38.933502 - Memory access at key __detected object queue
+38.934005 - Memory access at key __state
+38.934261 - Memory access at key __state
+39.041609 - Memory access at key __detected object queue
+39.041743 - Memory access at key __detected object queue
+39.041833 - Memory access at key __state
+39.041915 - Memory access at key __state
+39.149432 - Memory access at key __detected object queue
+39.149597 - Memory access at key __detected object queue
+39.149700 - Memory access at key __state
+39.150004 - Memory access at key __state
+39.257296 - Memory access at key __detected object queue
+39.257458 - Memory access at key __detected object queue
+39.257873 - Memory access at key __state
+39.257927 - Memory access at key __state
+39.374809 - Memory access at key __detected object queue
+39.374950 - Memory access at key __detected object queue
+39.375020 - Memory access at key __state
+39.375109 - Memory access at key __state
+39.484684 - Memory access at key __detected object queue
+39.484872 - Memory access at key __detected object queue
+39.484938 - Memory access at key __state
+39.484989 - Memory access at key __state
+39.602466 - Memory access at key __detected object queue
+39.602626 - Memory access at key __detected object queue
+39.602982 - Memory access at key __state
+39.603037 - Memory access at key __state
+39.719533 - Memory access at key __detected object queue
+39.719759 - Memory access at key __detected object queue
+39.719928 - Memory access at key __state
+39.720060 - Memory access at key __state
+39.824169 - Memory access at key __detected object queue
+39.824411 - Memory access at key __detected object queue
+39.824508 - Memory access at key __state
+39.824592 - Memory access at key __state
+39.935861 - Memory access at key __detected object queue
+39.936020 - Memory access at key __detected object queue
+39.936111 - Memory access at key __state
+39.936194 - Memory access at key __state
+40.046884 - Memory access at key __detected object queue
+40.047015 - Memory access at key __detected object queue
+40.047100 - Memory access at key __state
+40.047193 - Memory access at key __state
+40.161757 - Memory access at key __detected object queue
+40.162253 - Memory access at key __detected object queue
+40.162355 - Memory access at key __state
+40.162436 - Memory access at key __state
+40.279982 - Memory access at key __detected object queue
+40.280140 - Memory access at key __detected object queue
+40.280230 - Memory access at key __state
+40.280310 - Memory access at key __state
+40.393053 - Memory access at key __detected object queue
+40.393221 - Memory access at key __detected object queue
+40.393338 - Memory access at key __state
+40.393424 - Memory access at key __state
+40.502949 - Memory access at key __detected object queue
+40.503156 - Memory access at key __detected object queue
+40.503279 - Memory access at key __state
+40.503373 - Memory access at key __state
+40.626520 - Memory access at key __detected object queue
+40.626684 - Memory access at key __detected object queue
+40.627183 - Memory access at key __state
+40.627284 - Memory access at key __state
+40.742970 - Memory access at key __detected object queue
+40.743157 - Memory access at key __detected object queue
+40.743353 - Memory access at key __state
+40.743442 - Memory access at key __state
+40.851175 - Memory access at key __detected object queue
+40.851310 - Memory access at key __detected object queue
+40.851373 - Memory access at key __state
+40.851423 - Memory access at key __state
+40.964981 - Memory access at key __detected object queue
+40.965144 - Memory access at key __detected object queue
+40.965251 - Memory access at key __state
+40.965346 - Memory access at key __state
+41.081945 - Memory access at key __detected object queue
+41.082387 - Memory access at key __detected object queue
+41.082759 - Memory access at key __state
+41.083009 - Memory access at key __state
+41.206269 - Memory access at key __detected object queue
+41.206672 - Memory access at key __detected object queue
+41.206754 - Memory access at key __state
+41.206824 - Memory access at key __state
+41.311563 - Memory access at key __detected object queue
+41.312109 - Memory access at key __detected object queue
+41.312531 - Memory access at key __state
+41.312857 - Memory access at key __state
+41.421757 - Memory access at key __detected object queue
+41.422041 - Memory access at key __detected object queue
+41.422102 - Memory access at key __state
+41.422173 - Memory access at key __state
+41.539133 - Memory access at key __detected object queue
+41.539303 - Memory access at key __detected object queue
+41.539382 - Memory access at key __state
+41.539456 - Memory access at key __state
+41.652682 - Memory access at key __detected object queue
+41.652868 - Memory access at key __detected object queue
+41.652967 - Memory access at key __state
+41.653043 - Memory access at key __state
+41.763434 - Memory access at key __detected object queue
+41.763592 - Memory access at key __detected object queue
+41.763677 - Memory access at key __state
+41.763729 - Memory access at key __state
+41.880385 - Memory access at key __detected object queue
+41.880533 - Memory access at key __detected object queue
+41.880626 - Memory access at key __state
+41.880708 - Memory access at key __state
+41.992438 - Memory access at key __detected object queue
+41.992690 - Memory access at key __detected object queue
+41.992784 - Memory access at key __state
+41.992836 - Memory access at key __state
+42.105644 - Memory access at key __detected object queue
+42.105793 - Memory access at key __detected object queue
+42.105890 - Memory access at key __state
+42.105960 - Memory access at key __state
+42.222728 - Memory access at key __detected object queue
+42.222924 - Memory access at key __detected object queue
+42.223040 - Memory access at key __state
+42.223112 - Memory access at key __state
+42.328780 - Memory access at key __detected object queue
+42.329454 - Memory access at key __detected object queue
+42.329564 - Memory access at key __state
+42.329620 - Memory access at key __state
+42.442493 - Memory access at key __detected object queue
+42.442641 - Memory access at key __detected object queue
+42.442716 - Memory access at key __state
+42.442764 - Memory access at key __state
+42.553399 - Memory access at key __detected object queue
+42.553588 - Memory access at key __detected object queue
+42.553695 - Memory access at key __state
+42.553778 - Memory access at key __state
+42.664811 - Memory access at key __detected object queue
+42.665608 - Memory access at key __detected object queue
+42.666000 - Memory access at key __state
+42.666206 - Memory access at key __state
+42.779018 - Memory access at key __detected object queue
+42.779236 - Memory access at key __detected object queue
+42.779354 - Memory access at key __state
+42.779460 - Memory access at key __state
+42.887960 - Memory access at key __detected object queue
+42.888139 - Memory access at key __detected object queue
+42.888230 - Memory access at key __state
+42.888335 - Memory access at key __state
+42.997408 - Memory access at key __detected object queue
+42.997610 - Memory access at key __detected object queue
+42.997675 - Memory access at key __state
+42.997733 - Memory access at key __state
+43.107318 - Memory access at key __detected object queue
+43.107717 - Memory access at key __detected object queue
+43.107839 - Memory access at key __state
+43.107899 - Memory access at key __state
+43.218968 - Memory access at key __detected object queue
+43.219119 - Memory access at key __detected object queue
+43.219180 - Memory access at key __state
+43.219261 - Memory access at key __state
+43.344802 - Memory access at key __detected object queue
+43.345037 - Memory access at key __detected object queue
+43.345173 - Memory access at key __state
+43.345290 - Memory access at key __state
+43.467540 - Memory access at key __detected object queue
+43.468203 - Memory access at key __detected object queue
+43.468616 - Memory access at key __state
+43.468901 - Memory access at key __state
+43.587592 - Memory access at key __detected object queue
+43.587778 - Memory access at key __detected object queue
+43.587896 - Memory access at key __state
+43.588005 - Memory access at key __state
+43.717335 - Memory access at key __detected object queue
+43.717621 - Memory access at key __detected object queue
+43.717908 - Memory access at key __state
+43.718087 - Memory access at key __state
+43.834014 - Memory access at key __detected object queue
+43.834238 - Memory access at key __detected object queue
+43.834359 - Memory access at key __state
+43.834444 - Memory access at key __state
+43.957109 - Memory access at key __detected object queue
+43.957351 - Memory access at key __detected object queue
+43.958036 - Memory access at key __state
+43.958168 - Memory access at key __state
+44.076970 - Memory access at key __detected object queue
+44.077581 - Memory access at key __detected object queue
+44.077745 - Memory access at key __state
+44.077887 - Memory access at key __state
+44.193029 - Memory access at key __detected object queue
+44.193297 - Memory access at key __detected object queue
+44.193452 - Memory access at key __state
+44.193585 - Memory access at key __state
+44.318088 - Memory access at key __detected object queue
+44.318318 - Memory access at key __detected object queue
+44.318456 - Memory access at key __state
+44.318595 - Memory access at key __state
+44.440417 - Memory access at key __detected object queue
+44.440784 - Memory access at key __detected object queue
+44.440924 - Memory access at key __state
+44.441039 - Memory access at key __state
+44.559955 - Memory access at key __detected object queue
+44.560258 - Memory access at key __detected object queue
+44.560397 - Memory access at key __state
+44.560483 - Memory access at key __state
+44.691085 - Memory access at key __detected object queue
+44.691328 - Memory access at key __detected object queue
+44.691478 - Memory access at key __state
+44.691586 - Memory access at key __state
+44.822189 - Memory access at key __detected object queue
+44.822522 - Memory access at key __detected object queue
+44.822679 - Memory access at key __state
+44.822802 - Memory access at key __state
+44.958086 - Memory access at key __detected object queue
+44.958327 - Memory access at key __detected object queue
+44.958457 - Memory access at key __state
+44.958596 - Memory access at key __state
+45.079784 - Memory access at key __detected object queue
+45.080033 - Memory access at key __detected object queue
+45.080185 - Memory access at key __state
+45.080304 - Memory access at key __state
+45.203992 - Memory access at key __detected object queue
+45.204201 - Memory access at key __detected object queue
+45.204291 - Memory access at key __state
+45.204372 - Memory access at key __state
+45.325871 - Memory access at key __detected object queue
+45.326154 - Memory access at key __detected object queue
+45.326307 - Memory access at key __state
+45.326444 - Memory access at key __state
+45.455057 - Memory access at key __detected object queue
+45.455282 - Memory access at key __detected object queue
+45.455428 - Memory access at key __state
+45.455557 - Memory access at key __state
+45.582209 - Memory access at key __detected object queue
+45.582408 - Memory access at key __detected object queue
+45.582559 - Memory access at key __state
+45.582648 - Memory access at key __state
+45.703780 - Memory access at key __detected object queue
+45.704041 - Memory access at key __detected object queue
+45.704224 - Memory access at key __state
+45.704367 - Memory access at key __state
+45.835136 - Memory access at key __detected object queue
+45.835368 - Memory access at key __detected object queue
+45.835516 - Memory access at key __state
+45.835602 - Memory access at key __state
+45.954648 - Memory access at key __detected object queue
+45.954910 - Memory access at key __detected object queue
+45.955074 - Memory access at key __state
+45.955238 - Memory access at key __state
+46.077361 - Memory access at key __detected object queue
+46.077845 - Memory access at key __detected object queue
+46.077994 - Memory access at key __state
+46.078090 - Memory access at key __state
+46.203419 - Memory access at key __detected object queue
+46.203665 - Memory access at key __detected object queue
+46.203819 - Memory access at key __state
+46.203952 - Memory access at key __state
+46.324047 - Memory access at key __detected object queue
+46.324517 - Memory access at key __detected object queue
+46.324729 - Memory access at key __state
+46.324901 - Memory access at key __state
+46.444124 - Memory access at key __detected object queue
+46.444296 - Memory access at key __detected object queue
+46.444394 - Memory access at key __state
+46.444465 - Memory access at key __state
+46.565118 - Memory access at key __detected object queue
+46.565336 - Memory access at key __detected object queue
+46.565462 - Memory access at key __state
+46.565593 - Memory access at key __state
+46.697265 - Memory access at key __detected object queue
+46.697481 - Memory access at key __detected object queue
+46.697665 - Memory access at key __state
+46.697798 - Memory access at key __state
+46.828980 - Memory access at key __detected object queue
+46.829151 - Memory access at key __detected object queue
+46.829287 - Memory access at key __state
+46.829407 - Memory access at key __state
+46.953048 - Memory access at key __detected object queue
+46.953281 - Memory access at key __detected object queue
+46.953423 - Memory access at key __state
+46.953581 - Memory access at key __state
+47.089113 - Memory access at key __detected object queue
+47.089352 - Memory access at key __detected object queue
+47.089604 - Memory access at key __state
+47.089724 - Memory access at key __state
+47.210478 - Memory access at key __detected object queue
+47.210996 - Memory access at key __detected object queue
+47.211145 - Memory access at key __state
+47.211285 - Memory access at key __state
+47.337155 - Memory access at key __detected object queue
+47.337521 - Memory access at key __detected object queue
+47.337860 - Memory access at key __state
+47.338044 - Memory access at key __state
+47.454475 - Memory access at key __detected object queue
+47.454609 - Memory access at key __detected object queue
+47.454676 - Memory access at key __state
+47.454731 - Memory access at key __state
+47.565884 - Memory access at key __detected object queue
+47.566043 - Memory access at key __detected object queue
+47.566111 - Memory access at key __state
+47.566176 - Memory access at key __state
+47.683288 - Memory access at key __detected object queue
+47.683510 - Memory access at key __detected object queue
+47.683585 - Memory access at key __state
+47.683655 - Memory access at key __state
+47.790703 - Memory access at key __detected object queue
+47.790886 - Memory access at key __detected object queue
+47.790994 - Memory access at key __state
+47.791102 - Memory access at key __state
+47.912638 - Memory access at key __detected object queue
+47.913060 - Memory access at key __detected object queue
+47.913171 - Memory access at key __state
+47.913245 - Memory access at key __state
+48.018256 - Memory access at key __detected object queue
+48.018437 - Memory access at key __detected object queue
+48.018554 - Memory access at key __state
+48.018651 - Memory access at key __state
+48.132901 - Memory access at key __detected object queue
+48.133080 - Memory access at key __detected object queue
+48.133151 - Memory access at key __state
+48.133204 - Memory access at key __state
+48.242981 - Memory access at key __detected object queue
+48.243184 - Memory access at key __detected object queue
+48.243393 - Memory access at key __state
+48.243486 - Memory access at key __state
+48.365442 - Memory access at key __detected object queue
+48.365611 - Memory access at key __detected object queue
+48.365709 - Memory access at key __state
+48.365770 - Memory access at key __state
+48.484517 - Memory access at key __detected object queue
+48.484704 - Memory access at key __detected object queue
+48.485226 - Memory access at key __state
+48.485327 - Memory access at key __state
+48.606956 - Memory access at key __detected object queue
+48.607231 - Memory access at key __detected object queue
+48.607390 - Memory access at key __state
+48.607523 - Memory access at key __state
+48.714524 - Memory access at key __detected object queue
+48.714785 - Memory access at key __detected object queue
+48.714893 - Memory access at key __state
+48.714983 - Memory access at key __state
+48.830873 - Memory access at key __detected object queue
+48.831064 - Memory access at key __detected object queue
+48.831179 - Memory access at key __state
+48.831270 - Memory access at key __state
+48.942283 - Memory access at key __detected object queue
+48.942445 - Memory access at key __detected object queue
+48.942533 - Memory access at key __state
+48.942618 - Memory access at key __state
+49.060528 - Memory access at key __detected object queue
+49.061047 - Memory access at key __detected object queue
+49.061145 - Memory access at key __state
+49.061218 - Memory access at key __state
+49.171803 - Memory access at key __detected object queue
+49.171979 - Memory access at key __detected object queue
+49.172078 - Memory access at key __state
+49.172153 - Memory access at key __state
+49.285878 - Memory access at key __detected object queue
+49.286458 - Memory access at key __detected object queue
+49.286902 - Memory access at key __state
+49.287008 - Memory access at key __state
+49.399763 - Memory access at key __detected object queue
+49.399947 - Memory access at key __detected object queue
+49.400054 - Memory access at key __state
+49.400152 - Memory access at key __state
+49.513577 - Memory access at key __detected object queue
+49.513789 - Memory access at key __detected object queue
+49.513929 - Memory access at key __state
+49.514274 - Memory access at key __state
+49.628770 - Memory access at key __detected object queue
+49.629456 - Memory access at key __detected object queue
+49.629755 - Memory access at key __state
+49.629973 - Memory access at key __state
+49.745313 - Memory access at key __detected object queue
+49.746030 - Memory access at key __detected object queue
+49.746328 - Memory access at key __state
+49.746595 - Memory access at key __state
+49.856362 - Memory access at key __detected object queue
+49.856704 - Memory access at key __detected object queue
+49.856793 - Memory access at key __state
+49.856861 - Memory access at key __state
+49.971274 - Memory access at key __detected object queue
+49.971697 - Memory access at key __detected object queue
+49.971962 - Memory access at key __state
+49.972372 - Memory access at key __state
+50.094141 - Memory access at key __detected object queue
+50.094321 - Memory access at key __detected object queue
+50.094418 - Memory access at key __state
+50.094499 - Memory access at key __state
+50.205751 - Memory access at key __detected object queue
+50.205944 - Memory access at key __detected object queue
+50.206055 - Memory access at key __state
+50.206172 - Memory access at key __state
+50.320496 - Memory access at key __detected object queue
+50.320734 - Memory access at key __detected object queue
+50.320878 - Memory access at key __state
+50.321064 - Memory access at key __state
+50.436853 - Memory access at key __detected object queue
+50.437053 - Memory access at key __detected object queue
+50.437169 - Memory access at key __state
+50.437268 - Memory access at key __state
+50.548110 - Memory access at key __detected object queue
+50.548393 - Memory access at key __detected object queue
+50.548570 - Memory access at key __state
+50.548704 - Memory access at key __state
+50.659477 - Memory access at key __detected object queue
+50.659661 - Memory access at key __detected object queue
+50.659764 - Memory access at key __state
+50.659846 - Memory access at key __state
+50.772965 - Memory access at key __detected object queue
+50.773795 - Memory access at key __detected object queue
+50.774394 - Memory access at key __state
+50.774697 - Memory access at key __state
+50.887894 - Memory access at key __detected object queue
+50.888087 - Memory access at key __detected object queue
+50.888207 - Memory access at key __state
+50.888308 - Memory access at key __state
+50.998737 - Memory access at key __detected object queue
+50.999010 - Memory access at key __detected object queue
+50.999162 - Memory access at key __state
+50.999295 - Memory access at key __state
+51.113872 - Memory access at key __detected object queue
+51.114021 - Memory access at key __detected object queue
+51.114092 - Memory access at key __state
+51.114148 - Memory access at key __state
+51.238307 - Memory access at key __detected object queue
+51.238544 - Memory access at key __detected object queue
+51.238882 - Memory access at key __state
+51.238993 - Memory access at key __state
+51.349387 - Memory access at key __detected object queue
+51.350162 - Memory access at key __detected object queue
+51.350267 - Memory access at key __state
+51.350598 - Memory access at key __state
+51.461021 - Memory access at key __detected object queue
+51.461370 - Memory access at key __detected object queue
+51.461459 - Memory access at key __state
+51.461557 - Memory access at key __state
+51.573225 - Memory access at key __detected object queue
+51.573421 - Memory access at key __detected object queue
+51.573514 - Memory access at key __state
+51.573610 - Memory access at key __state
+51.691775 - Memory access at key __detected object queue
+51.691974 - Memory access at key __detected object queue
+51.692136 - Memory access at key __state
+51.692327 - Memory access at key __state
+51.801193 - Memory access at key __detected object queue
+51.801401 - Memory access at key __detected object queue
+51.801532 - Memory access at key __state
+51.801660 - Memory access at key __state
+51.911061 - Memory access at key __detected object queue
+51.911192 - Memory access at key __detected object queue
+51.911254 - Memory access at key __state
+51.911306 - Memory access at key __state
+52.020552 - Memory access at key __detected object queue
+52.020694 - Memory access at key __detected object queue
+52.020772 - Memory access at key __state
+52.020860 - Memory access at key __state
+52.130494 - Memory access at key __detected object queue
+52.130714 - Memory access at key __detected object queue
+52.130858 - Memory access at key __state
+52.130970 - Memory access at key __state
+52.242096 - Memory access at key __detected object queue
+52.242279 - Memory access at key __detected object queue
+52.242409 - Memory access at key __state
+52.243039 - Memory access at key __state
+52.353944 - Memory access at key __detected object queue
+52.354703 - Memory access at key __detected object queue
+52.355310 - Memory access at key __state
+52.355865 - Memory access at key __state
+52.493189 - Memory access at key __detected object queue
+52.493334 - Memory access at key __detected object queue
+52.493437 - Memory access at key __state
+52.493532 - Memory access at key __state
+52.604085 - Memory access at key __detected object queue
+52.604282 - Memory access at key __detected object queue
+52.604409 - Memory access at key __state
+52.604500 - Memory access at key __state
+52.728193 - Memory access at key __detected object queue
+52.728373 - Memory access at key __detected object queue
+52.728501 - Memory access at key __state
+52.728592 - Memory access at key __state
+52.840329 - Memory access at key __detected object queue
+52.841012 - Memory access at key __detected object queue
+52.841115 - Memory access at key __state
+52.841189 - Memory access at key __state
+52.949135 - Memory access at key __detected object queue
+52.949320 - Memory access at key __detected object queue
+52.949445 - Memory access at key __state
+52.949565 - Memory access at key __state
+53.064386 - Memory access at key __detected object queue
+53.064559 - Memory access at key __detected object queue
+53.064632 - Memory access at key __state
+53.064682 - Memory access at key __state
+53.172361 - Memory access at key __detected object queue
+53.172564 - Memory access at key __detected object queue
+53.172686 - Memory access at key __state
+53.172777 - Memory access at key __state
+53.287060 - Memory access at key __detected object queue
+53.287235 - Memory access at key __detected object queue
+53.287336 - Memory access at key __state
+53.287414 - Memory access at key __state
+53.400557 - Memory access at key __detected object queue
+53.400732 - Memory access at key __detected object queue
+53.400851 - Memory access at key __state
+53.401234 - Memory access at key __state
+53.512309 - Memory access at key __detected object queue
+53.512479 - Memory access at key __detected object queue
+53.512587 - Memory access at key __state
+53.512692 - Memory access at key __state
+53.639971 - Memory access at key __detected object queue
+53.640152 - Memory access at key __detected object queue
+53.640248 - Memory access at key __state
+53.640305 - Memory access at key __state
+53.764415 - Memory access at key __detected object queue
+53.764586 - Memory access at key __detected object queue
+53.764673 - Memory access at key __state
+53.764726 - Memory access at key __state
+53.879822 - Memory access at key __detected object queue
+53.880705 - Memory access at key __detected object queue
+53.881019 - Memory access at key __state
+53.881390 - Memory access at key __state
+53.987117 - Memory access at key __detected object queue
+53.987315 - Memory access at key __detected object queue
+53.987448 - Memory access at key __state
+53.987717 - Memory access at key __state
+54.106401 - Memory access at key __detected object queue
+54.106738 - Memory access at key __detected object queue
+54.107034 - Memory access at key __state
+54.107592 - Memory access at key __state
+54.225068 - Memory access at key __detected object queue
+54.225260 - Memory access at key __detected object queue
+54.225365 - Memory access at key __state
+54.225450 - Memory access at key __state
+54.336703 - Memory access at key __detected object queue
+54.337224 - Memory access at key __detected object queue
+54.337442 - Memory access at key __state
+54.337630 - Memory access at key __state
+54.447683 - Memory access at key __detected object queue
+54.447878 - Memory access at key __detected object queue
+54.448015 - Memory access at key __state
+54.448119 - Memory access at key __state
+54.560749 - Memory access at key __detected object queue
+54.560891 - Memory access at key __detected object queue
+54.560978 - Memory access at key __state
+54.561038 - Memory access at key __state
+54.666432 - Memory access at key __detected object queue
+54.666576 - Memory access at key __detected object queue
+54.666650 - Memory access at key __state
+54.666721 - Memory access at key __state
+54.782907 - Memory access at key __detected object queue
+54.783242 - Memory access at key __detected object queue
+54.783358 - Memory access at key __state
+54.783456 - Memory access at key __state
+54.889246 - Memory access at key __detected object queue
+54.889399 - Memory access at key __detected object queue
+54.889467 - Memory access at key __state
+54.889558 - Memory access at key __state
+55.001471 - Memory access at key __detected object queue
+55.001656 - Memory access at key __detected object queue
+55.001763 - Memory access at key __state
+55.001838 - Memory access at key __state
+55.115128 - Memory access at key __detected object queue
+55.115259 - Memory access at key __detected object queue
+55.115341 - Memory access at key __state
+55.115423 - Memory access at key __state
+55.227201 - Memory access at key __detected object queue
+55.227463 - Memory access at key __detected object queue
+55.227763 - Memory access at key __state
+55.227855 - Memory access at key __state
+55.353792 - Memory access at key __detected object queue
+55.353958 - Memory access at key __detected object queue
+55.354065 - Memory access at key __state
+55.354156 - Memory access at key __state
+55.468848 - Memory access at key __detected object queue
+55.469393 - Memory access at key __detected object queue
+55.469511 - Memory access at key __state
+55.469632 - Memory access at key __state
+55.585152 - Memory access at key __detected object queue
+55.585333 - Memory access at key __detected object queue
+55.588914 - Memory access at key __state
+55.589300 - Memory access at key __state
+55.691129 - Memory access at key __detected object queue
+55.691313 - Memory access at key __detected object queue
+55.691432 - Memory access at key __state
+55.691509 - Memory access at key __state
+55.801958 - Memory access at key __detected object queue
+55.802110 - Memory access at key __detected object queue
+55.802170 - Memory access at key __state
+55.802222 - Memory access at key __state
+55.917115 - Memory access at key __detected object queue
+55.918441 - Memory access at key __detected object queue
+55.919022 - Memory access at key __state
+55.919937 - Memory access at key __state
+56.028309 - Memory access at key __detected object queue
+56.028471 - Memory access at key __detected object queue
+56.028567 - Memory access at key __state
+56.028650 - Memory access at key __state
+56.139281 - Memory access at key __detected object queue
+56.139788 - Memory access at key __detected object queue
+56.140102 - Memory access at key __state
+56.140408 - Memory access at key __state
+56.250665 - Memory access at key __detected object queue
+56.250808 - Memory access at key __detected object queue
+56.250894 - Memory access at key __state
+56.250949 - Memory access at key __state
+56.395391 - Memory access at key __detected object queue
+56.395895 - Memory access at key __detected object queue
+56.396000 - Memory access at key __state
+56.396093 - Memory access at key __state
+56.516946 - Memory access at key __detected object queue
+56.517159 - Memory access at key __detected object queue
+56.517283 - Memory access at key __state
+56.517384 - Memory access at key __state
+56.634729 - Memory access at key __detected object queue
+56.634869 - Memory access at key __detected object queue
+56.634932 - Memory access at key __state
+56.634990 - Memory access at key __state
+56.748477 - Memory access at key __detected object queue
+56.748943 - Memory access at key __detected object queue
+56.749054 - Memory access at key __state
+56.749149 - Memory access at key __state
+56.862696 - Memory access at key __detected object queue
+56.862878 - Memory access at key __detected object queue
+56.863185 - Memory access at key __state
+56.863297 - Memory access at key __state
+56.976238 - Memory access at key __detected object queue
+56.976679 - Memory access at key __detected object queue
+56.977001 - Memory access at key __state
+56.977287 - Memory access at key __state
+57.094001 - Memory access at key __detected object queue
+57.094240 - Memory access at key __detected object queue
+57.094362 - Memory access at key __state
+57.094470 - Memory access at key __state
+57.205534 - Memory access at key __detected object queue
+57.205964 - Memory access at key __detected object queue
+57.206028 - Memory access at key __state
+57.206080 - Memory access at key __state
+57.316398 - Memory access at key __detected object queue
+57.316608 - Memory access at key __detected object queue
+57.317042 - Memory access at key __state
+57.317109 - Memory access at key __state
+57.426048 - Memory access at key __detected object queue
+57.426234 - Memory access at key __detected object queue
+57.426337 - Memory access at key __state
+57.426431 - Memory access at key __state
+57.538438 - Memory access at key __detected object queue
+57.538878 - Memory access at key __detected object queue
+57.539192 - Memory access at key __state
+57.539466 - Memory access at key __state
+57.649489 - Memory access at key __detected object queue
+57.649713 - Memory access at key __detected object queue
+57.649841 - Memory access at key __state
+57.649955 - Memory access at key __state
+57.763841 - Memory access at key __detected object queue
+57.764076 - Memory access at key __detected object queue
+57.764240 - Memory access at key __state
+57.764430 - Memory access at key __state
+57.876447 - Memory access at key __detected object queue
+57.876630 - Memory access at key __detected object queue
+57.876746 - Memory access at key __state
+57.876856 - Memory access at key __state
+57.985523 - Memory access at key __detected object queue
+57.986151 - Memory access at key __detected object queue
+57.986595 - Memory access at key __state
+57.986944 - Memory access at key __state
+58.096616 - Memory access at key __detected object queue
+58.096798 - Memory access at key __detected object queue
+58.096905 - Memory access at key __state
+58.096982 - Memory access at key __state
+58.357342 - Memory access at key __detected object queue
+58.357829 - Memory access at key __detected object queue
+58.357942 - Memory access at key __state
+58.358024 - Memory access at key __state

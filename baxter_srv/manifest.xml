@@ -1,0 +1,19 @@
+<package>
+  <description brief="baxter_srv">
+
+     baxter_srv
+
+  </description>
+  <author>Baxter</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/baxter_srv</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="baxter_interface"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+

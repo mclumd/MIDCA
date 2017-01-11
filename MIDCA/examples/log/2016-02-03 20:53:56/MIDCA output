@@ -1,0 +1,350 @@
+.271223 - Initializing Perceive module 1...
+
+.271928 - done.
+
+.272056 - Initializing Interpret module 1...
+
+.272211 - done.
+
+.272424 - Initializing Eval module 1...
+
+.272601 - done.
+
+.272765 - Initializing Intend module 1...
+
+.272889 - done.
+
+.273026 - Initializing Plan module 1...
+
+.273147 - done.
+
+.273271 - Initializing Act module 1...
+
+.273433 - done.
+
+.273758 - Goal Graph initialized.
+
+.273950 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
+.274153 - Starting cycle 0
+
+.274391 - ****** Starting Perceive Phase ******
+
+.275028 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+.418422 - ****** Starting Interpret Phase ******
+
+.550786 - ****** Starting Eval Phase ******
+
+.551198 - No current goals. Skipping eval
+
+.698967 - ****** Starting Intend Phase ******
+
+.699640 - No goals selected.
+
+.837877 - ****** Starting Plan Phase ******
+
+.839259 - No goals received by planner. Skipping planning.
+
+.976644 - ****** Starting Act Phase ******
+
+.977217 - No Active goals. Act phase will do nothing
+
+1.116071 - Starting cycle 1
+
+1.116661 - ****** Starting Perceive Phase ******
+
+1.117109 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1.251276 - ****** Starting Interpret Phase ******
+
+1.376354 - ****** Starting Eval Phase ******
+
+1.376934 - No current goals. Skipping eval
+
+1.507692 - ****** Starting Intend Phase ******
+
+1.508446 - No goals selected.
+
+1.687509 - ****** Starting Plan Phase ******
+
+1.688123 - No goals received by planner. Skipping planning.
+
+1.828479 - ****** Starting Act Phase ******
+
+1.829304 - No Active goals. Act phase will do nothing
+
+1.970496 - Starting cycle 2
+
+1.970915 - ****** Starting Perceive Phase ******
+
+1.971814 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.109061 - ****** Starting Interpret Phase ******
+
+2.245498 - ****** Starting Eval Phase ******
+
+2.246798 - No current goals. Skipping eval
+
+2.380161 - ****** Starting Intend Phase ******
+
+2.380913 - No goals selected.
+
+2.527129 - ****** Starting Plan Phase ******
+
+2.527644 - No goals received by planner. Skipping planning.
+
+2.659607 - ****** Starting Act Phase ******
+
+2.660221 - No Active goals. Act phase will do nothing
+
+2.795514 - Starting cycle 3
+
+2.795853 - ****** Starting Perceive Phase ******
+
+2.796410 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+2.924536 - ****** Starting Interpret Phase ******
+
+3.061013 - ****** Starting Eval Phase ******
+
+3.061934 - No current goals. Skipping eval
+
+3.198967 - ****** Starting Intend Phase ******
+
+3.199861 - No goals selected.
+
+3.342350 - ****** Starting Plan Phase ******
+
+3.343287 - No goals received by planner. Skipping planning.
+
+3.478711 - ****** Starting Act Phase ******
+
+3.479271 - No Active goals. Act phase will do nothing
+
+3.617537 - Starting cycle 4
+
+3.617868 - ****** Starting Perceive Phase ******
+
+3.618469 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+3.757035 - ****** Starting Interpret Phase ******
+
+3.931504 - ****** Starting Eval Phase ******
+
+3.932129 - No current goals. Skipping eval
+
+4.120877 - ****** Starting Intend Phase ******
+
+4.121527 - No goals selected.
+
+4.261681 - ****** Starting Plan Phase ******
+
+4.262522 - No goals received by planner. Skipping planning.
+
+4.419761 - ****** Starting Act Phase ******
+
+4.420491 - No Active goals. Act phase will do nothing
+
+4.571407 - Starting cycle 5
+
+4.571757 - ****** Starting Perceive Phase ******
+
+4.572468 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+4.721079 - ****** Starting Interpret Phase ******
+
+4.855135 - ****** Starting Eval Phase ******
+
+4.855658 - No current goals. Skipping eval
+
+4.990745 - ****** Starting Intend Phase ******
+
+4.991440 - No goals selected.
+
+5.137228 - ****** Starting Plan Phase ******
+
+5.137757 - No goals received by planner. Skipping planning.
+
+5.279926 - ****** Starting Act Phase ******
+
+5.281381 - No Active goals. Act phase will do nothing
+
+5.424118 - Starting cycle 6
+
+5.424600 - ****** Starting Perceive Phase ******
+
+5.425178 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+5.556663 - ****** Starting Interpret Phase ******
+
+5.701686 - ****** Starting Eval Phase ******
+
+5.702241 - No current goals. Skipping eval
+
+5.839032 - ****** Starting Intend Phase ******
+
+5.839754 - No goals selected.
+
+5.986620 - ****** Starting Plan Phase ******
+
+5.987329 - No goals received by planner. Skipping planning.
+
+6.134704 - ****** Starting Act Phase ******
+
+6.135311 - No Active goals. Act phase will do nothing
+
+6.268431 - Starting cycle 7
+
+6.268733 - ****** Starting Perceive Phase ******
+
+6.269248 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+6.300013 - storing utterance: data: stack green block on red block
+
+6.405612 - ****** Starting Interpret Phase ******
+
+6.541746 - ****** Starting Eval Phase ******
+
+6.542292 - No current goals. Skipping eval
+
+6.679198 - ****** Starting Intend Phase ******
+
+6.680035 - No goals selected.
+
+6.828604 - ****** Starting Plan Phase ******
+
+6.829271 - No goals received by planner. Skipping planning.
+
+6.982680 - ****** Starting Act Phase ******
+
+6.983576 - No Active goals. Act phase will do nothing
+
+7.126024 - Starting cycle 8
+
+7.126295 - ****** Starting Perceive Phase ******
+
+7.126849 - World observed: 0 new detection event(s), 1 utterance(s) and 0 feedback msg(s)
+
+7.268503 - ****** Starting Interpret Phase ******
+
+7.269046 - received utterance: stack green block on red block
+
+7.269387 - adding goal: Goal(objective: holding, indirectObject: observer, pos: green block:red block, directObject: green block, subject: self)
+
+7.399968 - ****** Starting Eval Phase ******
+
+7.400699 - No current goals. Skipping eval
+
+7.534654 - ****** Starting Intend Phase ******
+
+7.535617 - Selecting goal(s): holding the green block
+
+7.673770 - ****** Starting Plan Phase ******
+
+7.674584 - Planning...
+
+7.674716 - call seek_plan
+
+12.223358 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f406ec583f8>])]
+
+12.224152 - achieve_goals_m
+
+12.224374 - holding
+
+12.224555 - next subtask: achieve_goals
+
+12.646280 - Enter ...depth 1 tasks [('move_blocks', <MIDCA.goals.Goal instance at 0x7f406ec583f8>)]
+
+12.646627 - ___block: green block
+
+13.404822 - Enter ...statusgreen block
+
+13.405043 - red block
+
+13.405236 - ***********
+
+13.405340 - red block
+
+13.405441 - return false
+
+13.406179 - Error in planning: Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/planning.py", line 70, in get_new_plan
+    plan = pyhop.pyhop(state, [("achieve_goals", goals)], verbose = 0)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 235, in pyhop
+    result = seek_plan(state,tasks,[],0,verbose)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 308, in seek_plan
+    solution = seek_plan(state,subtasks+tasks[1:],plan,depth+1, verbose)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 294, in seek_plan
+    subtasks = method(state,*task1[1:])
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/asynch/methods.py", line 139, in moveb_m
+    s = status(b1,state,goal)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/asynch/methods.py", line 106, in status
+    rprint('inaccessible')
+NameError: global name 'rprint' is not defined
+
+13.407724 - 
+-Planning failed.
+
+13.408165 - ****** Starting Act Phase ******
+
+13.551726 - Starting cycle 9
+
+13.552098 - ****** Starting Perceive Phase ******
+
+13.552784 - World observed: 0 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+13.685799 - ****** Starting Interpret Phase ******
+
+13.818179 - ****** Starting Eval Phase ******
+
+13.967874 - ****** Starting Intend Phase ******
+
+13.968819 - Selecting goal(s): holding the green block
+
+14.102794 - ****** Starting Plan Phase ******
+
+14.103565 - Planning...
+
+14.103674 - call seek_plan
+
+2:54.334148 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7f406ec583f8>])]
+
+2:54.334437 - achieve_goals_m
+
+2:54.334653 - holding
+
+2:54.334806 - next subtask: achieve_goals
+
+2:55.006352 - Enter ...depth 1 tasks [('move_blocks', <MIDCA.goals.Goal instance at 0x7f406ec583f8>)]
+
+2:55.006660 - ___block: green block
+
+3:06.340829 - Enter ...statusgreen block
+
+3:06.341109 - red block
+
+3:06.341237 - ***********
+
+3:06.341339 - red block
+
+3:06.341462 - return false
+
+3:06.341730 - Error in planning: Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/planning.py", line 70, in get_new_plan
+    plan = pyhop.pyhop(state, [("achieve_goals", goals)], verbose = 0)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 235, in pyhop
+    result = seek_plan(state,tasks,[],0,verbose)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 308, in seek_plan
+    solution = seek_plan(state,subtasks+tasks[1:],plan,depth+1, verbose)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/pyhop.py", line 294, in seek_plan
+    subtasks = method(state,*task1[1:])
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/asynch/methods.py", line 139, in moveb_m
+    s = status(b1,state,goal)
+  File "/usr/local/lib/python2.7/dist-packages/MIDCA/modules/_plan/asynch/methods.py", line 106, in status
+    rprint('inaccessible')
+NameError: global name 'rprint' is not defined
+
+3:06.341855 - 
+-Planning failed.
+

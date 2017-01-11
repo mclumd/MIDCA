@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/veyorokon/ros/baxter_ws/src/baxter_srv/build/devel/setup.sh

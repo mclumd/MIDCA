@@ -1,0 +1,500 @@
+.247464 - Memory access at key __current state
+.248824 - Memory access at key __goals
+.249216 - Starting cycle 0
+
+.249459 - ****** Starting Perceive Phase ******
+
+.249752 - Memory access at key __current state
+.379980 - ****** Starting Interpret Phase ******
+
+.380507 - Memory access at key __current state
+.513806 - ****** Starting Eval Phase ******
+
+.646339 - ****** Starting Intend Phase ******
+
+.646777 - Memory access at key __goals
+.646925 - Memory access at key __current goals
+.776269 - ****** Starting Plan Phase ******
+
+.776931 - Memory access at key __current state
+.777062 - Memory access at key __current goals
+.912398 - ****** Starting Act Phase ******
+
+.912856 - Memory access at key __current goals
+1.056964 - Starting cycle 1
+
+1.057319 - ****** Starting Perceive Phase ******
+
+1.057670 - Memory access at key __current state
+1.190439 - ****** Starting Interpret Phase ******
+
+1.191008 - Memory access at key __current state
+1.314389 - ****** Starting Eval Phase ******
+
+1.314786 - Memory access at key __current goals
+1.447984 - ****** Starting Intend Phase ******
+
+1.448430 - Memory access at key __goals
+1.448598 - Memory access at key __current goals
+1.580675 - ****** Starting Plan Phase ******
+
+1.581153 - Memory access at key __current state
+1.582194 - Memory access at key __current goals
+1.713990 - ****** Starting Act Phase ******
+
+1.714572 - Memory access at key __current goals
+1.851916 - Starting cycle 2
+
+1.852289 - ****** Starting Perceive Phase ******
+
+1.852827 - Memory access at key __current state
+1.974625 - ****** Starting Interpret Phase ******
+
+1.975023 - Memory access at key __current state
+2.119246 - ****** Starting Eval Phase ******
+
+2.120191 - Memory access at key __current goals
+2.260239 - ****** Starting Intend Phase ******
+
+2.260612 - Memory access at key __goals
+2.260706 - Memory access at key __current goals
+2.397307 - ****** Starting Plan Phase ******
+
+2.397742 - Memory access at key __current state
+2.397854 - Memory access at key __current goals
+2.530620 - ****** Starting Act Phase ******
+
+2.531078 - Memory access at key __current goals
+2.660681 - Starting cycle 3
+
+2.661021 - ****** Starting Perceive Phase ******
+
+2.661299 - Memory access at key __current state
+2.789936 - ****** Starting Interpret Phase ******
+
+2.790274 - Memory access at key __current state
+2.922365 - ****** Starting Eval Phase ******
+
+2.922838 - Memory access at key __current goals
+3.062173 - ****** Starting Intend Phase ******
+
+3.062676 - Memory access at key __goals
+3.062763 - Memory access at key __current goals
+3.198928 - ****** Starting Plan Phase ******
+
+3.199262 - Memory access at key __current state
+3.199368 - Memory access at key __current goals
+3.334801 - ****** Starting Act Phase ******
+
+3.335229 - Memory access at key __current goals
+3.468822 - Starting cycle 4
+
+3.469156 - ****** Starting Perceive Phase ******
+
+3.469479 - Memory access at key __current state
+3.595923 - ****** Starting Interpret Phase ******
+
+3.596383 - Memory access at key __current state
+3.741109 - ****** Starting Eval Phase ******
+
+3.741544 - Memory access at key __current goals
+3.873050 - ****** Starting Intend Phase ******
+
+3.873499 - Memory access at key __goals
+3.873659 - Memory access at key __current goals
+4.007238 - ****** Starting Plan Phase ******
+
+4.008118 - Memory access at key __current state
+4.008459 - Memory access at key __current goals
+4.148629 - ****** Starting Act Phase ******
+
+4.149102 - Memory access at key __current goals
+4.277968 - Starting cycle 5
+
+4.278978 - ****** Starting Perceive Phase ******
+
+4.279699 - Memory access at key __current state
+4.418625 - ****** Starting Interpret Phase ******
+
+4.419074 - Memory access at key __current state
+4.546814 - ****** Starting Eval Phase ******
+
+4.547247 - Memory access at key __current goals
+4.675053 - ****** Starting Intend Phase ******
+
+4.675898 - Memory access at key __goals
+4.677593 - Memory access at key __current goals
+4.812429 - ****** Starting Plan Phase ******
+
+4.812874 - Memory access at key __current state
+4.812993 - Memory access at key __current goals
+4.941715 - ****** Starting Act Phase ******
+
+4.942152 - Memory access at key __current goals
+5.077423 - Starting cycle 6
+
+5.077760 - ****** Starting Perceive Phase ******
+
+5.078073 - Memory access at key __current state
+5.207801 - ****** Starting Interpret Phase ******
+
+5.208335 - Memory access at key __current state
+5.343635 - ****** Starting Eval Phase ******
+
+5.344162 - Memory access at key __current goals
+5.470192 - ****** Starting Intend Phase ******
+
+5.470645 - Memory access at key __goals
+5.470803 - Memory access at key __current goals
+5.605749 - ****** Starting Plan Phase ******
+
+5.606052 - Memory access at key __current state
+5.606196 - Memory access at key __current goals
+5.742570 - ****** Starting Act Phase ******
+
+5.743063 - Memory access at key __current goals
+5.877031 - Starting cycle 7
+
+5.877341 - ****** Starting Perceive Phase ******
+
+5.877678 - Memory access at key __current state
+6.013802 - ****** Starting Interpret Phase ******
+
+6.014267 - Memory access at key __current state
+6.152729 - ****** Starting Eval Phase ******
+
+6.153147 - Memory access at key __current goals
+6.283527 - ****** Starting Intend Phase ******
+
+6.283927 - Memory access at key __goals
+6.284237 - Memory access at key __current goals
+6.411065 - ****** Starting Plan Phase ******
+
+6.411489 - Memory access at key __current state
+6.411648 - Memory access at key __current goals
+6.547724 - ****** Starting Act Phase ******
+
+6.548192 - Memory access at key __current goals
+6.684522 - Starting cycle 8
+
+6.684840 - ****** Starting Perceive Phase ******
+
+6.685108 - Memory access at key __current state
+6.824372 - ****** Starting Interpret Phase ******
+
+6.825459 - Memory access at key __current state
+6.950926 - ****** Starting Eval Phase ******
+
+6.951440 - Memory access at key __current goals
+7.092770 - ****** Starting Intend Phase ******
+
+7.093184 - Memory access at key __goals
+7.093333 - Memory access at key __current goals
+7.216332 - ****** Starting Plan Phase ******
+
+7.216814 - Memory access at key __current state
+7.217023 - Memory access at key __current goals
+7.344173 - ****** Starting Act Phase ******
+
+7.344653 - Memory access at key __current goals
+7.476292 - Starting cycle 9
+
+7.476603 - ****** Starting Perceive Phase ******
+
+7.476896 - Memory access at key __current state
+7.605676 - ****** Starting Interpret Phase ******
+
+7.606128 - Memory access at key __current state
+7.739991 - ****** Starting Eval Phase ******
+
+7.740434 - Memory access at key __current goals
+7.871710 - ****** Starting Intend Phase ******
+
+7.872113 - Memory access at key __goals
+7.872280 - Memory access at key __current goals
+8.009595 - ****** Starting Plan Phase ******
+
+8.010034 - Memory access at key __current state
+8.010145 - Memory access at key __current goals
+8.142109 - ****** Starting Act Phase ******
+
+8.142640 - Memory access at key __current goals
+8.272603 - Starting cycle 10
+
+8.273000 - ****** Starting Perceive Phase ******
+
+8.274312 - Memory access at key __current state
+8.393543 - ****** Starting Interpret Phase ******
+
+8.393893 - Memory access at key __current state
+8.521073 - ****** Starting Eval Phase ******
+
+8.521494 - Memory access at key __current goals
+8.657416 - ****** Starting Intend Phase ******
+
+8.657856 - Memory access at key __goals
+8.657950 - Memory access at key __current goals
+8.786807 - ****** Starting Plan Phase ******
+
+8.787275 - Memory access at key __current state
+8.787469 - Memory access at key __current goals
+8.929709 - ****** Starting Act Phase ******
+
+8.930046 - Memory access at key __current goals
+9.052287 - Starting cycle 11
+
+9.052603 - ****** Starting Perceive Phase ******
+
+9.052913 - Memory access at key __current state
+9.179781 - ****** Starting Interpret Phase ******
+
+9.180221 - Memory access at key __current state
+9.309471 - ****** Starting Eval Phase ******
+
+9.310032 - Memory access at key __current goals
+9.441670 - ****** Starting Intend Phase ******
+
+9.442068 - Memory access at key __goals
+9.442209 - Memory access at key __current goals
+9.577225 - ****** Starting Plan Phase ******
+
+9.577682 - Memory access at key __current state
+9.577843 - Memory access at key __current goals
+9.708412 - ****** Starting Act Phase ******
+
+9.708822 - Memory access at key __current goals
+9.833053 - Starting cycle 12
+
+9.833365 - ****** Starting Perceive Phase ******
+
+9.833655 - Memory access at key __current state
+9.962320 - ****** Starting Interpret Phase ******
+
+9.962777 - Memory access at key __current state
+10.102101 - ****** Starting Eval Phase ******
+
+10.102554 - Memory access at key __current goals
+10.237518 - ****** Starting Intend Phase ******
+
+10.237958 - Memory access at key __goals
+10.238050 - Memory access at key __current goals
+10.368345 - ****** Starting Plan Phase ******
+
+10.368822 - Memory access at key __current state
+10.368981 - Memory access at key __current goals
+10.504861 - ****** Starting Act Phase ******
+
+10.505306 - Memory access at key __current goals
+10.636284 - Starting cycle 13
+
+10.636644 - ****** Starting Perceive Phase ******
+
+10.636990 - Memory access at key __current state
+10.768206 - ****** Starting Interpret Phase ******
+
+10.768621 - Memory access at key __current state
+10.907669 - ****** Starting Eval Phase ******
+
+10.908056 - Memory access at key __current goals
+11.034184 - ****** Starting Intend Phase ******
+
+11.034586 - Memory access at key __goals
+11.034751 - Memory access at key __current goals
+11.174280 - ****** Starting Plan Phase ******
+
+11.174846 - Memory access at key __current state
+11.175039 - Memory access at key __current goals
+11.300472 - ****** Starting Act Phase ******
+
+11.300880 - Memory access at key __current goals
+11.434789 - Starting cycle 14
+
+11.435099 - ****** Starting Perceive Phase ******
+
+11.435329 - Memory access at key __current state
+11.571915 - ****** Starting Interpret Phase ******
+
+11.572280 - Memory access at key __current state
+11.717235 - ****** Starting Eval Phase ******
+
+11.717685 - Memory access at key __current goals
+11.838555 - ****** Starting Intend Phase ******
+
+11.839028 - Memory access at key __goals
+11.839217 - Memory access at key __current goals
+11.985230 - ****** Starting Plan Phase ******
+
+11.985822 - Memory access at key __current state
+11.985982 - Memory access at key __current goals
+12.102821 - ****** Starting Act Phase ******
+
+12.103299 - Memory access at key __current goals
+12.242931 - Starting cycle 15
+
+12.243307 - ****** Starting Perceive Phase ******
+
+12.243654 - Memory access at key __current state
+12.377138 - ****** Starting Interpret Phase ******
+
+12.377697 - Memory access at key __current state
+12.512472 - ****** Starting Eval Phase ******
+
+12.512898 - Memory access at key __current goals
+12.643440 - ****** Starting Intend Phase ******
+
+12.643779 - Memory access at key __goals
+12.643905 - Memory access at key __current goals
+12.768512 - ****** Starting Plan Phase ******
+
+12.769143 - Memory access at key __current state
+12.769552 - Memory access at key __current goals
+12.897887 - ****** Starting Act Phase ******
+
+12.898258 - Memory access at key __current goals
+13.032562 - Starting cycle 16
+
+13.033432 - ****** Starting Perceive Phase ******
+
+13.034040 - Memory access at key __current state
+13.175310 - ****** Starting Interpret Phase ******
+
+13.175900 - Memory access at key __current state
+13.298175 - ****** Starting Eval Phase ******
+
+13.299717 - Memory access at key __current goals
+13.435751 - ****** Starting Intend Phase ******
+
+13.436214 - Memory access at key __goals
+13.436383 - Memory access at key __current goals
+13.589394 - ****** Starting Plan Phase ******
+
+13.589679 - Memory access at key __current state
+13.589805 - Memory access at key __current goals
+13.764396 - ****** Starting Act Phase ******
+
+13.764744 - Memory access at key __current goals
+13.895041 - Starting cycle 17
+
+13.895469 - ****** Starting Perceive Phase ******
+
+13.895797 - Memory access at key __current state
+14.018641 - ****** Starting Interpret Phase ******
+
+14.019064 - Memory access at key __current state
+14.158246 - ****** Starting Eval Phase ******
+
+14.158709 - Memory access at key __current goals
+14.289699 - ****** Starting Intend Phase ******
+
+14.290133 - Memory access at key __goals
+14.290261 - Memory access at key __current goals
+14.414036 - ****** Starting Plan Phase ******
+
+14.414570 - Memory access at key __current state
+14.414742 - Memory access at key __current goals
+14.543739 - ****** Starting Act Phase ******
+
+14.544256 - Memory access at key __current goals
+14.673705 - Starting cycle 18
+
+14.674045 - ****** Starting Perceive Phase ******
+
+14.674379 - Memory access at key __current state
+14.805622 - ****** Starting Interpret Phase ******
+
+14.806080 - Memory access at key __current state
+14.940601 - ****** Starting Eval Phase ******
+
+14.941016 - Memory access at key __current goals
+15.073262 - ****** Starting Intend Phase ******
+
+15.073732 - Memory access at key __goals
+15.073896 - Memory access at key __current goals
+15.207033 - ****** Starting Plan Phase ******
+
+15.207488 - Memory access at key __current state
+15.207653 - Memory access at key __current goals
+15.332774 - ****** Starting Act Phase ******
+
+15.333227 - Memory access at key __current goals
+15.456736 - Starting cycle 19
+
+15.457076 - ****** Starting Perceive Phase ******
+
+15.457391 - Memory access at key __current state
+15.591446 - ****** Starting Interpret Phase ******
+
+15.591877 - Memory access at key __current state
+15.712733 - ****** Starting Eval Phase ******
+
+15.713086 - Memory access at key __current goals
+15.850303 - ****** Starting Intend Phase ******
+
+15.851414 - Memory access at key __goals
+15.851696 - Memory access at key __current goals
+15.971560 - ****** Starting Plan Phase ******
+
+15.971966 - Memory access at key __current state
+15.972108 - Memory access at key __current goals
+16.092680 - ****** Starting Act Phase ******
+
+16.093052 - Memory access at key __current goals
+16.224592 - Starting cycle 20
+
+16.224944 - ****** Starting Perceive Phase ******
+
+16.225408 - Memory access at key __current state
+16.354374 - ****** Starting Interpret Phase ******
+
+16.354857 - Memory access at key __current state
+16.483807 - ****** Starting Eval Phase ******
+
+16.484268 - Memory access at key __current goals
+16.616632 - ****** Starting Intend Phase ******
+
+16.617093 - Memory access at key __goals
+16.617263 - Memory access at key __current goals
+16.746081 - ****** Starting Plan Phase ******
+
+16.746562 - Memory access at key __current state
+16.746720 - Memory access at key __current goals
+16.876946 - ****** Starting Act Phase ******
+
+16.877350 - Memory access at key __current goals
+17.015417 - Starting cycle 21
+
+17.015721 - ****** Starting Perceive Phase ******
+
+17.015940 - Memory access at key __current state
+17.144185 - ****** Starting Interpret Phase ******
+
+17.144563 - Memory access at key __current state
+17.272224 - ****** Starting Eval Phase ******
+
+17.272607 - Memory access at key __current goals
+17.401131 - ****** Starting Intend Phase ******
+
+17.401574 - Memory access at key __goals
+17.401679 - Memory access at key __current goals
+17.531614 - ****** Starting Plan Phase ******
+
+17.531969 - Memory access at key __current state
+17.532049 - Memory access at key __current goals
+17.665446 - ****** Starting Act Phase ******
+
+17.665967 - Memory access at key __current goals
+17.799583 - Starting cycle 22
+
+17.799951 - ****** Starting Perceive Phase ******
+
+17.800352 - Memory access at key __current state
+17.922439 - ****** Starting Interpret Phase ******
+
+17.922911 - Memory access at key __current state
+18.045824 - ****** Starting Eval Phase ******
+
+18.046895 - Memory access at key __current goals
+18.173277 - ****** Starting Intend Phase ******
+
+18.173758 - Memory access at key __goals
+18.173908 - Memory access at key __current goals

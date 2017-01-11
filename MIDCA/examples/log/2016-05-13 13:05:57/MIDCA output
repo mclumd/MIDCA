@@ -1,0 +1,345 @@
+1.419821 - Enter ...Initializing Perceive module 1...
+
+1.420627 - done.
+
+1.420865 - Initializing Interpret module 1...
+
+1.421137 - done.
+
+1.421391 - Initializing Eval module 1...
+
+1.421611 - done.
+
+1.421835 - Initializing Intend module 1...
+
+1.422047 - done.
+
+1.422261 - Initializing Plan module 1...
+
+1.422474 - done.
+
+1.422689 - Initializing Act module 1...
+
+1.422897 - done.
+
+1.423718 - Goal Graph initialized.
+
+1.424037 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
+1.424532 - Starting cycle 0
+
+1.425001 - ****** Starting Perceive Phase ******
+
+1.426149 - I hot data here
+
+1.426493 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7fa227049f38>
+
+1.426802 - <MIDCA.modules._robot_world.world_repr.DetectedObject instance at 0x7fa22704d098>
+
+1.427955 - World observed: 6 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+1.827733 - ****** Starting Interpret Phase ******
+
+2.278088 - ****** Starting Eval Phase ******
+
+2.278875 - No current goals. Skipping eval
+
+2.737501 - ****** Starting Intend Phase ******
+
+2.738846 - No goals selected.
+
+3.259469 - ****** Starting Plan Phase ******
+
+3.260506 - No goals received by planner. Skipping planning.
+
+3.579257 - ****** Starting Act Phase ******
+
+3.580114 - No Active goals. Act phase will do nothing
+
+4.064486 - Starting cycle 1
+
+4.065146 - ****** Starting Perceive Phase ******
+
+4.066567 - I hot data here
+
+4.068356 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+4.502751 - ****** Starting Interpret Phase ******
+
+4.852905 - ****** Starting Eval Phase ******
+
+4.854115 - No current goals. Skipping eval
+
+5.348864 - ****** Starting Intend Phase ******
+
+5.350113 - No goals selected.
+
+5.941967 - ****** Starting Plan Phase ******
+
+5.944122 - No goals received by planner. Skipping planning.
+
+6.483364 - ****** Starting Act Phase ******
+
+6.484499 - No Active goals. Act phase will do nothing
+
+7.023927 - Starting cycle 2
+
+7.024555 - ****** Starting Perceive Phase ******
+
+7.025952 - I hot data here
+
+7.033912 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+7.570242 - ****** Starting Interpret Phase ******
+
+8.033290 - ****** Starting Eval Phase ******
+
+8.035254 - No current goals. Skipping eval
+
+8.530477 - ****** Starting Intend Phase ******
+
+8.531833 - No goals selected.
+
+8.871753 - ****** Starting Plan Phase ******
+
+8.874212 - No goals received by planner. Skipping planning.
+
+9.497407 - ****** Starting Act Phase ******
+
+9.498426 - No Active goals. Act phase will do nothing
+
+9.965649 - Starting cycle 3
+
+9.966293 - ****** Starting Perceive Phase ******
+
+9.967798 - I hot data here
+
+9.969022 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+10.447213 - ****** Starting Interpret Phase ******
+
+11.090695 - ****** Starting Eval Phase ******
+
+11.091736 - No current goals. Skipping eval
+
+11.665543 - ****** Starting Intend Phase ******
+
+11.667342 - No goals selected.
+
+12.055337 - ****** Starting Plan Phase ******
+
+12.057015 - No goals received by planner. Skipping planning.
+
+12.405144 - ****** Starting Act Phase ******
+
+12.406327 - No Active goals. Act phase will do nothing
+
+12.693280 - Starting cycle 4
+
+12.694095 - ****** Starting Perceive Phase ******
+
+12.695983 - I hot data here
+
+12.697244 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+13.079330 - ****** Starting Interpret Phase ******
+
+13.605923 - ****** Starting Eval Phase ******
+
+13.606877 - No current goals. Skipping eval
+
+14.147172 - ****** Starting Intend Phase ******
+
+14.148480 - No goals selected.
+
+14.498497 - ****** Starting Plan Phase ******
+
+14.499902 - No goals received by planner. Skipping planning.
+
+14.793243 - ****** Starting Act Phase ******
+
+14.794429 - No Active goals. Act phase will do nothing
+
+15.271820 - Starting cycle 5
+
+15.272571 - ****** Starting Perceive Phase ******
+
+15.274072 - I hot data here
+
+15.275802 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+15.624621 - ****** Starting Interpret Phase ******
+
+15.961502 - ****** Starting Eval Phase ******
+
+15.962838 - No current goals. Skipping eval
+
+16.021225 - storing utterance: data: get the red block
+
+16.473020 - ****** Starting Intend Phase ******
+
+16.474934 - No goals selected.
+
+16.921510 - ****** Starting Plan Phase ******
+
+16.923607 - No goals received by planner. Skipping planning.
+
+17.294052 - ****** Starting Act Phase ******
+
+17.295387 - No Active goals. Act phase will do nothing
+
+17.621933 - Starting cycle 6
+
+17.622495 - ****** Starting Perceive Phase ******
+
+17.625727 - I hot data here
+
+17.631718 - World observed: 12 new detection event(s), 1 utterance(s) and 0 feedback msg(s)
+
+18.090593 - ****** Starting Interpret Phase ******
+
+18.091630 - received utterance: get the red block
+
+18.092231 - adding goal: Goal(objective: holding, indirectObject: observer, pos: red block:table, directObject: red block, subject: self)
+
+18.435913 - ****** Starting Eval Phase ******
+
+18.437003 - No current goals. Skipping eval
+
+18.706125 - ****** Starting Intend Phase ******
+
+18.708185 - Selecting goal(s): holding the red block
+
+18.891049 - ****** Starting Plan Phase ******
+
+18.892706 - Planning...
+
+18.892985 - call seek_plan
+
+43.811878 - Enter ...depth 0 tasks [('achieve_goals', [<MIDCA.goals.Goal instance at 0x7fa226fa91b8>])]
+
+43.812375 - achieve_goals_m
+
+43.812716 - holding
+
+43.812993 - next subtask: achieve_goals
+
+44.260965 - Enter ...depth 1 tasks [('pickup_task', 'red block'), ('achieve_goals', [])]
+
+44.261484 - next subtask: pickup_task
+
+44.633900 - Enter ...depth 2 tasks [('reach_to_pickup', 'red block'), ('grab', 'red block'), ('raising', 'red block'), ('achieve_goals', [])]
+
+44.657975 - monitoring pos
+
+44.658780 - monitoring pos
+ Enter ...monitoring clear...
+
+44.659993 - start
+
+44.659201 - start
+
+44.791200 - [INFO] [WallTime: 1463159202.408337] [360.127000] Robot Enabled
+
+44.795973 - [INFO] [WallTime: 1463159202.413095] [360.129000] Robot Enabled
+
+45.422695 - depth 3 tasks [('grab', 'red block'), ('raising', 'red block'), ('achieve_goals', [])]
+
+45.905418 - Enter ...depth 4 tasks [('raising', 'red block'), ('achieve_goals', [])]
+
+46.251745 - Enter ...depth 5 tasks [('achieve_goals', [])]
+
+46.252301 - achieve_goals_m
+
+46.252597 - next subtask: achieve_goals
+
+46.586164 - Enter ...depth 6 tasks []
+
+46.587893 - Planning complete.
+
+46.589112 - Plan:  [0m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+46.590723 - ****** Starting Act Phase ******
+
+46.592517 - Action ('reach_to_pickup', 'red block') not complete.
+
+46.592953 - Beginning action execution for ('reach_to_pickup', 'red block')
+
+46.594849 - (x: 0.664675
+y: 0.148415
+z: 0.799901, 1463144775.246404)
+
+46.598109 - {'y': 0.148415, 'x': 0.664675, 'z': 0.799901, 'cmd_id': 0, 'time': 1463144804.20958}
+
+46.598578 - trying to send
+
+46.598917 - loc_cmd
+
+46.599454 - trying to send message on topic loc_cmd
+
+46.601892 - [INFO] [WallTime: 1463159204.219040] [360.548000] Midca sending msg: data: y: 0.148415 | x: 0.664675 | z: 0.799901 | cmd_id: 0 | time: 1463144804.21
+
+47.142980 - Starting cycle 7
+
+47.143651 - ****** Starting Perceive Phase ******
+
+47.145301 - I hot data here
+
+47.154501 - World observed: 144 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+47.483533 - ****** Starting Interpret Phase ******
+
+47.823574 - ****** Starting Eval Phase ******
+
+48.225303 - ****** Starting Intend Phase ******
+
+48.226909 - Selecting goal(s): holding the red block
+
+48.594429 - ****** Starting Plan Phase ******
+
+48.596499 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+48.997952 - ****** Starting Act Phase ******
+
+48.999511 - Action ('reach_to_pickup', 'red block') not complete.
+
+49.429434 - Starting cycle 8
+
+49.430559 - ****** Starting Perceive Phase ******
+
+49.431812 - I hot data here
+
+49.432943 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+49.779573 - ****** Starting Interpret Phase ******
+
+50.283555 - ****** Starting Eval Phase ******
+
+50.610350 - ****** Starting Intend Phase ******
+
+50.611881 - Selecting goal(s): holding the red block
+
+51.057228 - ****** Starting Plan Phase ******
+
+51.058835 - Old plan found that tests as valid: [92m('reach_to_pickup', 'red block') [0m('grab', 'red block') [0m('raising', 'red block')[0m
+
+51.436219 - ****** Starting Act Phase ******
+
+51.440158 - Action ('reach_to_pickup', 'red block') not complete.
+
+51.811653 - Starting cycle 9
+
+51.812528 - ****** Starting Perceive Phase ******
+
+51.814231 - I hot data here
+
+51.815706 - World observed: 12 new detection event(s), 0 utterance(s) and 0 feedback msg(s)
+
+52.295826 - ****** Starting Interpret Phase ******
+
+52.647379 - ****** Starting Eval Phase ******
+
+53.077671 - ****** Starting Intend Phase ******
+
+1:39.873151 - shutdown request: new node registered with same name
+

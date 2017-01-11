@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG   -shared -Wl,-soname,libgtest.so -o /home/veyorokon/ros/baxter_ws/src/baxter_or/lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/veyorokon/ros/baxter_ws/src/baxter_or/build/gtest/src -lpthread -Wl,-rpath,/home/veyorokon/ros/baxter_ws/src/baxter_or/build/gtest/src 

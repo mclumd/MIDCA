@@ -1,0 +1,92 @@
+.350464 - Enter ...green block:0.664675,0.148415,0.799901
+
+.350892 - green block
+
+.476491 - green block:0.664675,0.148415,0.799901
+
+.477030 - green block
+
+.614390 - green block:0.664675,0.148415,0.799901
+
+.614639 - green block
+
+.740665 - green block:0.664675,0.148415,0.799901
+
+.740861 - green block
+
+.874519 - green block:0.664675,0.148415,0.799901
+
+.874764 - green block
+
+1.012324 - green block:0.664675,0.148415,0.799901
+
+1.012566 - green block
+
+1.145843 - green block:0.664675,0.148415,0.799901
+
+1.146056 - green block
+
+1.277634 - green block:0.664675,0.148415,0.799901
+
+1.277848 - green block
+
+1.409909 - green block:0.664675,0.148415,0.799901
+
+1.410078 - green block
+
+1.538298 - green block:0.664675,0.148415,0.799901
+
+1.538548 - green block
+
+1.670844 - green block:0.664675,0.148415,0.799901
+
+1.671052 - green block
+
+1.802094 - green block:0.664675,0.148415,0.799901
+
+1.802418 - green block
+
+1.933816 - green block:0.664675,0.148415,0.799901
+
+1.934040 - green block
+
+2.067110 - green block:0.664675,0.148415,0.799901
+
+2.067376 - green block
+
+2.196528 - green block:0.664675,0.148415,0.799901
+
+2.196762 - green block
+
+2.316598 - green block:0.664675,0.148415,0.799901
+
+2.316954 - green block
+
+3:11.393273 - Initializing Perceive module 1...
+
+3:11.393766 - done.
+
+3:11.393915 - Initializing Interpret module 1...
+
+3:11.394093 - done.
+
+3:11.394228 - Initializing Eval module 1...
+
+3:11.394364 - done.
+
+3:11.394482 - Initializing Intend module 1...
+
+3:11.394591 - done.
+
+3:11.394702 - Initializing Plan module 1...
+
+3:11.394832 - done.
+
+3:11.394976 - Initializing Act module 1...
+
+3:11.395117 - done.
+
+3:11.395404 - Goal Graph initialized.
+
+3:11.395532 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+

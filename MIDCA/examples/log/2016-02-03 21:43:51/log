@@ -1,0 +1,160 @@
+.324227 - Enter ...green block
+
+.324963 - Memory access at key __detected object queue
+.325536 - red block
+
+.325776 - Memory access at key __detected object queue
+.325989 - not clear
+
+.326195 - Memory access at key __state
+.326351 - Memory access at key __state
+.455827 - green block
+
+.457903 - Memory access at key __detected object queue
+.459218 - red block
+
+.459464 - Memory access at key __detected object queue
+.459611 - not clear
+
+.459888 - Memory access at key __state
+.460115 - Memory access at key __state
+.589485 - green block
+
+.589754 - Memory access at key __detected object queue
+.590329 - red block
+
+.590535 - Memory access at key __detected object queue
+.590683 - not clear
+
+.590847 - Memory access at key __state
+.591014 - Memory access at key __state
+.716219 - green block
+
+.716551 - Memory access at key __detected object queue
+.717243 - red block
+
+.717446 - Memory access at key __detected object queue
+.717626 - not clear
+
+.717816 - Memory access at key __state
+.717970 - Memory access at key __state
+.845425 - green block
+
+.845686 - Memory access at key __detected object queue
+.846289 - red block
+
+.846469 - Memory access at key __detected object queue
+.846597 - not clear
+
+.846724 - Memory access at key __state
+.846890 - Memory access at key __state
+.981791 - green block
+
+.982393 - Memory access at key __detected object queue
+.983213 - red block
+
+.983813 - Memory access at key __detected object queue
+.984135 - not clear
+
+.984352 - Memory access at key __state
+.984528 - Memory access at key __state
+1.107152 - green block
+
+1.107430 - Memory access at key __detected object queue
+1.108005 - red block
+
+1.109021 - Memory access at key __detected object queue
+1.109192 - not clear
+
+1.109382 - Memory access at key __state
+1.109558 - Memory access at key __state
+1.234226 - green block
+
+1.234696 - Memory access at key __detected object queue
+1.235452 - red block
+
+1.235690 - Memory access at key __detected object queue
+1.235812 - not clear
+
+1.235989 - Memory access at key __state
+1.236205 - Memory access at key __state
+1.379225 - green block
+
+1.379511 - Memory access at key __detected object queue
+1.379931 - red block
+
+1.381412 - Memory access at key __detected object queue
+1.381624 - not clear
+
+1.381819 - Memory access at key __state
+1.381997 - Memory access at key __state
+1.512458 - green block
+
+1.512745 - Memory access at key __detected object queue
+1.513385 - red block
+
+1.513708 - Memory access at key __detected object queue
+1.513886 - not clear
+
+1.514053 - Memory access at key __state
+1.514227 - Memory access at key __state
+1.644254 - green block
+
+1.644556 - Memory access at key __detected object queue
+1.645372 - red block
+
+1.645537 - Memory access at key __detected object queue
+1.645637 - not clear
+
+1.645746 - Memory access at key __state
+1.645839 - Memory access at key __state
+1.779080 - green block
+
+1.779383 - Memory access at key __detected object queue
+1.779993 - red block
+
+1.780593 - Memory access at key __detected object queue
+1.780759 - not clear
+
+1.780913 - Memory access at key __state
+1.781066 - Memory access at key __state
+1.908808 - green block
+
+1.909104 - Memory access at key __detected object queue
+1.909718 - red block
+
+1.909953 - Memory access at key __detected object queue
+1.910126 - not clear
+
+1.910304 - Memory access at key __state
+1.910438 - Memory access at key __state
+53.359989 - Initializing Perceive module 1...
+
+53.360300 - Memory access at key __current state
+53.360469 - done.
+
+53.360620 - Initializing Interpret module 1...
+
+53.360772 - done.
+
+53.360916 - Initializing Eval module 1...
+
+53.361042 - done.
+
+53.361165 - Initializing Intend module 1...
+
+53.361282 - done.
+
+53.361404 - Initializing Plan module 1...
+
+53.361521 - done.
+
+53.361643 - Initializing Act module 1...
+
+53.361778 - done.
+
+53.361924 - Memory access at key __goals
+53.362075 - Goal Graph initialized.
+
+53.362215 - To use goal ordering, call initGoalGraph manually with a custom goal comparator
+
