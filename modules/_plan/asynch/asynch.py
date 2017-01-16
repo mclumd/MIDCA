@@ -490,7 +490,7 @@ class DoReach(AsynchAction):
             if check3stack:
                 lastLocReport = get_last_location(self.mem, check3stack)
         print lastLocReport
-        t = time.now()
+        t = midcatime.now()
         if not lastLocReport:
             if verbose >= 1:
                 print "No object location found, so action:", self, "will fail."
@@ -558,7 +558,7 @@ class DoReach(AsynchAction):
     
     def check_confirmation(self):
         checkTime = self.lastCheck
-        self.lastCheck = time.now()
+        self.lastCheck = midcatime.now()
         feedback = self.mem.get(self.mem.FEEDBACK)
         if not feedback:
             return False
@@ -619,7 +619,7 @@ class DoUnstack(AsynchAction):
         else:
             lastLocReport = get_last_location(self.mem, pos_of_block)
         '''
-        t = time.now()
+        t = midcatime.now()
         if not lastLocReport:
             if verbose >= 1:
                 print "No object location found, so action:", self, "will fail."
@@ -684,7 +684,7 @@ class DoUnstack(AsynchAction):
     
     def check_confirmation(self):
         checkTime = self.lastCheck
-        self.lastCheck = time.now()
+        self.lastCheck = midcatime.now()
         feedback = self.mem.get(self.mem.FEEDBACK)
         if not feedback:
             return False
@@ -740,7 +740,7 @@ class DoStack(AsynchAction):
         
         
         #print(check3stack)
-        t = time.now()
+        t = midcatime.now()
         if not lastLocReport:
             if verbose >= 1:
                 print "No object location found, so action:", self, "will fail."
@@ -808,7 +808,7 @@ class DoStack(AsynchAction):
     
     def check_confirmation(self):
         checkTime = self.lastCheck
-        self.lastCheck = time.now()
+        self.lastCheck = midcatime.now()
         feedback = self.mem.get(self.mem.FEEDBACK)
         if not feedback:
             return False
@@ -918,7 +918,7 @@ class DoPut(AsynchAction):
     
     def check_confirmation(self):
         checkTime = self.lastCheck
-        self.lastCheck = time.now()
+        self.lastCheck = midcatime.now()
         feedback = self.mem.get(self.mem.FEEDBACK)
         if not feedback:
             return False
@@ -980,7 +980,7 @@ class DoRaise(AsynchAction):
     
     def check_confirmation(self):
         checkTime = self.lastCheck
-        self.lastCheck = time.now()
+        self.lastCheck = midcatime.now()
         feedback = self.mem.get(self.mem.FEEDBACK)
         if not feedback:
             return False

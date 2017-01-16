@@ -18,7 +18,7 @@ def ros_style_midca():
 	myMidca.append_module("Eval", evaluate.EvalPointingFromFeedback())
 	myMidca.append_module("Intend", intend.SimpleIntend())
 	myMidca.append_module("Plan", planning.AsynchPyhopPlanner(methods.declare_methods, 
-	operators.declare_ops, monitors.declare_monitors
+	operators.declare_ops
 	
 	))
 	myMidca.append_module("Act", act.AsynchronousAct())
@@ -47,7 +47,7 @@ rosMidca = rosrun.RosMidca(myMidca, incomingMsgHandlers = [
 						rosrun.OutgoingMsgHandler(asynch.RAISE_TOPIC, String)])
 rosMidca.ros_connect()
 
-H = Calibrate.calibrate("/home/baxter/git/MIDCA/examples/_baxter/calibration.txt")
+H = Calibrate.calibrate()
 Z = -0.15113003072395247
 
 myMidca.mem.set(myMidca.mem.CALIBRATION_MATRIX, H)
