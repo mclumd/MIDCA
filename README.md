@@ -1,4 +1,6 @@
-# MIDCA: The Metacognitive Integrated Dual-Cycle Architecture.
+# THIS SITE IS OBSOLETE. SEE INSTEAD https://github.com/colab2/MIDCA
+
+#MIDCA: The Metacognitive Integrated Dual-Cycle Architecture.
 
 1. MIDCA is written for python 2.7; currently it will not run with other python versions.
 
